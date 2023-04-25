@@ -1,0 +1,90 @@
+Firstname of Customer with ID 3960 is not a valid value in PrestaShop ('LOGIA/PARTNERIMMo'). For that reason, the module set default value to 'firstname'. - 2021-09-06 12:01:44
+Email of Customer with ID 4341 is not a valid value in PrestaShop ('gael..georges31@gmail.com'). For that reason, the module set default value to 'email'. - 2021-09-06 12:02:05
+Firstname of Customer with ID 6165 is not a valid value in PrestaShop ('P.M'). For that reason, the module set default value to 'firstname'. - 2021-09-06 12:03:47
+Lastname of Customer with ID 10543 is not a valid value in PrestaShop ('de Boutique-rhum.com'). For that reason, the module set default value to 'lastname'. - 2021-09-06 12:09:13
+Firstname of Customer with ID 23915 is not a valid value in PrestaShop ('M.lusset'). For that reason, the module set default value to 'firstname'. - 2021-09-06 12:21:51
+Firstname of Customer with ID 25025 is not a valid value in PrestaShop ('J.-Michel'). For that reason, the module set default value to 'firstname'. - 2021-09-06 12:22:58
+Firstname of Address with ID 4 is not a valid value in PrestaShop ('Relais Colis K2025'). For that reason, the module set default value to 'firstname'. - 2021-09-06 12:24:52
+Firstname of Address with ID 5 is not a valid value in PrestaShop ('Relais Colis K2025'). For that reason, the module set default value to 'firstname'. - 2021-09-06 12:24:52
+Firstname of Address with ID 7 is not a valid value in PrestaShop ('Relais Colis K2025'). For that reason, the module set default value to 'firstname'. - 2021-09-06 12:24:52
+Firstname of Address with ID 226 is not a valid value in PrestaShop ('Relais Colis I4153'). For that reason, the module set default value to 'firstname'. - 2021-09-06 12:24:55
+City of Address with ID 226 is not a valid value in PrestaShop ('LA+GRANDE MOTTE'). For that reason, the module set default value to 'city'. - 2021-09-06 12:24:55
+Firstname of Address with ID 287 is not a valid value in PrestaShop ('Relais Colis C3074'). For that reason, the module set default value to 'firstname'. - 2021-09-06 12:24:57
+Firstname of Address with ID 313 is not a valid value in PrestaShop ('Relais Colis I5031'). For that reason, the module set default value to 'firstname'. - 2021-09-06 12:24:57
+Firstname of Address with ID 356 is not a valid value in PrestaShop ('Relais Colis C1215'). For that reason, the module set default value to 'firstname'. - 2021-09-06 12:24:59
+City of Address with ID 356 is not a valid value in PrestaShop ('LEVALLOIS+PERRET'). For that reason, the module set default value to 'city'. - 2021-09-06 12:24:59
+Firstname of Address with ID 667 is not a valid value in PrestaShop ('Relais Colis I1149'). For that reason, the module set default value to 'firstname'. - 2021-09-06 12:25:04
+City of Address with ID 667 is not a valid value in PrestaShop ('MARSEILLE+06'). For that reason, the module set default value to 'city'. - 2021-09-06 12:25:04
+Firstname of Address with ID 810 is not a valid value in PrestaShop ('Relais Colis C3263'). For that reason, the module set default value to 'firstname'. - 2021-09-06 12:25:06
+Firstname of Address with ID 936 is not a valid value in PrestaShop ('Relais Colis C3007'). For that reason, the module set default value to 'firstname'. - 2021-09-06 12:25:08
+City of Address with ID 936 is not a valid value in PrestaShop ('LAGNY+SUR MARNE'). For that reason, the module set default value to 'city'. - 2021-09-06 12:25:08
+Firstname of Address with ID 970 is not a valid value in PrestaShop ('Relais Colis M1077'). For that reason, the module set default value to 'firstname'. - 2021-09-06 12:25:11
+City of Address with ID 970 is not a valid value in PrestaShop ('ST+LYS'). For that reason, the module set default value to 'city'. - 2021-09-06 12:25:11
+Firstname of Address with ID 1105 is not a valid value in PrestaShop ('Relais Colis Z9116'). For that reason, the module set default value to 'firstname'. - 2021-09-06 12:25:13
+Firstname of Address with ID 1211 is not a valid value in PrestaShop ('Relais Colis G1249'). For that reason, the module set default value to 'firstname'. - 2021-09-06 12:25:15
+Firstname of Address with ID 1380 is not a valid value in PrestaShop ('Relais Colis K2057'). For that reason, the module set default value to 'firstname'. - 2021-09-06 12:25:18
+Firstname of Address with ID 1479 is not a valid value in PrestaShop ('Relais Colis C3183'). For that reason, the module set default value to 'firstname'. - 2021-09-06 12:25:20
+City of Address with ID 1479 is not a valid value in PrestaShop ('PARIS+11'). For that reason, the module set default value to 'city'. - 2021-09-06 12:25:20
+Firstname of Address with ID 1516 is not a valid value in PrestaShop ('Relais Colis M3145'). For that reason, the module set default value to 'firstname'. - 2021-09-06 12:25:23
+City of Address with ID 1516 is not a valid value in PrestaShop ('VILLENEUVE+SUR LOT'). For that reason, the module set default value to 'city'. - 2021-09-06 12:25:23
+Firstname of Address with ID 1639 is not a valid value in PrestaShop ('Relais Colis M3157'). For that reason, the module set default value to 'firstname'. - 2021-09-06 12:25:25
+Firstname of Address with ID 1660 is not a valid value in PrestaShop ('Relais Colis I3132'). For that reason, the module set default value to 'firstname'. - 2021-09-06 12:25:25
+Firstname of Address with ID 1670 is not a valid value in PrestaShop ('Relais Colis C3119'). For that reason, the module set default value to 'firstname'. - 2021-09-06 12:25:25
+Firstname of Address with ID 1763 is not a valid value in PrestaShop ('Relais Colis Q1086'). For that reason, the module set default value to 'firstname'. - 2021-09-06 12:25:25
+Firstname of Address with ID 1912 is not a valid value in PrestaShop ('Relais Colis M1035'). For that reason, the module set default value to 'firstname'. - 2021-09-06 12:25:30
+Firstname of Address with ID 2058 is not a valid value in PrestaShop ('Relais Colis I1129'). For that reason, the module set default value to 'firstname'. - 2021-09-06 12:25:32
+City of Address with ID 2058 is not a valid value in PrestaShop ('AIX+EN PROVENCE'). For that reason, the module set default value to 'city'. - 2021-09-06 12:25:32
+Firstname of Address with ID 2298 is not a valid value in PrestaShop ('Relais Colis I3114'). For that reason, the module set default value to 'firstname'. - 2021-09-06 12:25:37
+City of Address with ID 2298 is not a valid value in PrestaShop ('LA+VALETTE DU VAR'). For that reason, the module set default value to 'city'. - 2021-09-06 12:25:37
+Firstname of Address with ID 2363 is not a valid value in PrestaShop ('Relais Colis I1021'). For that reason, the module set default value to 'firstname'. - 2021-09-06 12:25:39
+City of Address with ID 2363 is not a valid value in PrestaShop ('ST+CANNAT'). For that reason, the module set default value to 'city'. - 2021-09-06 12:25:39
+Firstname of Address with ID 2387 is not a valid value in PrestaShop ('Relais Colis M3202'). For that reason, the module set default value to 'firstname'. - 2021-09-06 12:25:39
+Firstname of Address with ID 2391 is not a valid value in PrestaShop ('Relais Colis M3202'). For that reason, the module set default value to 'firstname'. - 2021-09-06 12:25:39
+Lastname of Address with ID 2445 is not a valid value in PrestaShop ('8 A HUIT'). For that reason, the module set default value to 'lastname'. - 2021-09-06 12:25:39
+Firstname of Address with ID 2445 is not a valid value in PrestaShop ('Relais Colis K1070'). For that reason, the module set default value to 'firstname'. - 2021-09-06 12:25:39
+Firstname of Address with ID 2629 is not a valid value in PrestaShop ('Relais Colis C2218'). For that reason, the module set default value to 'firstname'. - 2021-09-06 12:25:44
+Firstname of Address with ID 2690 is not a valid value in PrestaShop ('Relais Colis K2068'). For that reason, the module set default value to 'firstname'. - 2021-09-06 12:25:44
+Firstname of Address with ID 2764 is not a valid value in PrestaShop ('Relais Colis O1110'). For that reason, the module set default value to 'firstname'. - 2021-09-06 12:25:47
+Firstname of Address with ID 2839 is not a valid value in PrestaShop ('Relais Colis O3071'). For that reason, the module set default value to 'firstname'. - 2021-09-06 12:25:49
+City of Address with ID 2839 is not a valid value in PrestaShop ('SABLE+SUR SARTHE'). For that reason, the module set default value to 'city'. - 2021-09-06 12:25:49
+Firstname of Address with ID 2850 is not a valid value in PrestaShop ('Relais Colis C30I1'). For that reason, the module set default value to 'firstname'. - 2021-09-06 12:25:49
+Firstname of Address with ID 2862 is not a valid value in PrestaShop ('Relais Colis K2038'). For that reason, the module set default value to 'firstname'. - 2021-09-06 12:25:49
+Firstname of Address with ID 2978 is not a valid value in PrestaShop ('Relais Colis A1199'). For that reason, the module set default value to 'firstname'. - 2021-09-06 12:25:51
+City of Address with ID 2978 is not a valid value in PrestaShop ('MILLY+LA FORET'). For that reason, the module set default value to 'city'. - 2021-09-06 12:25:51
+Firstname of Address with ID 3108 is not a valid value in PrestaShop ('Relais Colis M4125'). For that reason, the module set default value to 'firstname'. - 2021-09-06 12:25:54
+Firstname of Address with ID 3115 is not a valid value in PrestaShop ('Relais Colis C1242'). For that reason, the module set default value to 'firstname'. - 2021-09-06 12:25:54
+City of Address with ID 3115 is not a valid value in PrestaShop ('PARIS+09'). For that reason, the module set default value to 'city'. - 2021-09-06 12:25:54
+Firstname of Address with ID 3268 is not a valid value in PrestaShop ('Relais Colis O3001'). For that reason, the module set default value to 'firstname'. - 2021-09-06 12:25:56
+City of Address with ID 3268 is not a valid value in PrestaShop ('CHAMBRAY+LES TOURS'). For that reason, the module set default value to 'city'. - 2021-09-06 12:25:56
+Firstname of Address with ID 3452 is not a valid value in PrestaShop ('Relais Colis C30P4'). For that reason, the module set default value to 'firstname'. - 2021-09-06 12:25:58
+City of Address with ID 3452 is not a valid value in PrestaShop ('LA+COURNEUVE'). For that reason, the module set default value to 'city'. - 2021-09-06 12:25:58
+Firstname of Address with ID 3482 is not a valid value in PrestaShop ('Relais Colis G2145'). For that reason, the module set default value to 'firstname'. - 2021-09-06 12:26:01
+City of Address with ID 3482 is not a valid value in PrestaShop ('THONON+LES BAINS'). For that reason, the module set default value to 'city'. - 2021-09-06 12:26:01
+Firstname of Address with ID 3539 is not a valid value in PrestaShop ('Relais Colis O2113'). For that reason, the module set default value to 'firstname'. - 2021-09-06 12:26:01
+Firstname of Address with ID 3620 is not a valid value in PrestaShop ('Relais Colis Q2121'). For that reason, the module set default value to 'firstname'. - 2021-09-06 12:26:03
+City of Address with ID 3620 is not a valid value in PrestaShop ('AGON+COUTAINVILLE'). For that reason, the module set default value to 'city'. - 2021-09-06 12:26:03
+Firstname of Address with ID 3648 is not a valid value in PrestaShop ('Relais Colis K1153'). For that reason, the module set default value to 'firstname'. - 2021-09-06 12:26:03
+Firstname of Address with ID 3895 is not a valid value in PrestaShop ('Relais Colis M1202'). For that reason, the module set default value to 'firstname'. - 2021-09-06 12:26:08
+Firstname of Address with ID 3919 is not a valid value in PrestaShop ('Relais Colis A1206'). For that reason, the module set default value to 'firstname'. - 2021-09-06 12:26:08
+City of Address with ID 3919 is not a valid value in PrestaShop ('PONTAULT+COMBAULT'). For that reason, the module set default value to 'city'. - 2021-09-06 12:26:08
+Firstname of Address with ID 4019 is not a valid value in PrestaShop ('Relais Colis C1184'). For that reason, the module set default value to 'firstname'. - 2021-09-06 12:26:11
+City of Address with ID 4019 is not a valid value in PrestaShop ('PARIS+18'). For that reason, the module set default value to 'city'. - 2021-09-06 12:26:11
+Firstname of Address with ID 4056 is not a valid value in PrestaShop ('Relais Colis A1264'). For that reason, the module set default value to 'firstname'. - 2021-09-06 12:26:13
+City of Address with ID 4056 is not a valid value in PrestaShop ('PARIS+15'). For that reason, the module set default value to 'city'. - 2021-09-06 12:26:13
+Lastname of Address with ID 4189 is not a valid value in PrestaShop ('CELINE (RETOUCHERIE)'). For that reason, the module set default value to 'lastname'. - 2021-09-06 12:26:15
+Firstname of Address with ID 4189 is not a valid value in PrestaShop ('Relais Colis C3077'). For that reason, the module set default value to 'firstname'. - 2021-09-06 12:26:15
+Firstname of Address with ID 4211 is not a valid value in PrestaShop ('Relais Colis A1159'). For that reason, the module set default value to 'firstname'. - 2021-09-06 12:26:15
+City of Address with ID 4211 is not a valid value in PrestaShop ('MORSANG+SUR ORGE'). For that reason, the module set default value to 'city'. - 2021-09-06 12:26:15
+Firstname of Address with ID 4246 is not a valid value in PrestaShop ('Relais Colis M3085'). For that reason, the module set default value to 'firstname'. - 2021-09-06 12:26:15
+City of Address with ID 4246 is not a valid value in PrestaShop ('ST+PALAIS'). For that reason, the module set default value to 'city'. - 2021-09-06 12:26:15
+Total paid tax excl of Order with ID 3570 is not a valid value in PrestaShop ('-8.5'). For that reason, the module set default value to 'total_paid_tax_excl'. - 2021-09-06 12:26:16
+Firstname of Address with ID 4727 is not a valid value in PrestaShop ('Relais Colis C1060'). For that reason, the module set default value to 'firstname'. - 2021-09-06 12:26:25
+City of Address with ID 4727 is not a valid value in PrestaShop ('PARIS+18'). For that reason, the module set default value to 'city'. - 2021-09-06 12:26:25
+Firstname of Address with ID 4805 is not a valid value in PrestaShop ('Relais Colis M1230'). For that reason, the module set default value to 'firstname'. - 2021-09-06 12:26:28
+Firstname of Address with ID 4823 is not a valid value in PrestaShop ('Relais Colis M1028'). For that reason, the module set default value to 'firstname'. - 2021-09-06 12:26:28
+Firstname of Address with ID 4916 is not a valid value in PrestaShop ('Relais Colis K1008'). For that reason, the module set default value to 'firstname'. - 2021-09-06 12:26:30
+City of Address with ID 4916 is not a valid value in PrestaShop ('MONT+ST MARTIN'). For that reason, the module set default value to 'city'. - 2021-09-06 12:26:30
+Amount of OrderPayment with ID 8820 is not a valid value in PrestaShop ('-10.50'). For that reason, the module set default value to 'amount'. - 2021-09-06 12:26:53
+Amount of OrderPayment with ID 9523 is not a valid value in PrestaShop ('-136.00'). For that reason, the module set default value to 'amount'. - 2021-09-06 12:27:05
+Amount of OrderPayment with ID 9856 is not a valid value in PrestaShop ('-76.00'). For that reason, the module set default value to 'amount'. - 2021-09-06 12:27:09
+Amount of OrderPayment with ID 29422 is not a valid value in PrestaShop ('-2.40'). For that reason, the module set default value to 'amount'. - 2021-09-06 12:35:15

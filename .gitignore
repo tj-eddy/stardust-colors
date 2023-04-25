@@ -1,0 +1,7 @@
+.idea
+app/config/parameters.php
+config/defines.inc.php
+img/
+modules/psaddonsconnect
+var/
+.htaccess

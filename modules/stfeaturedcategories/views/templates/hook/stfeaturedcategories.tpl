@@ -112,7 +112,17 @@
             {foreach $featured_categories as $index => $category}
                 {assign var="curr_index" value=$index}
                 {assign var="curr_iteration" value=$index+1}
-                <div class="{if $pro_per_fw}col-fw-{(12/$pro_per_fw)|replace:'.':'-'}{/if}  {if $pro_per_xxl}col-xxl-{(12/$pro_per_xxl)|replace:'.':'-'}{/if}  {if $pro_per_xl}col-xl-{(12/$pro_per_xl)|replace:'.':'-'}{/if} col-lg-{(12/$pro_per_lg)|replace:'.':'-'} col-md-{(12/$pro_per_md)|replace:'.':'-'} col-sm-{(12/$pro_per_sm)|replace:'.':'-'} col-{(12/$pro_per_xs)|replace:'.':'-'}  {if $pro_per_fw && $category@iteration%$pro_per_fw == 1} first-item-of-screen-line{/if} {if $pro_per_xxl && $category@iteration%$pro_per_xxl == 1} first-item-of-large-line{/if} {if $pro_per_xl && $category@iteration%$pro_per_xl == 1} first-item-of-desktop-line{/if}{if $category@iteration%$pro_per_lg == 1} first-item-of-line{/if}{if $category@iteration%$pro_per_md == 1} first-item-of-tablet-line{/if}{if $category@iteration%$pro_per_sm == 1} first-item-of-mobile-line{/if}{if $category@iteration%$pro_per_xs == 1} first-item-of-portrait-line{/if} featured_categories_item">
+                <div class="chqcategorie">
+                    <a class="custom-card" href="https://preproduction.stardustcolors.com/141-moto" title="Peinture carrosserie moto" style="border: 0;">
+                        <div class="category-thumb">
+                            <img src="https://preproduction.stardustcolors.com/c/141-category_principal/moto.jpg" alt="Peinture carrosserie moto" class="replace-2x img-responsive">
+                        </div>
+                        <div class="category-name">
+                            <h3>Peinture carrosserie moto</h3>
+                        </div>
+                    </a>
+                </div>
+                {*<div class="{if $pro_per_fw}col-fw-{(12/$pro_per_fw)|replace:'.':'-'}{/if}  {if $pro_per_xxl}col-xxl-{(12/$pro_per_xxl)|replace:'.':'-'}{/if}  {if $pro_per_xl}col-xl-{(12/$pro_per_xl)|replace:'.':'-'}{/if} col-lg-{(12/$pro_per_lg)|replace:'.':'-'} col-md-{(12/$pro_per_md)|replace:'.':'-'} col-sm-{(12/$pro_per_sm)|replace:'.':'-'} col-{(12/$pro_per_xs)|replace:'.':'-'}  {if $pro_per_fw && $category@iteration%$pro_per_fw == 1} first-item-of-screen-line{/if} {if $pro_per_xxl && $category@iteration%$pro_per_xxl == 1} first-item-of-large-line{/if} {if $pro_per_xl && $category@iteration%$pro_per_xl == 1} first-item-of-desktop-line{/if}{if $category@iteration%$pro_per_lg == 1} first-item-of-line{/if}{if $category@iteration%$pro_per_md == 1} first-item-of-tablet-line{/if}{if $category@iteration%$pro_per_sm == 1} first-item-of-mobile-line{/if}{if $category@iteration%$pro_per_xs == 1} first-item-of-portrait-line{/if} featured_categories_item">
                     <div class="cate_outer_box">
                         <div class="cate_first_box">
                         <a href="{$category.url}" title="{$category.name}" class="fc_cat_image">
@@ -151,7 +161,7 @@
                     {/if}
                     </div>
                     </div>
-                </div>
+                </div>*}
             {/foreach}
             </div>
         {/if}

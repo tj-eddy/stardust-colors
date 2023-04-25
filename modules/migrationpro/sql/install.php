@@ -32,8 +32,7 @@ $sql[] = 'CREATE TABLE IF NOT EXISTS `' . _DB_PREFIX_ . 'migrationpro_configurat
   UNIQUE KEY (`name`)
 ) DEFAULT CHARSET=utf8';
 
-$sql[] = 'DROP TABLE IF EXISTS `' . _DB_PREFIX_ . 'migrationpro_data`;
-CREATE TABLE IF NOT EXISTS `' . _DB_PREFIX_ . 'migrationpro_data` (
+$sql[] = 'CREATE TABLE IF NOT EXISTS `' . _DB_PREFIX_ . 'migrationpro_data` (
 `id_data` int(11) NOT NULL AUTO_INCREMENT,
   `type` varchar(3) NOT NULL,
   `source_id` int(11) NOT NULL,
@@ -43,8 +42,7 @@ CREATE TABLE IF NOT EXISTS `' . _DB_PREFIX_ . 'migrationpro_data` (
   KEY `type` (`type`)
 ) DEFAULT CHARSET=utf8';
 
-$sql[] = 'DROP TABLE IF EXISTS `' . _DB_PREFIX_ . 'migrationpro_mapping`;
-CREATE TABLE IF NOT EXISTS `' . _DB_PREFIX_ . 'migrationpro_mapping` (
+$sql[] = 'CREATE TABLE IF NOT EXISTS `' . _DB_PREFIX_ . 'migrationpro_mapping` (
 `id_mapping` int(11) NOT NULL AUTO_INCREMENT,
   `group` varchar(128) NOT NULL,
   `type` varchar(128) NOT NULL,
@@ -54,8 +52,7 @@ CREATE TABLE IF NOT EXISTS `' . _DB_PREFIX_ . 'migrationpro_mapping` (
   PRIMARY KEY (`id_mapping`)
 ) DEFAULT CHARSET=utf8';
 
-$sql[] = 'DROP TABLE IF EXISTS `' . _DB_PREFIX_ . 'migrationpro_error_logs`;
-CREATE TABLE IF NOT EXISTS `' . _DB_PREFIX_ . 'migrationpro_error_logs` (
+$sql[] = 'CREATE TABLE IF NOT EXISTS `' . _DB_PREFIX_ . 'migrationpro_error_logs` (
 `id` int(11) NOT NULL AUTO_INCREMENT,
   `log_text` varchar(855) NOT NULL,
   `entity_type` varchar(255) NOT NULL,
@@ -63,8 +60,7 @@ CREATE TABLE IF NOT EXISTS `' . _DB_PREFIX_ . 'migrationpro_error_logs` (
   PRIMARY KEY (`id`)
 ) DEFAULT CHARSET=utf8';
 
-$sql[] = 'DROP TABLE IF EXISTS `' . _DB_PREFIX_ . 'migrationpro_warning_logs`;
-CREATE TABLE IF NOT EXISTS `' . _DB_PREFIX_ . 'migrationpro_warning_logs` (
+$sql[] = 'CREATE TABLE IF NOT EXISTS `' . _DB_PREFIX_ . 'migrationpro_warning_logs` (
 `id` int(11) NOT NULL AUTO_INCREMENT,
   `log_text` varchar(855) NOT NULL,
   `entity_type` varchar(255) NOT NULL,
@@ -72,8 +68,7 @@ CREATE TABLE IF NOT EXISTS `' . _DB_PREFIX_ . 'migrationpro_warning_logs` (
   PRIMARY KEY (`id`)
 ) DEFAULT CHARSET=utf8';
 
-$sql[] = 'DROP TABLE IF EXISTS `' . _DB_PREFIX_ . 'migrationpro_save_mapping`;
-CREATE TABLE IF NOT EXISTS `' . _DB_PREFIX_ . 'migrationpro_save_mapping` (
+$sql[] = 'CREATE TABLE IF NOT EXISTS `' . _DB_PREFIX_ . 'migrationpro_save_mapping` (
 `id_mapping` int(11) NOT NULL AUTO_INCREMENT,
   `group` varchar(128) NOT NULL,
   `type` varchar(128) NOT NULL,
@@ -83,8 +78,7 @@ CREATE TABLE IF NOT EXISTS `' . _DB_PREFIX_ . 'migrationpro_save_mapping` (
   PRIMARY KEY (`id_mapping`)
 ) DEFAULT CHARSET=utf8';
 
-$sql[] = 'DROP TABLE IF EXISTS `' . _DB_PREFIX_ . 'migrationpro_process`;
-CREATE TABLE IF NOT EXISTS `' . _DB_PREFIX_ . 'migrationpro_process` (
+$sql[] = 'CREATE TABLE IF NOT EXISTS `' . _DB_PREFIX_ . 'migrationpro_process` (
 `id_process` int(11) NOT NULL AUTO_INCREMENT,
   `type` varchar(100) NOT NULL,
   `total` int(11) NOT NULL,

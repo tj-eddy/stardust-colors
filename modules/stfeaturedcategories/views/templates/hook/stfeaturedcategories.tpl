@@ -133,12 +133,19 @@
                     </a>
                 </div>
                 <div class="chqcategorie">
-                    <a class="custom-card" href="https://preproduction.stardustcolors.com/141-moto" title="Peinture carrosserie moto" style="border: 0;">
+                    <a class="custom-card" href="{$category.url}" title="{$category.name}" style="border: 0;">
                         <div class="category-thumb">
-                            <img src="https://preproduction.stardustcolors.com/c/141-category_principal/moto.jpg" alt="Peinture carrosserie moto" class="replace-2x img-responsive">
+                            <img {if isset($image_options) && $image_options==1}
+                                src="{$category.image_thumb}"
+                            {elseif isset($category.image.bySize.{$image_type}.url)}
+                                src="{$category.image.bySize.{$image_type}.url}"
+                                {if $sttheme.retina && isset($category.image.bySize.{$image_type|cat:'_2x'}.url)}
+                                    srcset="{$category.image.bySize.{$image_type|cat:'_2x'}.url} 2x"
+                                {/if}
+                            {/if} alt="{$category.name}" class="replace-2x img-responsive">
                         </div>
                         <div class="category-name">
-                            <h3>Peinture carrosserie moto</h3>
+                            <h3>{$category.name}</h3>
                         </div>
                     </a>
                 </div>

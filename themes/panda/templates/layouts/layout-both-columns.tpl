@@ -52,7 +52,7 @@
 		  <div class="wrapper_top_container">{hook h="displayWrapperTop"}</div>
 	  {/block}
 
-	  <section id="wrapper" class="columns-container">
+	  <section id="wrapper" class="{if $page.page_name=="index"}wrapper_homepage{/if} columns-container">
 		<div id="columns" class="container">
 		  <div class="row">
 

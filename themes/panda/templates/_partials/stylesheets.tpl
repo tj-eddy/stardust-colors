@@ -38,5 +38,12 @@
   <link href="{$css.url}" id="{$css.id}" rel="stylesheet" media="{$sttheme.custom_css_media}" />
   {/foreach}
 {/if}
-<link href="https://www.dafontfree.net/embed/YWxsZXItZGlzcGxheS1yZWd1bGFyJmRhdGEvMTYvYS83NzczMS9BbGxlckRpc3BsYXkudHRm" rel="stylesheet" type="text/css"/>
 <link href="{$urls.css_url}custom.css" rel="stylesheet" />
+<style>
+  @font-face {
+    font-family: Spline Sans;
+    font-weight: 600;
+    font-display: swap;
+    src: url({$urls.css_url}AllerDisplay.ttf);
+  }
+</style>

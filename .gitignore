@@ -1,7 +1,7 @@
 .idea
 app/config/parameters.php
 config/defines.inc.php
-img/
+/img/
 modules/psaddonsconnect
 var/
 .htaccess

@@ -41,7 +41,7 @@
 <link href="{$urls.css_url}custom.css" rel="stylesheet" />
 <style>
   @font-face {
-    font-family: Spline Sans;
+    font-family: AllerDisplay-regular;
     font-weight: 600;
     font-display: swap;
     src: url({$urls.css_url}AllerDisplay.ttf);

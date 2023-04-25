@@ -42,7 +42,10 @@
                 {if $p_c.title_align!=3}
                 <div class="title_block flex_container title_align_{if $column_slider}0{else}{(int)$p_c.title_align}{/if} title_style_{if isset($is_blog) && $is_blog}{(int)$stblog.heading_style}{else}{(int)$sttheme.heading_style}{/if} {if isset($p_c.sub_title) && $p_c.sub_title} st_has_sub_title {/if}">
                     <div class="flex_child title_flex_left"></div>
-                    {if $p_c.link}<a href="{$p_c.link}" title="{$p_c.name}" class="title_block_inner">{else}<div class="title_block_inner">{/if}
+                   {* {if $p_c.link}<a href="{$p_c.link}" title="{$p_c.name}" class="title_block_inner">{else}
+                        <div class="title_block_inner">
+                            {/if}*}
+                    <div class="title_block_inner">
                     {if isset($p_c.slider_title) && $p_c.slider_title}
                         {$p_c.slider_title}
                     {else}

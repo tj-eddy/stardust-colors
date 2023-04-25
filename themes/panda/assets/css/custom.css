@@ -7,6 +7,7 @@
 }
 
 
+/* design cat principal */
 
 
 .products_block .featured_categories_list{
@@ -57,7 +58,10 @@
     -webkit-line-clamp: 2;
     text-overflow: ellipsis;
 }
+/* design cat principal */
 
+
+/* responsive cat principal */
 @media (min-width: 768px) and (max-width: 991px){
     .products_block .featured_categories_list .chqcategorie {
         -ms-flex: 0 0 25%;
@@ -101,4 +105,5 @@
     }
 
 }
+/* responsive cat principal */
 

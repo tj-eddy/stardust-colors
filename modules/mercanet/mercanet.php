@@ -197,7 +197,7 @@ class Mercanet extends PaymentModule
                 Language::getIdByIso('fr') => 'Mercanet liste des transactions',
                 Language::getIdByIso('en') => 'Mercanet transaction list'
             ),
-            Tab::getIdFromClassName('AdminOrders'),
+            Tab::getIdFromClassName('AdminParentOrders'),
             true
         );
 
@@ -207,7 +207,7 @@ class Mercanet extends PaymentModule
                 Language::getIdByIso('fr') => 'Mercanet liste des abonnements',
                 Language::getIdByIso('en') => 'Mercanet Recurring list'
             ),
-            Tab::getIdFromClassName('AdminOrders'),
+            Tab::getIdFromClassName('AdminParentOrders'),
             true
         );
         // Default Configuration

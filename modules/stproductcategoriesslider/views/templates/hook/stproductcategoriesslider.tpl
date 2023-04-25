@@ -41,7 +41,7 @@
                 {if $p_c.title_align!=3}
                 <div class="title_block flex_container title_align_{if $column_slider}0{else}{(int)$p_c.title_align}{/if} title_style_{(int)$sttheme.heading_style}">
                     <div class="flex_child title_flex_left"></div>
-                    <a href="{$p_c.link}" title="{$p_c.name}" class="title_block_inner">{$p_c.name}</a>
+                    <div class="title_block_inner">{$p_c.name}</div>
                     <div class="flex_child title_flex_right"></div>
                     {if $p_c.direction_nav && ((!$p_c.grid && $p_c.direction_nav==1) || $column_slider) && isset($p_c.products) && $p_c.products}
                         <div class="swiper-button-tr {if $p_c.hide_direction_nav_on_mob} hidden-md-down {/if}"><div class="swiper-button swiper-button-outer swiper-button-prev"><i class="fto-left-open-3 slider_arrow_left"></i><i class="fto-right-open-3 slider_arrow_right"></i></div><div class="swiper-button swiper-button-outer swiper-button-next"><i class="fto-left-open-3 slider_arrow_left"></i><i class="fto-right-open-3 slider_arrow_right"></i></div></div>        

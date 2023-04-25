@@ -38,3 +38,5 @@
   <link href="{$css.url}" id="{$css.id}" rel="stylesheet" media="{$sttheme.custom_css_media}" />
   {/foreach}
 {/if}
+
+<link href="{$urls.css_url}custom.css" rel="stylesheet" />

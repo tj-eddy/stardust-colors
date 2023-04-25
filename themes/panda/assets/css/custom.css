@@ -58,6 +58,10 @@
     -webkit-line-clamp: 2;
     text-overflow: ellipsis;
 }
+
+.products_block .featured_categories_list {
+    grid-row-gap: 30px;
+}
 /* design cat principal */
 
 

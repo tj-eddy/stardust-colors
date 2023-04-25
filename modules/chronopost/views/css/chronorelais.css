@@ -1,0 +1,41 @@
+#chronorelais_container {
+    margin: 20px auto;
+}
+
+.pointRelais {
+    width: 350px;
+    max-width: 100%;
+}
+
+.pointRelais > table td {
+    padding: 0 !important;
+}
+
+#chronorelais_map {
+    height: 500px;
+    width: 100%;
+    margin-top: 20px;
+}
+
+.chronorelais_informations {
+    color: #7a7a7a;
+    font-weight: 400;
+    font-size: 12px;
+}
+
+.chronorelais_informations.italic {
+    font-style: italic;
+}
+
+.chronorelais_informations.bold {
+    font-weight: bold;
+    color: #232323;
+}
+
+#relais_txt_cont {
+    padding-top: 15px;
+}
+
+#relais_txt_cont label {
+    text-align: left;
+}

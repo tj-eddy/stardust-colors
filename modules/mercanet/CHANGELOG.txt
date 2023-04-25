@@ -1,0 +1,269 @@
+# 1.6.12
+--------------------
+  * #35048, changement d'url de test
+  * #34917, fix one click
+  * #34911, Changement du type de colonne pour authorisation id (paypal)
+  * #oths, fix de sécurité
+
+# 1.6.11 - 2020-08-08
+--------------------
+  * Ajout du champ `received_data` dans mercanet_reference_payed
+  * Ajout de la pause de 10 secondes si on vient de notification dans MercanetReferencePayed::insertReference()
+  * Adaptation de la redirection vers le front controller `validation` pour éviter une url trop longue (on passe juste la transactionReference désormais)
+  * Adaptation du front controller `validation`
+  * Vérification de la présence d'id_customer dans le context et récupération par l'objet Order au besoin (fix problème déconnexion au retour paiement)
+  * Ajout de logs
+  * Ajout d'une pause de 10 secondes si on doit récupérer l'id_order via la transaction et que celle-ci n'est pas encore créée
+
+# 1.6.10 - 2020-02-21
+--------------------
+  * #26336, Ajout historique état commande
+  * #26336, Prise en compte du nx et recurring
+  * #26336, Problème multi transaction
+
+# 1.6.9
+adding recurring monitoring in back office
+
+# 1.6.8
+[-] MO : fix iframe display
+
+# 1.6.7
+[-] MO : change HP interface version
+         Fix recurring payment creation 
+
+# 1.6.5
+[-] MO : add tempo on return payment to avoid double payment
+
+# 1.6.4
+[-] MO : change label BCMC + logo
+
+v1.0.14 - 2016-28-09
+-------------------
+  * #14066, Prise en compte des prix spécifiques lors de la convertion vers une devise 
+
+v1.0.13 - 2016-29-08
+-------------------
+  * #13784, Redirection automatique sur la même page en boucle
+  * #13920, Affichage du champ complementaryInfo
+
+v1.0.12 - 2016-20-08
+-------------------
+  * #13637, Corrections orthogaphes
+  * #13920, Affichage du champ complementaryInfo
+
+v1.0.11 - 2016-20-07
+-------------------
+  * #13354, Compatibilité des moyens de paiement ajustés
+  * #13406, Fix sur les annulation de commande en Iframe
+
+v1.0.10 - 2016-22-06
+-------------------
+  * #1.0.10, Fix sur l'overrides des tpls de paiements
+
+v1.0.9 - 2016-07-06
+-------------------
+  * #12721, Ajout de la gestion multi-compte sur une boutique en multi-boutique
+
+v1.0.8 - 2016-27-05
+-------------------
+  * #12643, Affichage d'un libellé erroné
+  * #12644, Erreur sur la page de validation de Prestashop
+  * #12568, Problème d'installation du module de paiement sur Prestashop
+  * #12662, Fix sur l'envoi de params NxCB
+  * #1.0.8, Ajout de la compatibilité PHP 5.3
+
+v1.0.7 - 2016-20-05
+-------------------
+ * #12578, Correction d'un problème sur les autres devises que l'euro en base de montant (sans conversion).
+
+v1.0.6 - 2016-25-04
+-------------------
+ * #11975, Fix sur le problème de redirection à la fin du paiement
+ * #12056, Changement du libellé par défaut pour le paiement simple et paiement multiple
+ * #11954, Ajout du trigramme Paypal
+
+v1.0.5 - 2016-08-04
+-------------------
+ * #1.0.5, Change the algorithm to activate the key
+
+v1.0.4 - 2016-24-03
+-------------------
+ * #11757, Fix on the cancel of a payment NxCB
+
+v1.0.3 - 2016-17-03
+-------------------
+ * #11638, Fix on the validation only numeric of the merchand ID
+
+v1.0.2 - 2016-16-03
+-------------------
+ * #V1.0.2, Fix sécurité
+
+v1.0.1 - 2016-04-03
+-------------------
+ * #11375, Augmentation de la taille du champs "Renseignez votre clé secrète"
+ * #11374, Modification des valeurs par défaut du paiement en n fois
+ * #11373, Wording / Traduction
+
+v1.0.0 - 2016-12-02
+-------------------
+ * #INIT, Ajout des contrôle sur le NXCB
+ * #INIT, Changement de logo
+ * #INIT, Wording
+ * #INIT, Corrections sur la mise à jour des variables de configurations Test & URL
+
+v0.0.11 - 2016-04-02
+-------------------
+ * #Validator
+ * #11019, Ajout d'un paiement en n fois
+ * #Bug, correction du problème de signature sur le wallet
+
+v0.0.10 - 2016-03-02
+-------------------
+ * #10976, Remboursement de commande en erreur 24
+
+v0.0.9 - 2016-03-02
+-------------------
+ * #INIT, Retouche de texte et redirection directement des paiements sur l'affichage des paiements sur le CMS
+
+v0.0.8 - 2016-03-02
+-------------------
+ * #10992, Ajout des traductions
+ * #10834, Logo des paiements
+ * #10992, Ajout des premières modifications trad & texte marketing
+ * #10980, Blocage du retour de Mercanet vers le CMS en mode iFrame + Corrections du retour iframe (cause de validation PS)
+ * #10976, Ajout du message du responseCode en retour du remboursement
+
+
+v0.0.7 - 2016-01-02
+-------------------
+ *  #10964, Paramétrage Mercate_test_mode absent
+ *  #10965, Sélection des devises
+ *  #10966, Restriction des devises
+ *  #10897, Affichage du détail d'un paiement (Raw Data) mauvais css utilisé
+ *  #10897, Affichage du détail d'un paiement (Raw Data) ajusté
+ *  #10897, Affichage du détail d'un paiement (Raw Data) ajusté
+ * #10934 [BO] Supprimer l'url de paiement dans la configuration
+ * #10934 [BO] Supprimer l'url de paiement dans la configuration
+
+
+
+v0.0.6 - 2016-30-01
+-------------------
+
+ * #10971, URL utilisée pour l'appel de la page de paiement
+ * #10964, Paramétrage Mercate_test_mode absent
+ * #10965, Sélection des devises
+ * #10966, Restriction des devises
+ * #10897, Affichage du détail d'un paiement (Raw Data) mauvais css utilisé
+ * #10897, Affichage du détail d'un paiement (Raw Data) ajusté
+ * #10897, Affichage du détail d'un paiement (Raw Data) ajusté
+ * #10934 [BO] Supprimer l'url de paiement dans la configuration
+ * #10934 [BO] Supprimer l'url de paiement dans la configuration
+
+
+v0.0.5 - 2016-29-01
+-------------------
+
+* #10923, Les commandes ne sont plus enregistrées [Juan Sanchez]
+* Add changelog [Nicolas Geissel]
+* #Init Suppression du config_fr qui ne doit pas être présent [Juan Sanchez]
+
+
+v0.0.4 - 2016-29-01
+-------------------
+
+* #10923, Les commandes ne sont plus enregistrées [Juan Sanchez]
+* #10897, Affichage du détail dun paiement [Juan Sanchez]
+* #10894, Doublon des lignes sur le paiement en fois dû aux langues [Juan Sanchez]
+* #10891, Correction sur la langue appliqué par défaut [Juan Sanchez]
+* #10892, Montant maximum non renseigné [Admin]
+* #10879, Passage de lorderID à BNP [Admin]
+* #10878, Libellé du contrôle carte commercial et pays de la carte [Admin]
+* #10879, Ajout de linformations du numéro dauthorisation + trad et corrections [Admin]
+* #10879, Ajout de linformations du numéro de transactions [Admin]
+* #10862, Ajout de lautomatic response [Juan Sanchez]
+* #Recette, correction sur le montant de lavoir [Juan Sanchez]
+* #Recette, traductions de libellés [Juan Sanchez]
+* #Recette, traductions de libellés [Juan Sanchez]
+* #Recette, rebuild de la fonction de seal afin que le remboursement fonctionne en WS (pas le même fonctionnement de build seal) [Juan Sanchez]
+* #10841, Initialisé la variable de test à false [Juan Sanchez]
+* #10841, Corrections de laffichage [Juan Sanchez]
+* Fix : The choice of MP is correctly sent to mercanet when "ALL MP displayed" is configured in BO [Nicolas Geissel]
+* #10806, Corrections [Juan Sanchez]
+* #10806, Corrections lien [Juan Sanchez]
+* #10806, TMP pas réinitialiser les variable de test [Juan Sanchez]
+* #10806, Ajout des urls de tests [Juan Sanchez]
+* #10806, petit oubli de p [Juan Sanchez]
+* #10806, Ajout du contrôle que le montant max soit inférieur au montant min [Juan Sanchez]
+
+
+v0.0.3 - 2016-28-01
+-------------------
+
+* #10806, TMP pas réinitialiser les variable de test [Juan Sanchez]
+* #10806, Ajout des urls de tests [Juan Sanchez]
+* #10806, petit oubli de p [Juan Sanchez]
+* #10806, Ajout du contrôle que le montant max soit inférieur au montant min [Juan Sanchez]
+* #10806, Ajout du contrôle que le montant max soit inférieur au montant min [Juan Sanchez]
+* #10807, Ajout du contrôle sur le paiement simple et nx + trad du nouveau message derreur [Juan Sanchez]
+* #10819, Suppression du lien dans la liste des transactions + menu dans le module [Juan Sanchez]
+* #10810, Correction des valeurs par défaut des paiements en plusieurs fois. [Juan Sanchez]
+* #10822, Corrections sur le params ALL pour les cartes [Juan Sanchez]
+* #10816, Corrections de laffichage du remboursement [Juan Sanchez]
+* #10812, Corrections du paiement nx en iframe [Juan Sanchez]
+* #10817, Cacher le mode test [Juan Sanchez]
+* #10817, Cacher le mode test [Juan Sanchez]
+* #INIT, Modif du params envoyé pour a3d [Juan Sanchez]
+* #INIT, Ajout de la clé BNP [Juan Sanchez]
+* #INIT, Corrections des tests si les variables sont null [Juan Sanchez]
+* #INIT, Corrections des tests si les variables sont null [Juan Sanchez]
+* #INIT, Corrections des tests si les variables sont null [Juan Sanchez]
+* #INIT, Correction de liso code [Juan Sanchez]
+* #INIT, Ajout complementary info et valeur par défaut [Juan Sanchez]
+* #INIT, Ajout complementary info et valeur par défaut [Juan Sanchez]
+* #INIT, Ajout complementary info et valeur par défaut [Juan Sanchez]
+* #INIT, Validator [Juan Sanchez]
+* #INIT, Validator [Juan Sanchez]
+* #INIT, Traduction [Juan Sanchez]
+* #INIT, Correction sur les validation du formulaire [Juan Sanchez]
+* #INIT, Correction sur le rechargement des classes sur validation et css de ladmin en fr [Juan Sanchez]
+* #INIT, Correction sur le nom des tabs sur la MAJ [Juan Sanchez]
+* #INIT,Désinstallation du module + traduction [Juan Sanchez]
+* #INIT,Désinstallation des tabs [Juan Sanchez]
+* #INIT, Finalisation des traductions + ajout des licenses [Juan Sanchez]
+* #INIT, Ajout de la validation des formulaires [Juan Sanchez]
+* #INIT, Gestion de léchéancier revu et corriger suivant la spec [Admin]
+* #INIT,Ajout des restrictions de Trigramme + @TODO [Admin]
+* #INIT, Traductions et corrections de traduction de base [Admin]
+* #INIT, Finalisation du remboursement + début des traductions. [Juan Sanchez]
+* #INIT, Finalisation du remboursement [Juan Sanchez]
+* #INIT, Ajout des params antifraude en+ [Juan Sanchez]
+* #INIT, Ajout de la modification BO de la modification paiement [Juan Sanchez]
+* #INIT, Ajustement du nouveau champs de capture et quelques corrections sur des tests [Juan Sanchez]
+* #INIT, Début du remboursement + ajout de la date déchéance [Juan Sanchez]
+* #INIT, Début du remboursement + ajout de la date déchéance [Juan Sanchez]
+* #INIT, Finalisation du paiement en plusieurs fois (création de commande), en attente dinformations de BNP + Liste des transaction finis [Juan Sanchez]
+* #INIT, Gestion de lhistorique de transactions [Juan Sanchez]
+* #10578, FO : paiement en mode daffichage IFRAME et Direct Redirection activée. A tester valider + Correction sur linstallation du module en multi-langue + Ajout des DB pour léchéancier + Ajout de lhistorique en BO + Création de commande nx et ajout dun paiement ainsi quun nouveau statuts [Juan Sanchez]
+* Mise en place du paiement en One Click finit (SQL, Class, suppression du WS) + Début du NX avec données a linstallation + gestion des restriction daffichage et affichage normal + avec cartes + iframe [Juan Sanchez]
+* #INIT, ajout de la classe Wallet qui va gérer les WS + gestions des messages de commande et nom de paiement [Juan Sanchez]
+* #INIT, Ajout de la table response_code + données db et gestion des transactions (bd et bo et enregistrement) [Juan Sanchez]
+* #INIT, modifications des tables de code pour le multilang + insértion des responsecode et début des compl. code, en attente du reste de BNP pour lajouter [Juan Sanchez]
+* #INIT Gestion des noms de paiements en config, création des tables de gestion des transactions, code, historisation, ajout de params comme bank deposit, etc [Juan Sanchez]
+* #INIT, Gestions de plusieurs paramètres sur la construction de la requete (3DS, devise, Css, carte, langue, etc) [Juan Sanchez]
+* #INIT, Ajout de la gestion du paramètre de la langue de la plateforme | Gestion de la restriction des montant min / max [Juan Sanchez]
+* #INIT, Ajout de la gestion daffichage de différent moyen de paiement + Ajout index et certif [Juan Sanchez]
+* #INIT, MAJ des cartes (petite modification) + Ajout de la redirection automatique dans le formulaire [Juan Sanchez]
+* #INIT, Ajout du champs de paiement manuel / automatique | MAJ des cartes suivant la documentation [Juan Sanchez]
+* #INIT, Finition des différents affichage (Retour normal + iFrame), Ajouter de renouveller sa commande, Création de la commande du paiement simple + début de gestion pour plusieurs type | Ajout du message si le mode test est activé [Juan Sanchez]
+* #INIT, Ajout de la liste des pays | ajout des devise en formulaire + post | Gestion de la création de commande en cours (étape CreateOrder), récup des données + contrôle de seal effectué [Juan Sanchez]
+* #INIT, Gestion des différent affichage de cartes [Juan Sanchez]
+* #INIT, Validation et enregistrement du formulaire général et gestion des différent affichage en cours [Juan Sanchez]
+* #INIT, Mise en place des submits, contrôle [Juan Sanchez]
+* #INIT, Mise en place de la clé dactivation [Juan Sanchez]
+* #INIT, Formulaire paiement nx fini, avancement sur le general. [Juan Sanchez]
+* #INIT, Ajout de la classes helperform et nxpayment pour les formulaire BO, modification du formulaire BO [Juan Sanchez]
+* # Modifications de la logique daffichage des tabs du formulaire et lajout de plusieurs todo à faire. [Juan Sanchez]
+* switch from activation key file to copy/paste activation key [Antonio Rossetti]
+* back office basics [Antonio Rossetti]
+* maquetage paramétrage généraux Back Office [Antonio Rossetti]

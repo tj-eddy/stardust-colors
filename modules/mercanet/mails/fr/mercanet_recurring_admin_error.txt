@@ -1,0 +1,5 @@
+Bonjour,
+
+Un problème a été constaté pour le paiement récurrent pour le client {firstname} {lastname}
+ayant pour référence {customer_id} sur la commande {order_id}
+

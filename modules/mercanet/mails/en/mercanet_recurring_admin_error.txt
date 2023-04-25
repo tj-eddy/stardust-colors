@@ -1,0 +1,5 @@
+Hi,
+
+A problem has been mentionned for recurring payment of the customer {firstname} {lastname}
+with reference {order_name}  for the order {order_id}.
+

@@ -1,0 +1,9 @@
+Bonjour {firstname} {lastname},
+
+Le paiement récurrent a été accepté.
+
+La référence de votre nouvelle commande est la suivante: {order_name}
+
+Vous pouvez accéder à tout moment au suivi de votre commande et
+télécharger votre facture dans "Historique des commandes" de la rubrique "Mon compte" sur
+notre site.

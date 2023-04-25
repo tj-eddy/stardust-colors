@@ -1,0 +1,10 @@
+Bonjour {firstname} {lastname},
+
+Votre paiement récurrent a été stoppé par votre commerçant.
+
+Il s'agit du paiement récurrent pour la commande ayant pour référence {order_reference}. Vous pouvez contacter votre commerçcant pour plus de détails.
+
+Vous pouvez accéder à tout moment au suivi de votre commande et
+télécharger votre facture dans "Historique des commandes"
+de la rubrique "Mon compte" sur
+notre site.

@@ -113,26 +113,6 @@
                 {assign var="curr_index" value=$index}
                 {assign var="curr_iteration" value=$index+1}
                 <div class="chqcategorie">
-                    <a class="custom-card" href="https://preproduction.stardustcolors.com/141-moto" title="Peinture carrosserie moto" style="border: 0;">
-                        <div class="category-thumb">
-                            <img src="https://preproduction.stardustcolors.com/c/141-category_principal/moto.jpg" alt="Peinture carrosserie moto" class="replace-2x img-responsive">
-                        </div>
-                        <div class="category-name">
-                            <h3>Peinture carrosserie moto</h3>
-                        </div>
-                    </a>
-                </div>
-                <div class="chqcategorie">
-                    <a class="custom-card" href="https://preproduction.stardustcolors.com/141-moto" title="Peinture carrosserie moto" style="border: 0;">
-                        <div class="category-thumb">
-                            <img src="https://preproduction.stardustcolors.com/c/141-category_principal/moto.jpg" alt="Peinture carrosserie moto" class="replace-2x img-responsive">
-                        </div>
-                        <div class="category-name">
-                            <h3>Peinture carrosserie moto</h3>
-                        </div>
-                    </a>
-                </div>
-                <div class="chqcategorie">
                     <a class="custom-card" href="{$category.url}" title="{$category.name}" style="border: 0;">
                         <div class="category-thumb">
                             <img {if isset($image_options) && $image_options==1}

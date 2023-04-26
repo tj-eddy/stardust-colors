@@ -1,0 +1,13 @@
+Bonjour {firstname} {lastname},
+
+Un problème a été constaté pour le paiement récurrent de votre commande sur
+notre site ayant pour référence {order_name}. Veuillez nous
+contacter le plus rapidement possible.
+
+NOUS NE POUVONS MALHEUREUSEMENT PAS EXPÉDIER VOTRE COMMANDE TANT QUE
+NOUS N'AVONS PAS REÇU VOTRE PAIEMENT.
+
+Vous pouvez accéder à tout moment au suivi de votre commande et
+télécharger votre facture dans "Historique des commandes"
+de la rubrique "Mon compte" sur
+notre site.

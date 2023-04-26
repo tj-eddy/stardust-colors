@@ -49,8 +49,12 @@
         {if isset($custom_content) && $custom_content && $custom_content.10.width}
             {$custom_content.10.content nofilter}
         {/if}
-        <div class="col-lg-{if isset($custom_content) && $custom_content}{12-$custom_content.10.width-$custom_content.30.width}{else}12{/if} {if $display_as_grid==1} display_as_grid {elseif $display_as_grid==2} display_as_simple {/if} products_slider"> <!-- to do what if the sum of left and right contents larger than 12 -->
-    
+        {if $page.page_name=="index"}
+                <div class="col-lg-9 display_as_grid"> <!-- to do what if the sum of left and right contents larger than 12 -->
+            {else}
+                <div class="col-lg-{if isset($custom_content) && $custom_content}{12-$custom_content.10.width-$custom_content.30.width}{else}12{/if} {if $display_as_grid==1} display_as_grid {elseif $display_as_grid==2} display_as_simple {/if} products_slider"> <!-- to do what if the sum of left and right contents larger than 12 -->
+            {/if}
+
     {if !isset($title_io) || !$title_io}
         {if $title_position!=3}{include file="module:stthemeeditor/views/templates/slider/heading.tpl"}{/if}
         {if isset($custom_content) && $custom_content}{$custom_content.1.content nofilter}{/if}
@@ -85,6 +89,49 @@
 
             {if isset($custom_content) && $custom_content}{$custom_content.2.content nofilter}{/if}
         </div>
+        {if $page.page_name=="index"}
+            <hr>
+            <div class="col-lg-3 display_as_grid products_slider">
+                <div class="featured_categories_list">
+                    <div class="chqcategorie" style="padding-bottom:10px">
+                        <a class="custom-card" href="https://preproduction.stardustcolors.com/208-code-couleur-voiture" title="" style="border: 0;">
+                            <div class="">
+                                <img src="https://preproduction.stardustcolors.com/img/cms/vignette_lateral/vignette-laterale-auto-grande-min.png" alt=""  class="replace-2x img-responsive" />
+                            </div>
+                        </a>
+                    </div>
+                    <div class="chqcategorie" style="padding-bottom:10px">
+                        <a class="custom-card" href="https://preproduction.stardustcolors.com/209-code-couleur-moto" title="" style="border: 0;">
+                            <div class="">
+                                <img src="https://preproduction.stardustcolors.com/img/cms/vignette_lateral/vignette-laterale-moto-min.png" alt=""  class="replace-2x img-responsive" />
+                            </div>
+                        </a>
+                    </div>
+                    <div class="chqcategorie" style="padding-bottom:10px">
+                        <a class="custom-card" href="https://www.stardustcolors.com/472-model" title="" style="border: 0;">
+                            <div class="">
+                                <img src="https://preproduction.stardustcolors.com/img/cms/vignette_lateral/vignette-laterale-hikarirc-min.png" alt=""  class="replace-2x img-responsive" />
+                            </div>
+                        </a>
+                    </div>
+                    <div class="chqcategorie" style="padding-bottom:10px">
+                        <a class="custom-card" href="https://preproduction.stardustcolors.com/135-peinture-pour-aerographe" title="" style="border: 0;">
+                            <div class="">
+                                <img src="https://preproduction.stardustcolors.com/img/cms/vignette_lateral/vignette-laterale-aerographe-min.png" alt=""  class="replace-2x img-responsive" />
+                            </div>
+                        </a>
+                    </div>
+                    <div class="chqcategorie" style="padding-bottom:10px">
+                        <a class="custom-card" href="https://preproduction.stardustcolors.com/413-velo" title="" style="border: 0;">
+                            <div class="">
+                                <img src="https://preproduction.stardustcolors.com/img/cms/vignette_lateral/vignette-laterale-velo-min.png" alt=""  class="replace-2x img-responsive" />
+                            </div>
+                        </a>
+                    </div>
+
+                </div>
+            </div>
+        {/if}
         {if isset($custom_content) && $custom_content && $custom_content.30.width}
             {$custom_content.30.content nofilter}
         {/if}

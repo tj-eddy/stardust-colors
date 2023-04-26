@@ -289,8 +289,13 @@ class MercanetHelperForm extends Mercanet
 
     /**
      * Translate
+     * @param $string
+     * @param bool $specific
+     * @param null $locale
+     * @return mixed|string
+     * @throws Exception
      */
-    public function l($string, $specific = false)
+    public function l($string, $specific = false,$locale=NULL)
     {
         if (self::$_generate_config_xml_mode) {
             return $string;

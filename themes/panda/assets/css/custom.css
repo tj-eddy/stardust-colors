@@ -79,6 +79,19 @@
         flex: 0 0 33.33333%;
         max-width: 33.33333%;
     }
+
+    #reinsurance_block li {
+        padding: 15px 10px !important;
+        font-size: 13px;
+        color: #333;
+        text-transform: uppercase;
+        text-shadow: 0 1px 0 #fff;
+        text-align: center;
+        transition: all .5s;
+        -moz-transition: all .5s;
+        -webkit-transition: all .5s;
+        -o-transition: all .5s;
+    }
 }
 
 @media (min-width: 481px) and (max-width: 575px){
@@ -87,6 +100,19 @@
         flex: 0 0 50%;
         max-width: 50%;
     }
+
+    #reinsurance_block li {
+        padding: 15px 10px !important;
+        font-size: 13px;
+        color: #333;
+        text-transform: uppercase;
+        text-shadow: 0 1px 0 #fff;
+        text-align: center;
+        transition: all .5s;
+        -moz-transition: all .5s;
+        -webkit-transition: all .5s;
+        -o-transition: all .5s;
+    }
 }
 
 @media (max-width: 480px){
@@ -94,6 +120,19 @@
         -ms-flex: 0 0 100%;
         flex: 0 0 100%;
         max-width: 100%;
+    }
+
+    #reinsurance_block li {
+        padding: 15px 10px !important;
+        font-size: 13px;
+        color: #333;
+        text-transform: uppercase;
+        text-shadow: 0 1px 0 #fff;
+        text-align: center;
+        transition: all .5s;
+        -moz-transition: all .5s;
+        -webkit-transition: all .5s;
+        -o-transition: all .5s;
     }
 
     .custom-card .category-name {

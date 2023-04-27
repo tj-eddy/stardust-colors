@@ -1,13 +1,13 @@
 <?xml version="1.0" encoding="UTF-8" ?>
 <module>
-	<name>mercanet</name>
-	<displayName><![CDATA[BNP Paribas - Mercanet]]></displayName>
-	<version><![CDATA[1.6.11]]></version>
-	<description><![CDATA[Int&eacute;grez le module de paiement officiel de Mercanet (BNP Paribas) et acceptez facilement les paiements par carte bancaire (CB, Visa, MasterCard &hellip;) et Paylib sur PC, Tablette et Smartphone.]]></description>
-	<author><![CDATA[Prestashop partners]]></author>
-	<tab><![CDATA[payments_gateways]]></tab>
+    <name>mercanet</name>
+    <displayName><![CDATA[BNP Paribas - Mercanet]]></displayName>
+    <version><![CDATA[1.6.12]]></version>
+    <description><![CDATA[Int&eacute;grez le module de paiement officiel de Mercanet (BNP Paribas) et acceptez facilement les paiements par carte bancaire (CB, Visa, MasterCard &hellip;) et Paylib sur PC, Tablette et Smartphone.]]></description>
+    <author><![CDATA[Prestashop partners]]></author>
+    <tab><![CDATA[payments_gateways]]></tab>
 	<confirmUninstall><![CDATA[Êtes-vous sûr de vouloir désinstaller BNP Parisbas - Mercanet ?]]></confirmUninstall>
-	<is_configurable>1</is_configurable>
-	<need_instance>1</need_instance>
+    <is_configurable>1</is_configurable>
+    <need_instance>1</need_instance>
 	<limited_countries></limited_countries>
 </module>

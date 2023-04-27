@@ -114,18 +114,17 @@
     padding-right: 0;
     padding-left: 0;
     position: relative;
-    margin-bottom: 15px;
-    width: 75%;
-    margin-left: 20px;
+    width: 90%;
+    /* margin-left: 86px; */
     background-color: #ffff;
-    margin-top: 15px;
+    margin-top: 40px;
 }
 
 
 .product-selection{
     box-shadow: 0 0 5px #706f6f;
     overflow: hidden;
-    height: 325px;
+    height: 242px;
     position: relative;
 }
 
@@ -136,9 +135,14 @@
 
 .title_cat{
     background-color: #6d2bc3;
-    padding: 20px;
+    padding: 10px;
     color: #fff;
     text-transform: uppercase;
+    font-weight: bold;
+}
+
+.detail_with_img{
+    padding: 10px;
 }
 
 .detail{

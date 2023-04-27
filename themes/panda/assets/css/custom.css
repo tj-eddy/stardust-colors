@@ -125,7 +125,6 @@
 .product-selection{
     box-shadow: 0 0 5px #706f6f;
     overflow: hidden;
-    padding: 15px;
     height: 325px;
     position: relative;
 }
@@ -148,4 +147,5 @@
 
 .product_img_link {
     font-weight: bold;
+    text-align: left;
 }

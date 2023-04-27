@@ -154,4 +154,8 @@
     #selectprod{
         display: none;
     }
+
+    .featured_categories_list{
+        display: none;
+    }
 }

@@ -110,3 +110,26 @@
 }
 /* responsive cat principal */
 
+#selectprod{
+    padding-right: 0;
+    padding-left: 0;
+    position: relative;
+    margin-bottom: 15px;
+    width: 35%;
+    margin-left: 20px;
+    float: right;
+}
+
+
+.product-selection{
+    box-shadow: 0 0 5px #706f6f;
+    overflow: hidden;
+    padding: 15px;
+    height: 325px;
+    position: relative;
+}
+
+.blocktitle{
+    text-align: center;
+    position: relative;
+}

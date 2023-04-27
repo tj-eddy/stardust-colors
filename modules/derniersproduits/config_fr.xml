@@ -1,0 +1,12 @@
+<?xml version="1.0" encoding="UTF-8" ?>
+<module>
+    <name>derniersproduits</name>
+    <displayName><![CDATA[Selection du moment]]></displayName>
+    <version><![CDATA[2.2.0]]></version>
+    <description><![CDATA[Affichage produit s&eacute;lectionn&eacute; dans page Accueil]]></description>
+    <author><![CDATA[arobases.fr]]></author>
+    <tab><![CDATA[front_office_features]]></tab>
+    <is_configurable>1</is_configurable>
+    <need_instance>1</need_instance>
+	<limited_countries></limited_countries>
+</module>

@@ -22,9 +22,15 @@ class derniersproduits extends Module{
     public function install() {
         return parent::install() &&
         $this->registerHook('DisplayHome')&&
+        $this->registerHook('displayHomeRight')&&
         $this->registerHook('DisplayTopColumn')&&
-        Configuration::updateValue('IDPRODUCT','1')&&
-        Configuration::updateValue('SELECTSTATUS',false);
+        Configuration::updateValue('IDPRODUCT','1242')&&
+        Configuration::updateValue('SELECTSTATUS',true);
+    }
+
+    public function hookDisplayHomeRight($params)
+    {
+         $this->hookDisplayHome($params);
     }
 
     public function hookDisplayHome($params){

@@ -91,6 +91,8 @@
         -moz-transition: all .5s;
         -webkit-transition: all .5s;
         -o-transition: all .5s;
+        width: 0 !important;
+        float: none !important;
     }
 }
 
@@ -112,6 +114,8 @@
         -moz-transition: all .5s;
         -webkit-transition: all .5s;
         -o-transition: all .5s;
+        width: 0 !important;
+        float: none !important;
     }
 }
 

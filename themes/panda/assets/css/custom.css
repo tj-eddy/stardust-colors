@@ -118,6 +118,7 @@
     width: 75%;
     margin-left: 20px;
     background-color: #ffff;
+    margin-top: 15px;
 }
 
 
@@ -132,4 +133,19 @@
 .blocktitle{
     text-align: center;
     position: relative;
+}
+
+.title_cat{
+    background-color: #6d2bc3;
+    padding: 20px;
+    color: #fff;
+    text-transform: uppercase;
+}
+
+.detail{
+    padding: 22px;
+}
+
+.product_img_link {
+    font-weight: bold;
 }

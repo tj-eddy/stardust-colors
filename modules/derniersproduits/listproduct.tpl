@@ -7,7 +7,7 @@
 		<div class="clearfix"></div>
 		{if isset($oproduits)}
 		<div class="row">
-			<div class="col">
+			<div class="col detail">
 				<hh6><a class="product_img_link" href="{$link->getProductLink($oproduits->id)|escape:'html':'UTF-8'}" title="{$oproduits->name|escape:'html':'UTF-8'}" itemprop="url">{$oproduits->name}</a></hh6>
 				<div class="description">
 					{$oproduits->description|strip_tags:false|truncate:200:'...'}

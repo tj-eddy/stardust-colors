@@ -21,19 +21,13 @@ class derniersproduits extends Module{
 
     public function install() {
         return parent::install() &&
-        $this->registerHook('DisplayHome')&&
-        $this->registerHook('displayHomeRight')&&
-        $this->registerHook('DisplayTopColumn')&&
+        $this->registerHook('displayLastProduct')&&
         Configuration::updateValue('IDPRODUCT','1242')&&
         Configuration::updateValue('SELECTSTATUS',true);
     }
 
-    public function hookDisplayHomeRight($params)
-    {
-         $this->hookDisplayHome($params);
-    }
 
-    public function hookDisplayHome($params){
+    public function hookDisplayLastProduct($params){
         $idlang = $this->context->language->id;
         $nbreproduit =Configuration::get('IDPRODUCT');
         $product = new Product($nbreproduit, true, $this->context->language->id, $this->context->shop->id);
@@ -43,9 +37,7 @@ class derniersproduits extends Module{
         $smarty->assign('imgpro',$images);
         return $this->display(__FILE__, 'listproduct.tpl');
     }
-    public function hookDisplayTopColumn($params) {
-        return $this->hookDisplayHome($params);
-    }
+
 
     public function getContent(){
         $output = null;

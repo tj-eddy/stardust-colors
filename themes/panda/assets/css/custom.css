@@ -81,6 +81,8 @@
     }
 
     #reinsurance_block li {
+        float: none;
+        width: 14%;
         padding: 15px 10px !important;
         font-size: 13px;
         color: #333;
@@ -90,9 +92,6 @@
         transition: all .5s;
         -moz-transition: all .5s;
         -webkit-transition: all .5s;
-        -o-transition: all .5s;
-        width: 0 !important;
-        float: none !important;
     }
 }
 
@@ -104,6 +103,8 @@
     }
 
     #reinsurance_block li {
+        float: none;
+        width: 14%;
         padding: 15px 10px !important;
         font-size: 13px;
         color: #333;
@@ -113,9 +114,6 @@
         transition: all .5s;
         -moz-transition: all .5s;
         -webkit-transition: all .5s;
-        -o-transition: all .5s;
-        width: 0 !important;
-        float: none !important;
     }
 }
 
@@ -127,6 +125,8 @@
     }
 
     #reinsurance_block li {
+        float: none;
+        width: 14%;
         padding: 15px 10px !important;
         font-size: 13px;
         color: #333;
@@ -136,9 +136,6 @@
         transition: all .5s;
         -moz-transition: all .5s;
         -webkit-transition: all .5s;
-        -o-transition: all .5s;
-        width: 0 !important;
-        float: none !important;
 
     }
 

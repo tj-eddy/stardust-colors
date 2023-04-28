@@ -18,7 +18,7 @@
                     {if $post->post_image == ""}
                         {continue}
                     {/if}
-                    <li class="chqcategorie" style="padding: 0 50px !important;">
+                    <li class="chqcategorie">
                        {* <span class="dateclass">{$post->dateLang}</span>
 						<a href="{$post->url|escape:'htmlall':'UTF-8'}"
 						   {if $wbp_link_new_tab}target="blank"{/if}

@@ -39,7 +39,7 @@
         {if isset($custom_content) && $custom_content && $custom_content.10.width}
             {$custom_content.10.content nofilter}
         {/if}
-        <div class="col-lg-{if isset($custom_content) && $custom_content}{12-$custom_content.10.width-$custom_content.30.width}{else}12{/if} products_slider {if $display_as_grid} display_as_grid {/if}"> <!-- to do what if the sum of left and right contents larger than 12 -->
+        <div class="products_block col-lg-{if isset($custom_content) && $custom_content}{12-$custom_content.10.width-$custom_content.30.width}{else}12{/if} products_slider {if $display_as_grid} display_as_grid {/if}"> <!-- to do what if the sum of left and right contents larger than 12 -->
 
     {if $title_position!=3}
     <div class="title_block flex_container title_align_{(int)$title_position} title_style_{(int)$sttheme.heading_style} {if isset($sub_title) && $sub_title} st_has_sub_title {/if}">

@@ -91,7 +91,7 @@
         </div>
         {if $page.page_name=="index"}
             <hr>
-            <div class="col-lg-3 display_as_grid products_slider">
+            <div class="col-lg-3 display_as_grid products_slider desktop-only">
                 <div class="featured_categories_list">
                     <div style="padding-top: 5%">
                         <a class="custom-card" href="https://preproduction.stardustcolors.com/208-code-couleur-voiture" title="" style="border: 0;">

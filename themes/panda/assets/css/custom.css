@@ -227,3 +227,11 @@
     color: #48B5E0;
     font-weight: bold;
 }
+
+
+#st_mega_menu_wrap .ma_level_0{
+    max-width: 230px;
+    white-space: break-spaces;
+    height: auto;
+    line-height: 1.3;
+}

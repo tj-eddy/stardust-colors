@@ -22,7 +22,13 @@
  * @license   http://opensource.org/licenses/osl-3.0.php Open Software License (OSL 3.0)
  * International Registered Trademark & Property of PrestaShop SA
  *}
-
+{if $page.page_name=="index"}
+    <div id="wppost">
+        <div class="container">
+            {hook h="displayWBPPostsCustom"}
+        </div>
+    </div>
+{/if}
 <footer id="footer" class="footer-container">
     <div id="footer_before_container">{hook h="displayFooterBefore"}</div>
     {block name='hook_stacked_footer'}

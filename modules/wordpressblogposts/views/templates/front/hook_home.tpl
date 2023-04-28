@@ -1,7 +1,7 @@
 {if isset($wbp_posts)}
     <div id="wbpblogposts" class="blocpost">
         <div class="col-sm-12 contentblock">
-            <h1>{l s='DERNIERS ARTICLES DU BLOG' mod='wordpressblogposts'}</h1>
+            <h1 class="last_blog_title">{l s='DERNIERS ARTICLES DU BLOG' mod='wordpressblogposts'}</h1>
             <p>
                 {l s="Retrouvez nos astuces,test,tuto et conseils de pro afin d'utiliser au mieux nos produits Stardust Colors" d="Shop.Theme.Panda"}
             </p>

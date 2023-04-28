@@ -87,6 +87,9 @@
         max-width: 33.33333%;
     }
 
+    .title_block_inner{
+        font-size: 22px;
+    }
     #reinsurance_block li {
         float: none;
         width: 33%;
@@ -112,6 +115,9 @@
         max-width: 50%;
     }
 
+    .title_block_inner{
+        font-size: 22px;
+    }
     #reinsurance_block li {
         float: none;
         width: 33%;
@@ -151,6 +157,10 @@
         -moz-transition: all .5s;
         -webkit-transition: all .5s;
 
+    }
+
+    .title_block_inner{
+        font-size: 22px;
     }
 
     #reinsurance_block {

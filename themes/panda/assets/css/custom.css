@@ -87,10 +87,6 @@
         max-width: 33.33333%;
     }
 
-    .desktop-only{
-        display: none;
-    }
-
     #reinsurance_block li {
         float: none;
         width: 33%;
@@ -220,7 +216,9 @@
     #selectprod {
         display: none;
     }
-
+    .desktop-only{
+        display: none;
+    }
 
 }
 

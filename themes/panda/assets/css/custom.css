@@ -88,7 +88,7 @@
     }
 
     .title_block_inner{
-        font-size: 22px;
+        font-size: 22px !important;
     }
     #reinsurance_block li {
         float: none;
@@ -116,7 +116,7 @@
     }
 
     .title_block_inner{
-        font-size: 22px;
+        font-size: 22px !important;
     }
     #reinsurance_block li {
         float: none;
@@ -160,7 +160,7 @@
     }
 
     .title_block_inner{
-        font-size: 18px;
+        font-size: 18px !important;
     }
 
     #reinsurance_block {

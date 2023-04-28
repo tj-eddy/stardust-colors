@@ -1,0 +1,13 @@
+<?xml version="1.0" encoding="UTF-8" ?>
+<module>
+	<name>whatsappchat</name>
+	<displayName><![CDATA[WhatsApp chat - Chat en direct avec vos clients]]></displayName>
+	<version><![CDATA[1.9.9]]></version>
+	<description><![CDATA[Chattez avec vos clients gr&acirc;ce &agrave; WhatsApp, l&#039;application de messagerie le plus populaire]]></description>
+	<author><![CDATA[idnovate]]></author>
+	<tab><![CDATA[front_office_features]]></tab>
+	<confirmUninstall><![CDATA[Êtes-vous sûr de vouloir désinstaller le module?]]></confirmUninstall>
+	<is_configurable>1</is_configurable>
+	<need_instance>1</need_instance>
+	<limited_countries></limited_countries>
+</module>

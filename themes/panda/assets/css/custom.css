@@ -376,7 +376,7 @@ article{
     background-color: #48b5e0;
 }
 
-.header_right_bottom a {
+#header_right_bottom a {
     color: #fff !important;
     font-size: 12px !important;
     text-transform: capitalize !important;

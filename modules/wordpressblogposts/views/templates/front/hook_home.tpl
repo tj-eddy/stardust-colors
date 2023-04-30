@@ -15,16 +15,15 @@
             {/if}
             <ul class="featured_categories_list row">
                 {foreach from=$wbp_posts item=post name=wbp_posts}
-                    {if $post->post_image == ""}
-                        {continue}
+                    {if $post->post_image != ""}
+                        <li class="col last_blog_img">
+                            <a class="custom-card" href="{$post->url}" title="{$post->title|escape:'htmlall':'UTF-8'}" style="border: 0;">
+                                <div class="category-thumb">
+                                    <img src="{$post->post_image}" alt="{$post->title|escape:'htmlall':'UTF-8'}"  class="replace-2x img-responsive" />
+                                </div>
+                            </a>
+                        </li>
                     {/if}
-                    <li class="col last_blog_img">
-						<a class="custom-card" href="{$post->url}" title="{$post->title|escape:'htmlall':'UTF-8'}" style="border: 0;">
-							<div class="category-thumb">
-								<img src="{$post->post_image}" alt="{$post->title|escape:'htmlall':'UTF-8'}"  class="replace-2x img-responsive" />
-							</div>
-						</a>
-                    </li>
                 {/foreach}
             </ul>
         </div>

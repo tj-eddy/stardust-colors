@@ -274,3 +274,8 @@
     padding-top: 7px;
     padding-bottom: 7px;
 }
+
+#top_extra .st_mega_menu_container{
+    padding-bottom: 0 !important;
+    padding-top: 0 !important;
+}

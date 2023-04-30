@@ -375,3 +375,7 @@ article{
     border-radius: 23px;
     background-color: #48b5e0;
 }
+
+.quick_login a {
+    color: #fff !important;
+}

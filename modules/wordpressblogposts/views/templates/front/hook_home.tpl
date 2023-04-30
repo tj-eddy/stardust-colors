@@ -18,13 +18,7 @@
                     {if $post->post_image == ""}
                         {continue}
                     {/if}
-                    <li class="chqcategorie">
-                       {* <span class="dateclass">{$post->dateLang}</span>
-						<a href="{$post->url|escape:'htmlall':'UTF-8'}"
-						   {if $wbp_link_new_tab}target="blank"{/if}
-						   title="{$post->title|escape:'htmlall':'UTF-8'}"><span>></span>
-							{$post->title|escape:'htmlall':'UTF-8'}
-                        </a>*}
+                    <li class="col last_blog_img">
 						<a class="custom-card" href="{$post->url}" title="{$post->title|escape:'htmlall':'UTF-8'}" style="border: 0;">
 							<div class="category-thumb">
 								<img src="{$post->post_image}" alt="{$post->title|escape:'htmlall':'UTF-8'}"  class="replace-2x img-responsive" />

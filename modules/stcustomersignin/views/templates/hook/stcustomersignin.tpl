@@ -21,7 +21,7 @@
 		        </div>
 		    </div>
 		{else}
-			<a href="{$my_account_url}" title="{l s='View my customer account' d='Shop.Theme.Panda'}" class="my_account_link top_bar_item" rel="nofollow"><span class="header_item">{l s='My account' d='Shop.Theme.Panda'}</span></a>
+			<a href="{$my_account_url}" title="{l s='View my customer account' d='Shop.Theme.Panda'}" class="my_account_link top_bar_item" rel="nofollow"><span class="header_item"><i class="fto-user-1 mar_r4 fs_lg"></i>{l s='My account' d='Shop.Theme.Panda'}</span></a>
 		{/if}
 {else}
 		{if isset($welcome) && trim($welcome) || (isset($steasybuilder) && $steasybuilder.is_editing)}{if $welcome_link}<a href="{$welcome_link}" class="welcome top_bar_item {if isset($welcome) && !trim($welcome)} display_none {/if}" rel="nofollow" title="{$welcome}">{else}<span class="welcome top_bar_item {if isset($welcome) && !trim($welcome)} display_none {/if}">{/if}<span class="header_item">{if isset($welcome) && trim($welcome)}{$welcome}{/if}</span>{if $welcome_link}</a>{else}</span>{/if}{/if}

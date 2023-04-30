@@ -187,7 +187,7 @@
     padding-left: 0;
     position: relative;
     width: 90%;
-    /* margin-left: 86px; */
+    margin-left: 60px;
     background-color: #ffff;
     margin-top: 40px;
 }
@@ -314,4 +314,8 @@
     font: 16px "AllerDisplay-Regular";
     color: #272428;
     text-align: center;
+}
+
+.desktop-only{
+    margin-left: 58px;
 }

@@ -379,6 +379,7 @@ article{
 .quick_login a {
     color: #fff !important;
     font-size: 12px !important;
+    text-transform: capitalize !important;
 }
 
 #multilink_6{
@@ -390,4 +391,5 @@ article{
 #multilink_6 a {
     color: #fff !important;
     font-size: 12px !important;
+    text-transform: capitalize !important;
 }

@@ -21,9 +21,7 @@
 		        </div>
 		    </div>
 		{else}
-			<a href="{$my_account_url}" title="{l s='View my customer account' d='Shop.Theme.Panda'}" class="account top_bar_item" rel="nofollow"><span class="header_item">{if $show_user_info_icons}<i class="fto-user icon_btn header_v_align_m {if $show_user_info_icons!=2}fs_lg{else}fs_big{/if} mar_r4"></i>{/if}{if $show_user_info_icons!=2}<span class="header_v_align_m">{$customerName}</span>{/if}</span></a>
 			<a href="{$my_account_url}" title="{l s='View my customer account' d='Shop.Theme.Panda'}" class="my_account_link top_bar_item" rel="nofollow"><span class="header_item">{l s='My account' d='Shop.Theme.Panda'}</span></a>
-			<a class="logout top_bar_item" href="{$logout_url}" rel="nofollow" title="{l s='Log me out' d='Shop.Theme.Panda'}"><span class="header_item">{if $show_user_info_icons}<i class="fto-logout {if $show_user_info_icons!=2}fs_lg{else}fs_big{/if} mar_r4 header_v_align_m"></i>{/if}{if $show_user_info_icons!=2}<span class="header_v_align_m">{l s='Sign out' d='Shop.Theme.Panda'}</span>{/if}</span></a>
 		{/if}
 {else}
 		{if isset($welcome) && trim($welcome) || (isset($steasybuilder) && $steasybuilder.is_editing)}{if $welcome_link}<a href="{$welcome_link}" class="welcome top_bar_item {if isset($welcome) && !trim($welcome)} display_none {/if}" rel="nofollow" title="{$welcome}">{else}<span class="welcome top_bar_item {if isset($welcome) && !trim($welcome)} display_none {/if}">{/if}<span class="header_item">{if isset($welcome) && trim($welcome)}{$welcome}{/if}</span>{if $welcome_link}</a>{else}</span>{/if}{/if}

@@ -268,3 +268,9 @@
 .last_blog_title{
     font-family: "AllerDisplay-regular" !important;
 }
+
+#st_mega_menu_wrap .ma_level_0 {
+    height: 50px !important;
+    padding-top: 7px;
+    padding-bottom: 7px;
+}

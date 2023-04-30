@@ -321,8 +321,8 @@
 }
 
 .vl {
-    border-left: 1px solid gray;
-    height: 875px;
+    border-left: 1px solid #B2BEB5;
+    height: 930px;
     position: absolute;
     left: 77%;
     top: 14px;

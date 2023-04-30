@@ -90,8 +90,6 @@
             {if isset($custom_content) && $custom_content}{$custom_content.2.content nofilter}{/if}
         </div>
         {if $page.page_name=="index"}
-            <br>
-            <br>
             <div class="vl"></div>
             <div class="col-lg-3 display_as_grid products_slider desktop-only">
                 <div class="featured_categories_list">

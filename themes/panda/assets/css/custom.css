@@ -370,13 +370,13 @@ article{
     width: 126% !important;
 }
 
-.my_account_link{
+#header_right_bottom{
     border: 1px solid #48b5e0;
     border-radius: 23px;
     background-color: #48b5e0;
 }
 
-.my_account_link a {
+.my_account_link {
     color: #fff !important;
     font-size: 12px !important;
     text-transform: capitalize !important;

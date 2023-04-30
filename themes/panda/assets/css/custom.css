@@ -239,14 +239,13 @@
 }
 
 
-#st_mega_menu_wrap .ma_level_0{
+#st_mega_menu_wrap .ma_level_0 {
     white-space: break-spaces;
     height: auto;
     line-height: 1.3;
     padding-left: 5px;
     padding-right: 5px;
-    max-width: 140px;
-
+    max-width: 121px;
 }
 
 #st_header .search_widget_block {

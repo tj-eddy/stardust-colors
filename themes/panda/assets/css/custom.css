@@ -341,4 +341,8 @@ article{
 
 .blockcart {
     background: url(https://www.stardustcolors.com/themes/panda/img/bgcart.png) no-repeat;
+    position: relative;
+    margin-top: 40px;
+    min-width: 206px;
+    height: 63px;
 }

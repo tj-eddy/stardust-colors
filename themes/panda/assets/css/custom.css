@@ -332,6 +332,9 @@ article{
     border: 1px solid #B2BEB5;
 }
 
-.last_blog_img{
 
+#header_primary{
+    background: #3A3A3B url(https://www.stardustcolors.com/themes/panda/img/bgheader.png) no-repeat;
+    background-position: center bottom;
+    position: relative;
 }

@@ -344,6 +344,8 @@ article{
     position: relative;
     min-width: 206px;
     height: 63px;
+    margin-left: 27%;
+    margin-bottom: 10%;
 }
 
 .cart_text {

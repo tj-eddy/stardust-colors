@@ -279,3 +279,40 @@
     padding-bottom: 0 !important;
     padding-top: 0 !important;
 }
+
+#reinsurance_block li span {
+    padding-top: 12px;
+    display: block;
+    margin: 0 auto;
+    font: 16px "AllerDisplay-Regular";
+    color: #272428;
+    text-align: center;
+}
+
+#reinsurance_block li img {
+    float: none;
+}
+
+#reinsurance_block li {
+    float: left;
+    width: 14%;
+    padding: 15px 10px !important;
+    font-size: 13px;
+    color: #333;
+    text-transform: uppercase;
+    text-shadow: 0 1px 0 #fff;
+    text-align: center;
+    transition: all .5s;
+    -moz-transition: all .5s;
+    -webkit-transition: all .5s;
+    -o-transition: all .5s;
+}
+
+#reinsurance_block li span {
+    padding-top: 12px;
+    display: block;
+    margin: 0 auto;
+    font: 16px "AllerDisplay-Regular";
+    color: #272428;
+    text-align: center;
+}

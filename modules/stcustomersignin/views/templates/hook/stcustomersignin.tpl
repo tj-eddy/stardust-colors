@@ -64,7 +64,7 @@
 		        </div>
 		    </div>
 		{else}
-		<a class="login top_bar_item header_icon_btn_{if $show_user_info_icons==0}1{elseif $show_user_info_icons==1}2{else}{$show_user_info_icons}{/if}" href="{$my_account_url}" rel="nofollow" title="{l s='Log in to your customer account' d='Shop.Theme.Panda'}"><span class="header_item">{if $show_user_info_icons!=0}<span class="header_icon_btn_icon header_v_align_m {if $show_user_info_icons==1} mar_r4 {/if}"><i class="fto-user icon_btn {if $show_user_info_icons==1}fs_lg{else}fs_big{/if}"></i></span>{/if}{if $show_user_info_icons!=2}<span class="login_cls header_icon_btn_text header_v_align_m">{l s='Login' d='Shop.Theme.Panda'}</span>{/if}</span></a>
+		<a class="login top_bar_item header_icon_btn_{if $show_user_info_icons==0}1{elseif $show_user_info_icons==1}2{else}{$show_user_info_icons}{/if}" href="{$my_account_url}" rel="nofollow" title="{l s='Log in to your customer account' d='Shop.Theme.Panda'}"><span class="login_cls header_item">{if $show_user_info_icons!=0}<span class="header_icon_btn_icon header_v_align_m {if $show_user_info_icons==1} mar_r4 {/if}"><i class="fto-user icon_btn {if $show_user_info_icons==1}fs_lg{else}fs_big{/if}"></i></span>{/if}{if $show_user_info_icons!=2}<span class=" header_icon_btn_text header_v_align_m">{l s='Login' d='Shop.Theme.Panda'}</span>{/if}</span></a>
 		{/if}
 {/if}
 <!-- /MODULE st stcustomersignin -->

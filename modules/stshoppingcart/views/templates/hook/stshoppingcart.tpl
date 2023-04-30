@@ -26,7 +26,7 @@
       </span>
     {else}
     <div class="flex_container">
-      <div class="ajax_cart_bag mar_r4">
+      <div class="ajax_cart_bag mar_r4 d-none">
         {if $block_cart_info&4}<span class="ajax_cart_quantity amount_circle {if $cart.products_count > 9} dozens {/if}">{$cart.products_count}</span>{/if}
         <span class="ajax_cart_bg_handle"></span>
       </div>

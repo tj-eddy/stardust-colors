@@ -226,7 +226,7 @@
     #selectprod {
         display: none;
     }
-    .desktop-only{
+    .desktop-only , .vl {
         display: none;
     }
 

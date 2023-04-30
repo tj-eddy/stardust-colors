@@ -338,3 +338,7 @@ article{
 #st_header .shop_logo{
     width: 241px !important;
 }
+
+.blockcart {
+    background: url(https://www.stardustcolors.com/themes/panda/img/bgcart.png) no-repeat;
+}

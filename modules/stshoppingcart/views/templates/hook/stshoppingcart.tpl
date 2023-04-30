@@ -6,8 +6,10 @@
       <span class="cart_text mar_r4">{l s='Shopping cart' d='Shop.Theme.Panda'}</span>
       {/if}
       {if $block_cart_info&2}
-      <span class="ajax_cart_quantity mar_r4">{$cart.products_count}</span>
-      <span class="ajax_cart_product_txt mar_r4">{l s='item(s)' d='Shop.Theme.Panda'}</span>
+      <span class="item_cart">
+          <span class="ajax_cart_quantity mar_r4">{$cart.products_count}</span>
+          <span class="ajax_cart_product_txt mar_r4">{l s='item(s)' d='Shop.Theme.Panda'}</span>
+      </span>
       {/if}
       {if ($block_cart_info&1 || $block_cart_info&2 ) && $block_cart_info&8}
       <span class="ajax_cart_split mar_r4">{l s='-' d='Shop.Theme.Panda'}</span>

@@ -5,7 +5,6 @@
             <p>
                 {l s="Retrouvez nos astuces,test,tuto et conseils de pro afin d'utiliser au mieux nos produits Stardust Colors" d="Shop.Theme.Panda"}
             </p>
-            <img src="{$modules_dir}wordpressblogposts/img/femmes.png" alt=""/>
             {assign "col_size_md" "6"}
             {if $wbp_posts|@count lte 2}
                 {assign "col_size_md" "6"}

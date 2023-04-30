@@ -378,4 +378,16 @@ article{
 
 .quick_login a {
     color: #fff !important;
+    font-size: 12px !important;
+}
+
+#multilink{
+    border: 1px solid #48b5e0;
+    border-radius: 23px;
+    background-color: #48b5e0;
+}
+
+#multilink_6 a {
+    color: #fff !important;
+    font-size: 12px !important;
 }

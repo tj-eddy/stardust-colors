@@ -352,5 +352,10 @@ article{
     font: 15px "AllerDisplay-Regular";
     color: #412bad;
     text-transform: uppercase;
-    padding-left: 62px;
+    padding-left: 52px;
+}
+
+.position_cart{
+    flex-wrap: wrap;
+    padding-top: 10px;
 }

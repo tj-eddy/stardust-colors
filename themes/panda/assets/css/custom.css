@@ -346,3 +346,10 @@ article{
     min-width: 206px;
     height: 63px;
 }
+
+.cart_texttitle {
+    font: 15px "AllerDisplay-Regular";
+    color: #412bad;
+    text-transform: uppercase;
+    padding-left: 62px;
+}

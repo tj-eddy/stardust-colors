@@ -369,3 +369,9 @@ article{
 #steasy_column_23{
     width: 126% !important;
 }
+
+.quick_login{
+    border: 1px solid #48b5e0;
+    border-radius: 23px;
+    background-color: #48b5e0;
+}

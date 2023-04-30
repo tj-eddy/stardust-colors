@@ -319,3 +319,11 @@
 .desktop-only{
     margin-left: 58px;
 }
+
+.vl {
+    border-left: 1px solid gray;
+    height: 875px;
+    position: absolute;
+    left: 77%;
+    top: 14px;
+}

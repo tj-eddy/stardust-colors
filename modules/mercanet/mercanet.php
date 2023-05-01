@@ -1667,7 +1667,6 @@ class Mercanet extends PaymentModule
         $this->smarty->assign('module_dir', $this->_path);
 
         // Template to display payment
-dump(Configuration::updateValue('MERCANET_CARD_DISPLAY_METHOD',"DIRECT_MERCANET"));
 
         switch (Configuration::get('MERCANET_CARD_DISPLAY_METHOD')) {
             default:

@@ -1608,38 +1608,7 @@ class Mercanet extends PaymentModule
             return true;
         }
 
-        // Check if payment recurring is active
-        $payment_recurring = false;
-        if ($this->canDisplayPaymentRecurring()) {
-            $payment_recurring = true;
 
-            $mercanet_recurring_name = Configuration::get('MERCANET_RECURRING_NAME', $this->context->cart->id_lang);
-
-            $this->smarty->assign(
-                array(
-                    'recurring' => true,
-                    'recurring_payment_name' => (!empty($mercanet_recurring_name)) ? Configuration::get(
-                        'MERCANET_RECURRING_NAME',
-                        $this->context->cart->id_lang
-                    ) : Configuration::get('MERCANET_RECURRING_NAME', Configuration::get('PS_LANG_DEFAULT')),
-                )
-            );
-        }
-
-        // Check if simple payment can be display
-        if ($this->canDisplayOneTimePayment() && $payment_recurring == false) {
-            $mercanet_one_time_name = Configuration::get('MERCANET_ONE_TIME_NAME', $this->context->cart->id_lang);
-
-            $this->smarty->assign(
-                array(
-                    'one_time' => true,
-                    'one_time_payment_name' => (!empty($mercanet_one_time_name)) ? Configuration::get(
-                        'MERCANET_ONE_TIME_NAME',
-                        $this->context->cart->id_lang
-                    ) : Configuration::get('MERCANET_ONE_TIME_NAME', Configuration::get('PS_LANG_DEFAULT')),
-                )
-            );
-        }
 
         // NX PAYMENT
         if ($this->canDisplayNxTimePayment() && $payment_recurring == false) {
@@ -1670,7 +1639,6 @@ class Mercanet extends PaymentModule
         // Template to display payment
 
 
-        dump(Configuration::get('MERCANET_CARD_DISPLAY_METHOD'));die;
         switch (Configuration::get('MERCANET_CARD_DISPLAY_METHOD')) {
             default:
             case 'DIRECT_MERCANET':

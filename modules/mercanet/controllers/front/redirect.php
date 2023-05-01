@@ -25,7 +25,7 @@ class MercanetRedirectModuleFrontController extends ModuleFrontController
         parent::initContent();
 
         // Recheck before sending the request to BNP
-        if (!$this->module->canDisplayPayment()) {
+        if ($this->module->canDisplayPayment()) {
             return $this->displayError('None card has been selected, please return to the payment choice and choose one');
         }
 

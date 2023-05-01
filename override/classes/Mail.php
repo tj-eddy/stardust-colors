@@ -42,41 +42,43 @@ class Mail extends MailCore
     * version: 1.6.12
     */
     public static function Send(
-        $id_lang,
+        $idLang,
         $template,
         $subject,
-        $template_vars,
+        $templateVars,
         $to,
-        $to_name = null,
+        $toName = null,
         $from = null,
-        $from_name = null,
-        $file_attachment = null,
+        $fromName = null,
+        $fileAttachment = null,
         $mode_smtp = null,
-        $template_path = _PS_MAIL_DIR_,
+        $templatePath = _PS_MAIL_DIR_,
         $die = false,
-        $id_shop = null,
+        $idShop = null,
         $bcc = null,
-        $reply_to = null
+        $replyTo = null,
+        $replyToName = null
     ) {
         if (isset($template_vars['mercanet_order_recurring']) && $template_vars['mercanet_order_recurring'] == true && $template == 'order_conf') {
             return true;
         }
         return parent::Send(
-            $id_lang,
+            $idLang,
             $template,
             $subject,
-            $template_vars,
+            $templateVars,
             $to,
-            $to_name,
-            $from,
-            $from_name,
-            $file_attachment,
+            $toName ,
+            $from ,
+            $fromName ,
+            $fileAttachment,
             $mode_smtp,
-            $template_path,
-            $die,
-            $id_shop,
-            $bcc,
-            $reply_to
+            $templatePath,
+            $die ,
+            $idShop ,
+            $bcc ,
+            $replyTo,
+            $replyToName
         );
     }
 }

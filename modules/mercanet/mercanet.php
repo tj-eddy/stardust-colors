@@ -1603,9 +1603,10 @@ class Mercanet extends PaymentModule
      */
     public function hookPaymentOptions($params)
     {
+        die('mandalo');
         // Check if a payment can be display
         if (!$this->canDisplayPayment()) {
-            return true;
+            return false;
         }
 
         // Check if payment recurring is active

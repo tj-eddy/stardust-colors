@@ -1671,7 +1671,6 @@ class Mercanet extends PaymentModule
         switch (Configuration::get('MERCANET_CARD_DISPLAY_METHOD')) {
             default:
             case 'DIRECT_MERCANET':
-                die('direct');
                 $template = 'direct-payment.tpl';
                 break;
 
@@ -1726,7 +1725,7 @@ class Mercanet extends PaymentModule
                 break;
         }
 
-        return $this->display(__FILE__, $template);
+        return $this->display(__FILE__,'views/templates/hook/'.$template);
     }
 
     /**

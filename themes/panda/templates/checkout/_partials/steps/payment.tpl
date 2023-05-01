@@ -21,7 +21,7 @@
       {foreach from=$module_options item="option"}
           <div
                   id="{$option.id}-additional-information"
-                  class="js-additional-information definition-list additional-information"
+                  class=""
           >
               {$option.additionalInformation nofilter}
           </div>

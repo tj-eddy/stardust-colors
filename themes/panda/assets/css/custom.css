@@ -428,3 +428,6 @@ article {
     text-transform: lowercase;
 }
 
+.mobile_logo{
+    padding-right: 20% !important;
+}

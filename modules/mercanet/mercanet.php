@@ -1665,7 +1665,7 @@ class Mercanet extends PaymentModule
         }
         //dump(Configuration::get('MERCANET_CARD_DISPLAY_METHOD'));die;
         $this->smarty->assign('module_dir', $this->_path);
-
+dump($this->_path);die;
         // Template to display payment
 
 

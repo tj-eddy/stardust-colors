@@ -14,13 +14,9 @@
 				</div>
 				<div class="clear"></div>
 				<div class="priceprod">
-					{if $priceDisplay >= 0 && $priceDisplay <= 2}
 					<span class="prixnormale">{Tools::displayPrice($oproduits->getPrice(true, $smarty.const.NULL, 2))}</span>
 					{if $oproduits->getPriceWithoutReduct() > 0 && isset($oproduits->specificPrice) && $oproduits->specificPrice && isset($oproduits->specificPrice.reduction) && $oproduits->specificPrice.reduction > 0}
-					<span class="prixreduc">
-							{Tools::displayPrice($oproduits->getPriceWithoutReduct())}
-						{/if}
-						{/if}
+					<span class="prixreduc">{Tools::displayPrice($oproduits->getPriceWithoutReduct())}{/if}
 				</div>
 			</div>
 			<div class="imagesprod col-6">

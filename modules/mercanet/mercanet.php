@@ -1603,7 +1603,6 @@ class Mercanet extends PaymentModule
      */
     public function hookPaymentOptions($params)
     {
-dump($this->canDisplayPayment());die;
         // Check if a payment can be display
         if (!$this->canDisplayPayment()) {
             return false;
@@ -1889,7 +1888,10 @@ dump($this->canDisplayPayment());die;
         if (!Configuration::get('MERCANET_ACTIVATION_KEY') || !Configuration::get('MERCANET_MERCHANT_ID') || !Configuration::get('MERCANET_SECRET_KEY') || !Configuration::get('MERCANET_KEY_VERSION')) {
             return false;
         }
-
+dump(Configuration::get('MERCANET_SECRET_KEY'));
+dump(Configuration::get('MERCANET_KEY_VERSION'));
+dump(Configuration::get('MERCANET_MERCHANT_ID'));
+dump(Configuration::get('MERCANET_ACTIVATION_KEY'));die;
         // Check if EURO is configured
         if (!Currency::getIdByNumericIsoCode((int)Configuration::get('MERCANET_EURO_ISO_CODE_NUM'))) {
             return false;

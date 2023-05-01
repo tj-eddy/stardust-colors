@@ -393,5 +393,14 @@ article{
 
 
 .ma_level_0.is_parent:after, .mv_item.is_parent:after{
-    content: none !important;
+    bottom: 0;
+    content: "\e816" !important;
+    font-size: 17px;
+    height: 5px;
+    left: 40%;
+    line-height: 5px !important;
+    opacity: 1 !important;
+    overflow: hidden;
+    position: absolute !important;
+    top: auto !important;
 }

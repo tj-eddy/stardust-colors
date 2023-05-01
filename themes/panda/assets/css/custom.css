@@ -423,3 +423,7 @@ article {
 .detail h6 {
     text-transform: uppercase;
 }
+
+.ajax_cart_product_txt{
+    text-transform: lowercase;
+}

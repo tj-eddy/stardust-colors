@@ -29,7 +29,7 @@
         <div class="col-xs-12 col-md-12">
             <p class="payment_module" id="mercanet_payment_button">
                 <a href="{$link->getModuleLink('mercanet', 'redirect', ['one_time' => true], true)|escape:'htmlall':'UTF-8'}" title="{$one_time_payment_name|escape:'htmlall':'UTF-8'}">
-                    <img src="{$urls.img_url}paiement-mercanet.png" alt="{$one_time_payment_name|escape:'htmlall':'UTF-8'}" width="57" height="57" />
+                    <img src="{$urls.img_url}paiement-mercanet.png" alt="{$one_time_payment_name|escape:'htmlall':'UTF-8'}" width="250" />
                 </a>
             </p>
         </div>

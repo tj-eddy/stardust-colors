@@ -1603,7 +1603,6 @@ class Mercanet extends PaymentModule
      */
     public function hookPaymentOptions($params)
     {
-        die('mandalo');
         // Check if a payment can be display
         if (!$this->canDisplayPayment()) {
             return false;
@@ -1680,7 +1679,7 @@ class Mercanet extends PaymentModule
                 $cart_euro_amount = MercanetApi::getConvertedAmount(
                     (float)$this->context->cart->getOrderTotal(),
                     new Currency((int)$this->context->cart->id_currency),
-                    new Currency((int)Currency::getIdByIsoCode((int)Configuration::get('MERCANET_EURO_ISO_CODE_NUM')))
+                    new Currency((int)Currency::getIdByNumericIsoCode((int)Configuration::get('MERCANET_EURO_ISO_CODE_NUM')))
                 );
 
                 if (Configuration::get('MERCANET_CARD_ALLOWED') == 'ALL') {
@@ -1890,7 +1889,7 @@ class Mercanet extends PaymentModule
         }
 
         // Check if EURO is configured
-        if (!Currency::getIdByIsoCodeNum((int)Configuration::get('MERCANET_EURO_ISO_CODE_NUM'))) {
+        if (!Currency::getIdByNumericIsoCode((int)Configuration::get('MERCANET_EURO_ISO_CODE_NUM'))) {
             return false;
         }
 

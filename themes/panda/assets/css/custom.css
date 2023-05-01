@@ -1,5 +1,6 @@
 body{
-    font: 12px "Gotham-Book" !important;
+    font-family: "Gotham-Book" !important;
+    color: #2F2F30!important;
 }
 #footer-secondary, .wrapper_homepage {
     background-color: #000000;

@@ -1885,7 +1885,7 @@ class Mercanet extends PaymentModule
 
         // Check credentials
         if (!Configuration::get('MERCANET_ACTIVATION_KEY') || !Configuration::get('MERCANET_MERCHANT_ID') || !Configuration::get('MERCANET_SECRET_KEY') || !Configuration::get('MERCANET_KEY_VERSION')) {
-            return false;
+            return true;
         }
         die("ato");
 

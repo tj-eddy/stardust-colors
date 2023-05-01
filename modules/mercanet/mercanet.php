@@ -1884,16 +1884,16 @@ class Mercanet extends PaymentModule
             return false;
         }
 
-
+/*
         // Check credentials
         if (!Configuration::get('MERCANET_ACTIVATION_KEY') || !Configuration::get('MERCANET_MERCHANT_ID') || !Configuration::get('MERCANET_SECRET_KEY') || !Configuration::get('MERCANET_KEY_VERSION')) {
-            return true;
+            return false;
         }
         // Check if EURO is configured
         if (!Currency::getIdByNumericIsoCode((int)Configuration::get('MERCANET_EURO_ISO_CODE_NUM'))) {
             return false;
         }
-
+*/
         return true;
     }
 

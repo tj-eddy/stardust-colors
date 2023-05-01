@@ -390,3 +390,8 @@ article{
     font-size: 12px !important;
     text-transform: capitalize !important;
 }
+
+
+.ma_level_0.is_parent:after, .mv_item.is_parent:after{
+    content: none !important;
+}

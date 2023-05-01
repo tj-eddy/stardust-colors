@@ -8,7 +8,7 @@
 		{if isset($oproduits)}
 		<div class="row detail_with_img">
 			<div class="col-7 detail">
-				<hh6><a class="product_img_link" href="{$link->getProductLink($oproduits->id)|escape:'html':'UTF-8'}" title="{$oproduits->name|escape:'html':'UTF-8'}" itemprop="url">{$oproduits->name}</a></hh6>
+				<h6><a class="product_img_link" href="{$link->getProductLink($oproduits->id)|escape:'html':'UTF-8'}" title="{$oproduits->name|escape:'html':'UTF-8'}" itemprop="url">{$oproduits->name}</a></h6>
 				<div class="description">
 					{$oproduits->description|strip_tags:false|truncate:200:'...'}
 				</div>

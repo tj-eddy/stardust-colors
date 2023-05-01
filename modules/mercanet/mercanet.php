@@ -1729,7 +1729,7 @@ class Mercanet extends PaymentModule
 
         $newOption = new PaymentOption();
         $newOption->setModuleName($this->name)
-            ->setAdditionalInformation($this->fetch('module:mercanet/views/templates/front/direct-payment.tpl'));
+            ->setAdditionalInformation($this->fetch('module:mercanet/views/templates/hook/direct-payment.tpl'));
 
 
         return [$newOption];

@@ -1724,7 +1724,7 @@ class Mercanet extends PaymentModule
                 $template = 'iframe.tpl';
                 break;
         }
-dump($this->display(__FILE__, $template));
+
         return $this->display(__FILE__, $template);
     }
 

@@ -221,7 +221,7 @@ class Mercanet extends PaymentModule
         Configuration::updateGlobalValue('MERCANET_TEST_ACCOUNT', '211000021310001');
         Configuration::updateGlobalValue('MERCANET_TEST_KEY_SECRET', 'S9i8qClCnb2CZU3y3Vn0toIOgz3z_aBi79akR30vM9o');
         Configuration::updateGlobalValue('MERCANET_TEST_KEY_VERSION', '1');
-        
+
 
         // default value
         if (!Configuration::get('MERCANET_MERCHANT_ID')) {
@@ -236,7 +236,7 @@ class Mercanet extends PaymentModule
         if (!Configuration::get('MERCANET_COUNTRIES_LIST')) {
             Configuration::updateGlobalValue('MERCANET_COUNTRIES_LIST', 'ALL');
         }
-        
+
         Configuration::updateGlobalValue('MERCANET_PAYMENT_PAGE_URL', 'https://payment-webinit.mercanet.bnpparibas.net/paymentInit');
         Configuration::updateGlobalValue('MERCANET_TEST_PAYMENT_PAGE_URL', 'https://payment-webinit-mercanet.test.sips-services.com/paymentInit');
         Configuration::updateGlobalValue('MERCANET_DEFAULT_LANG', (!empty($id_lang_fr)) ? Language::getIdByIso('fr') : Configuration::get('PS_LANG_DEFAULT'));
@@ -924,7 +924,7 @@ class Mercanet extends PaymentModule
                 )
             ),
         );
-        
+
         // Activate the access log
         $form['input'][] = array(
             'tab' => 'general',
@@ -947,7 +947,7 @@ class Mercanet extends PaymentModule
                 )
             ),
         );
-        
+
         // 3DSecure
         if ($this->isFeatureActivated('3DS')) {
             // Title 3DS
@@ -1555,7 +1555,7 @@ class Mercanet extends PaymentModule
                 }
             }
 
-             
+
             switch ($tab) {
                 case 'payment_one_time':
                     $tab = 'One-Time Payment';
@@ -1603,7 +1603,7 @@ class Mercanet extends PaymentModule
      */
     public function hookPaymentOptions($params)
     {
-
+dump($this->canDisplayPayment());die;
         // Check if a payment can be display
         if (!$this->canDisplayPayment()) {
             return false;

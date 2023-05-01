@@ -14,6 +14,8 @@
  *  @license   http://opensource.org/licenses/afl-3.0.php  Academic Free License (AFL 3.0)
  */
 
+use PrestaShop\PrestaShop\Core\Payment\PaymentOption;
+
 if (!defined('_PS_VERSION_')) {
     exit;
 }
@@ -1725,7 +1727,14 @@ class Mercanet extends PaymentModule
                 break;
         }
 
-        return $this->display(__FILE__, $template);
+        $newOption = new PaymentOption();
+        $newOption->setModuleName($this->name)
+            ->setCallToActionText($this->trans('Mecarnet', [], 'Modules.Checkpayment.Admin'))
+            ->setAction($this->context->link->getModuleLink($this->name, 'validation', [], true))
+            ->setAdditionalInformation($this->fetch('module:mercanet/views/templates/front/direct-payment.tpl'));
+
+
+        return [$newOption];
     }
 
     /**

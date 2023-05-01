@@ -21,7 +21,7 @@
       {foreach from=$module_options item="option"}
           <div
                   id="{$option.id}-additional-information"
-                  class="js-additional-information definition-list additional-information{if $option.id != $selected_payment_option} ps-hidden {/if}"
+                  class="js-additional-information definition-list additional-information"
           >
               {$option.additionalInformation nofilter}
           </div>

@@ -102,8 +102,7 @@ body{
     }
 
     #reinsurance_block li {
-        float: none;
-        width: 33%;
+        width: 100%;
         padding: 15px 10px !important;
         font-size: 13px;
         color: #333;
@@ -132,8 +131,7 @@ body{
     }
 
     #reinsurance_block li {
-        float: none;
-        width: 33%;
+        width: 100%;
         padding: 15px 10px !important;
         font-size: 13px;
         color: #333;
@@ -158,8 +156,7 @@ body{
     }
 
     #reinsurance_block li {
-        float: none;
-        width: 33%;
+        width: 100%;
         padding: 15px 10px !important;
         font-size: 13px;
         color: #333;

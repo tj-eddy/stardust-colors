@@ -210,7 +210,7 @@
     padding: 10px;
     color: #fff;
     text-transform: uppercase;
-    font-weight: bold;
+    font:18px 'AllerDisplay-regular'
 }
 
 .detail_with_img {

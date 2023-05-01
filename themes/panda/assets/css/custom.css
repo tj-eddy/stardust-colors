@@ -202,7 +202,7 @@ body{
 .product-selection {
     box-shadow: 0 0 5px #706f6f;
     overflow: hidden;
-    height: 242px;
+    height: 320px;
     position: relative;
 }
 
@@ -424,6 +424,10 @@ article {
 
 .detail h6 {
     text-transform: uppercase;
+}
+
+.detail{
+    font-size: 13px;
 }
 
 .ajax_cart_product_txt{

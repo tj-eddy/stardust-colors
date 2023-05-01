@@ -275,6 +275,14 @@
     padding-top: 0 !important;
 }
 
+
+.st_mega_menu_container{
+    background: #6d2bc3 url(https://stardusthost.stardustcolors.com/themes/panda/assets/img/bgmenu.png) repeat-x !important;
+    background-position: center;
+    height: 50px;
+}
+
+
 #reinsurance_block li span {
     padding-top: 12px;
     display: block;

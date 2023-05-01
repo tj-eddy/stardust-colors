@@ -1663,7 +1663,7 @@ class Mercanet extends PaymentModule
                 );
             }
         }
-        dump(Configuration::get('MERCANET_CARD_DISPLAY_METHOD'));die;
+        //dump(Configuration::get('MERCANET_CARD_DISPLAY_METHOD'));die;
         $this->smarty->assign('module_dir', $this->_path);
 
         // Template to display payment

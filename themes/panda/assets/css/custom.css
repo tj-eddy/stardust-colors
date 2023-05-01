@@ -1,3 +1,6 @@
+body{
+    font: 12px "Gotham-Book" !important;
+}
 #footer-secondary, .wrapper_homepage {
     background-color: #000000;
 }
@@ -427,3 +430,4 @@ article {
 .ajax_cart_product_txt{
     text-transform: lowercase;
 }
+

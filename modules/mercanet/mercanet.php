@@ -1606,9 +1606,9 @@ class Mercanet extends PaymentModule
     public function hookPaymentOptions($params)
     {
         // Check if a payment can be display
-        /*if (!$this->canDisplayPayment()) {
+        if (!$this->canDisplayPayment()) {
              return false;
-        }*/
+        }
         // Check if payment recurring is active
         $payment_recurring = false;
         if ($this->canDisplayPaymentRecurring()) {

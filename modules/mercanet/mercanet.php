@@ -1608,7 +1608,7 @@ class Mercanet extends PaymentModule
             // return false
             return true;
         }
-
+        dump("test");die;
         // Check if payment recurring is active
         $payment_recurring = false;
         if (!$this->canDisplayPaymentRecurring()) {
@@ -1625,7 +1625,7 @@ class Mercanet extends PaymentModule
                 )
             );
         }
-dump("test");die;
+
         // Check if simple payment can be display
         if ($this->canDisplayOneTimePayment() && $payment_recurring == false) {
             $mercanet_one_time_name = Configuration::get('MERCANET_ONE_TIME_NAME', $this->context->cart->id_lang);

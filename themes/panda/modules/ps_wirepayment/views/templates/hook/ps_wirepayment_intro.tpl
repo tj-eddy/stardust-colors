@@ -16,13 +16,11 @@
  * @license   https://opensource.org/licenses/AFL-3.0 Academic Free License 3.0 (AFL-3.0)
  * International Registered Trademark & Property of PrestaShop SA
  *}
-{dump($urls)}
 <div class="row">
     <div class="col-xs-12 col-md-12">
         <p class="payment_module" id="mercanet_payment_button">
-            <a href="{$link->getModuleLink('ps_wirepayment', 'validation',[], true)}" title="{$one_time_payment_name|escape:'htmlall':'UTF-8'}">
-                <img src="{$urls}/logo.png" alt="" width="57" height="57" />
-                {l s='Wirepayement' d='Modules.Wirepayment.Shop'}
+            <a href="{$link->getModuleLink('ps_wirepayment', 'validation',[], true)}" title="">
+                <img src="{$urls.img_url}paiement-virementbancaire.jpg" alt="{l s='Wirepayement' d='Modules.Wirepayment.Shop'}"/>
             </a>
         </p>
     </div>

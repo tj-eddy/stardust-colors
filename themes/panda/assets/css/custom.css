@@ -432,3 +432,6 @@ article {
     text-transform: lowercase;
 }
 
+.swiper-slide{
+    width: auto !important;
+}

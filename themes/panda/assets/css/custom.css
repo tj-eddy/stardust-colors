@@ -433,5 +433,5 @@ article {
 }
 
 .swiper-slide{
-    width: auto !important;
+    width: inherit !important
 }

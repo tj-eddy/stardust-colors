@@ -22,7 +22,7 @@
         <div>
           <div id="{$option.id}-container" class="payment-option clearfix">
             {* This is the way an option should be selected when Javascript is enabled *}
-            <span class="custom-radio float-xs-left">
+            {*<span class="custom-radio float-xs-left">
               <input
                 class="ps-shown-by-js {if $option.binary} binary {/if}"
                 id="{$option.id}"
@@ -35,7 +35,7 @@
               <span></span>
             </span>
             {* This is the way an option should be selected when Javascript is disabled *}
-            <form method="GET" class="ps-hidden-by-js">
+           {* <form method="GET" class="ps-hidden-by-js">
               {if $option.id === $selected_payment_option}
                 {l s='Selected' d='Shop.Theme.Checkout'}
               {else}
@@ -50,7 +50,7 @@
               {if $option.logo}
                 <img src="{$option.logo}" alt="{$option.call_to_action_text}" />
               {/if}
-            </label>
+            </label>*}
 
           </div>
         </div>

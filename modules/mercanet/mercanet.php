@@ -1610,9 +1610,9 @@ class Mercanet extends PaymentModule
 
         // Check if payment recurring is active
         $payment_recurring = false;
-        if ($this->canDisplayPaymentRecurring()) {
+        if (!$this->canDisplayPaymentRecurring()) {
             $payment_recurring = true;
-
+            die("rec");
             $mercanet_recurring_name = Configuration::get('MERCANET_RECURRING_NAME', $this->context->cart->id_lang);
 
             $this->smarty->assign(

@@ -47,7 +47,7 @@ class BlockWishlistListsModuleFrontController extends ModuleFrontController
           ]
       );
 
-        $this->setTemplate('module:blockwishlist/views/templates/pages/lists.tpl');
+        $this->setTemplate('module:blockwishlist/views/templates/pages/lists.tplc');
     }
 
     public function getBreadcrumbLinks()

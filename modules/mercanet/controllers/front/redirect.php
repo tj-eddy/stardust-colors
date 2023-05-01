@@ -147,7 +147,7 @@ class MercanetRedirectModuleFrontController extends ModuleFrontController
                 'module_display_name' => $this->module->displayName,
             ));
                
-            return $this->setTemplate('redirect.tpl');
+            return $this->setTemplate('module:mercanet/views/templates/front/redirect.tpl');
         }
     }
 

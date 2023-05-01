@@ -1622,8 +1622,7 @@ class Mercanet extends PaymentModule
                     ) : Configuration::get('MERCANET_RECURRING_NAME', Configuration::get('PS_LANG_DEFAULT')),
                 )
             );
-        }        dump("test");die;
-
+        }
 
         // Check if simple payment can be display
         if ($this->canDisplayOneTimePayment() && $payment_recurring == false) {
@@ -1638,7 +1637,8 @@ class Mercanet extends PaymentModule
                     ) : Configuration::get('MERCANET_ONE_TIME_NAME', Configuration::get('PS_LANG_DEFAULT')),
                 )
             );
-        }
+        } dump("test1");die;
+
 
         // NX PAYMENT
         if ($this->canDisplayNxTimePayment() && $payment_recurring == false) {

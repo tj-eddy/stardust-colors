@@ -402,7 +402,7 @@ article {
     text-transform: capitalize !important;
 }
 
-
+/*
 .ma_level_0.is_parent:after, .mv_item.is_parent:after {
     bottom: 0;
     content: "\e816" !important;
@@ -415,7 +415,7 @@ article {
     position: absolute !important;
     top: 92% !important;
 }
-
+*/
 .detail h6 {
     text-transform: uppercase;
 }

@@ -19,31 +19,6 @@
   <div class="payment-options {if isset($is_free) && $is_free}hidden-xs-up{/if}">
     {foreach from=$payment_options item="module_options"}
       {foreach from=$module_options item="option"}
-        <div>
-          <div id="{$option.id}-container" class="payment-option clearfix">
-            {* This is the way an option should be selected when Javascript is enabled *}
-
-            {* This is the way an option should be selected when Javascript is disabled *}
-            <form method="GET" class="ps-hidden-by-js">
-              {if $option.id === $selected_payment_option}
-                {l s='Selected' d='Shop.Theme.Checkout'}
-              {else}
-                <button class="ps-hidden-by-js" type="submit" name="select_payment_option" value="{$option.id}">
-                  {l s='Choose' d='Shop.Theme.Actions'}
-                </button>
-              {/if}
-            </form>
-
-            <label for="{$option.id}">
-              <span>{$option.call_to_action_text}</span>
-              {if $option.logo}
-                <img src="{$option.logo}" alt="{$option.call_to_action_text}" />
-              {/if}
-            </label>
-
-          </div>
-        </div>
-
         {if $option.additionalInformation}
           <div
             id="{$option.id}-additional-information"

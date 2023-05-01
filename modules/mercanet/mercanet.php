@@ -1637,7 +1637,7 @@ class Mercanet extends PaymentModule
                     ) : Configuration::get('MERCANET_ONE_TIME_NAME', Configuration::get('PS_LANG_DEFAULT')),
                 )
             );
-        } dump("test1");die;
+        }
 
 
         // NX PAYMENT
@@ -1663,7 +1663,7 @@ class Mercanet extends PaymentModule
                 );
             }
         }
-
+        dump("test2");die;
         $this->smarty->assign('module_dir', $this->_path);
 
         // Template to display payment

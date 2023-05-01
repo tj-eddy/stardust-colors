@@ -114,9 +114,6 @@ body{
         -webkit-transition: all .5s;
     }
 
-    #reinsurance_block {
-        padding-left: 35%;
-    }
 }
 
 @media (min-width: 481px) and (max-width: 575px) {
@@ -143,9 +140,6 @@ body{
         -webkit-transition: all .5s;
     }
 
-    #reinsurance_block {
-        padding-left: 35%;
-    }
 }
 
 @media (max-width: 480px) {
@@ -173,9 +167,6 @@ body{
         font-size: 18px !important;
     }
 
-    #reinsurance_block {
-        padding-left: 35%;
-    }
 
     .custom-card .category-name {
         min-height: auto;

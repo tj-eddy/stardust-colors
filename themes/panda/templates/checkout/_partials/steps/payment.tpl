@@ -19,9 +19,9 @@
   <div class="payment-options {if isset($is_free) && $is_free}hidden-xs-up{/if}">
     {foreach from=$payment_options item="module_options"}
       {foreach from=$module_options item="option"}
-        <div>
-          <div id="{$option.id}-container" class="payment-option clearfix">
-            {* This is the way an option should be selected when Javascript is enabled *}
+          {*<div>
+            <div id="{$option.id}-container" class="payment-option clearfix">
+               This is the way an option should be selected when Javascript is enabled *}
             {*<span class="custom-radio float-xs-left">
               <input
                 class="ps-shown-by-js {if $option.binary} binary {/if}"
@@ -50,10 +50,10 @@
               {if $option.logo}
                 <img src="{$option.logo}" alt="{$option.call_to_action_text}" />
               {/if}
-            </label>*}
+            </label>
 
           </div>
-        </div>
+        </div>*}
 
         {if $option.additionalInformation}
           <div

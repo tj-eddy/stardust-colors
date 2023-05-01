@@ -84,6 +84,12 @@ body{
     }
 }
 
+@media (min-width:801px){
+    .swiper-slide{
+        width: 769px !important
+    }
+}
+
 @media (min-width: 576px) and (max-width: 767px) {
     .products_block .featured_categories_list .chqcategorie {
         -ms-flex: 0 0 33.33333%;
@@ -434,6 +440,3 @@ article {
     text-transform: lowercase;
 }
 
-.swiper-slide{
-    width: 769px !important
-}

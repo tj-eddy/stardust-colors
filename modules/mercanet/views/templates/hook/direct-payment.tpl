@@ -23,7 +23,6 @@
 *
 *}
 
-{dump('method')}
 {* ONE TIME PAYMENT *}
 {if isset($one_time) && $one_time == true}
     <div class="row">

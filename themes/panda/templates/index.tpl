@@ -46,10 +46,10 @@
 
           {if $smarty.capture.displayHomeRight || $smarty.capture.displayHomeLeft}
             <div id="home_secondary_row" class="row">
-              <div id="home_secondary_left" class="col-lg-6">
+              <div id="home_secondary_left" class="col-lg-8">
                 {$smarty.capture.displayHomeLeft nofilter}
               </div>
-              <div id="home_secondary_right" class="col-lg-6">
+              <div id="home_secondary_right" class="col-lg-4">
                 {if $page.page_name=="index"}
                     {hook h="displayLastProduct"}
                 {else}

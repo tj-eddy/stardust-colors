@@ -2001,7 +2001,7 @@ class Mercanet extends PaymentModule
         $euro_amount = MercanetApi::getConvertedAmount(
             (float)$this->context->cart->getOrderTotal(),
             new Currency((int)$this->context->cart->id_currency),
-            new Currency((int)Currency::getIdByIsoCodeNum((int)Configuration::get('MERCANET_EURO_ISO_CODE_NUM')))
+            new Currency((int)Currency::getIdByNumericIsoCode((int)Configuration::get('MERCANET_EURO_ISO_CODE_NUM')))
         );
 
         // Check if NX Payment can be display in amount range minimum amount

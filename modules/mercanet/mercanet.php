@@ -1603,7 +1603,7 @@ class Mercanet extends PaymentModule
      */
     public function hookPaymentOptions($params)
     {
-        /*
+
         // Check if a payment can be display
         if (!$this->canDisplayPayment()) {
             return false;
@@ -1666,7 +1666,7 @@ class Mercanet extends PaymentModule
         }
 
         $this->smarty->assign('module_dir', $this->_path);
-*/
+
         // Template to display payment
 
 

@@ -1729,8 +1729,7 @@ class Mercanet extends PaymentModule
 
         $newOption = new PaymentOption();
         $newOption->setModuleName($this->name)
-            ->setCallToActionText($this->trans('Payer par Mecarnet', [], 'Modules.Mecarnet.Admin'))
-            ->setAdditionalInformation($this->fetch('module:mercanet/views/templates/hook/'.$template));
+            ->setCallToActionText($this->fetch('module:mercanet/views/templates/hook/'.$template));
 
 
         return [$newOption];

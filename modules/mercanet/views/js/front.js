@@ -37,4 +37,9 @@ $(document).ready(function(){
         $('.stop_recurring_confirmation').hide();
     });
     $('.stop_recurring_confirmation_information').delay(2500).hide(500);
+
+
+
+
 });
+

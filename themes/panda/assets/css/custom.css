@@ -84,7 +84,7 @@ body{
     }
 }
 
-@media (min-width:801px){
+@media (min-width:1025px){
     .swiper-slide{
         width: 769px !important
     }

@@ -402,7 +402,7 @@ article {
     text-transform: capitalize !important;
 }
 
-/*
+
 .ma_level_0.is_parent:after, .mv_item.is_parent:after {
     bottom: 0;
     content: "\e816" !important;
@@ -415,7 +415,7 @@ article {
     position: absolute !important;
     top: 92% !important;
 }
-*/
+
 .detail h6 {
     text-transform: uppercase;
 }
@@ -430,23 +430,4 @@ article {
 
 .mobile_logo{
     padding-right: 20% !important;
-}
-
-#top_extra .st_mega_menu_container {
-    /* padding-bottom: 0 !important; */
-    /* padding-top: 0 !important; */
-    padding: 10px 0 !important;
-}
-
-.ma_level_0.is_parent:after, .mv_item.is_parent:after {
-    bottom: -12px;
-    content: "\e816" !important;
-    font-size: 16px !important;
-    height: 5px !important;
-    left: 40% !important;
-    line-height: 5px !important;
-    opacity: 1 !important;
-    overflow: hidden;
-    position: absolute !important;
-    top: unset !important;
 }

@@ -43,8 +43,6 @@ class Mercanet extends PaymentModule
 
     public function __construct()
     {
-        die;
-
         $this->name = 'mercanet';
         $this->tab = 'payments_gateways';
         $this->version = '1.6.12';
@@ -318,7 +316,7 @@ class Mercanet extends PaymentModule
             $this->registerHook('displayAdminProductsExtra') &&
             $this->registerHook('actionProductUpdate') &&
             $this->registerHook('displayCustomerAccount') &&
-            $this->registerHook('payment') &&
+            $this->registerHook('paymentOptions') &&
             $this->registerHook('paymentReturn');
     }
 
@@ -1603,8 +1601,10 @@ class Mercanet extends PaymentModule
      * This method is used to render the payment button,
      * Take care if the button should be displayed or not.
      */
-    public function hookPayment($params)
+    public function hookPaymentOptions($params)
     {
+        die;
+
         // Check if a payment can be display
         if (!$this->canDisplayPayment()) {
             return false;

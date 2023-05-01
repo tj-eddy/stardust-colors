@@ -161,7 +161,7 @@ class Ps_Checkpayment extends PaymentModule
                 ->setAction($this->context->link->getModuleLink($this->name, 'validation', [], true))
                 ->setAdditionalInformation($this->fetch('module:ps_checkpayment/views/templates/front/payment_infos.tpl'));
 
-        return [$newOption];
+       // return [$newOption];
     }
 
     public function hookPaymentReturn($params)

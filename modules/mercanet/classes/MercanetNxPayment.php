@@ -141,7 +141,7 @@ class MercanetNxPayment extends ObjectModel
         $amount = MercanetApi::getConvertedAmount(
             (float)Context::getContext()->cart->getOrderTotal(),
             new Currency((int)Context::getContext()->cart->id_currency),
-            new Currency((int)Currency::getIdByIsoCodeNum((int)Configuration::get('MERCANET_EURO_ISO_CODE_NUM')))
+            new Currency((int)Currency::getIdByNumericIsoCode((int)Configuration::get('MERCANET_EURO_ISO_CODE_NUM')))
         );
 
         $sql = '

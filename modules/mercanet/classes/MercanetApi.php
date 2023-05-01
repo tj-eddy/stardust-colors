@@ -150,7 +150,7 @@ class MercanetApi
             $default_parameters['paymentPattern'] = 'ONE_SHOT';
             $default_parameters['paymentMeanData.presto.paymentMeanCustomerId'] = $customer->id;
             if (Configuration::get('MERCANET_PRE_ACTIVE') == true) {
-                $presto_amount = self::getConvertedAmount(self::getTotalAmount(), $currency, new Currency((int)Currency::getIdByIsoCodeNum((int)Configuration::get('MERCANET_EURO_ISO_CODE_NUM'))));
+                $presto_amount = self::getConvertedAmount(self::getTotalAmount(), $currency, new Currency((int)Currency::getIdByNumericIsoCode((int)Configuration::get('MERCANET_EURO_ISO_CODE_NUM'))));
                 if (($presto_amount >= 1500.01) || ($presto_amount < 150.00)) {
                     $default_parameters['paymentMeanData.presto.financialProduct'] = 'CLA';
                 } else {
@@ -245,7 +245,7 @@ class MercanetApi
         // 3DS - If the amount is inferior of the minimum amount, by pass 3DS
         if ((bool)Configuration::get('MERCANET_3DS_ACTIVE') == true && $mercanet->isFeatureActivated('3DS')) {
             if ((float)Configuration::get('MERCANET_3DS_MIN_AMOUNT') > 0) {
-                $euro_amount = self::getConvertedAmount(self::getTotalAmount(), $currency, new Currency((int)Currency::getIdByIsoCodeNum((int)Configuration::get('MERCANET_EURO_ISO_CODE_NUM'))));
+                $euro_amount = self::getConvertedAmount(self::getTotalAmount(), $currency, new Currency((int)Currency::getIdByNumericIsoCode((int)Configuration::get('MERCANET_EURO_ISO_CODE_NUM'))));
                 if ($euro_amount < (float)Configuration::get('MERCANET_3DS_MIN_AMOUNT')) {
                     $default_parameters['fraudData.bypass3DS'] = 'ALL';
                 }
@@ -694,10 +694,10 @@ class MercanetApi
         if (in_array($currency->iso_code_num, $currencies)) {
             return $currency;
         } else {
-            $currency = new Currency(Currency::getIdByIsoCodeNum((is_array($currencies)) ? $currencies[0] : (int)$currencies_list));
+            $currency = new Currency(Currency::getIdByNumericIsoCode((is_array($currencies)) ? $currencies[0] : (int)$currencies_list));
             if (empty($currency->id)) {
                 $mercanet_euro_iso_code_num = Configuration::get('MERCANET_EURO_ISO_CODE_NUM');
-                return new Currency(Currency::getIdByIsoCodeNum((int)(!empty($mercanet_euro_iso_code_num)) ? Configuration::get('MERCANET_EURO_ISO_CODE_NUM') : 978));
+                return new Currency(Currency::getIdByNumericIsoCode((int)(!empty($mercanet_euro_iso_code_num)) ? Configuration::get('MERCANET_EURO_ISO_CODE_NUM') : 978));
             } else {
                 return $currency;
             }

@@ -108,9 +108,9 @@ class MercanetNotification
         $this->module_name = 'mercanet';
         $this->data = $data;
         $this->source = $source;
-        $this->context->currency = new Currency(Currency::getIdByIsoCodeNum((int)$this->data['currencyCode']));
+        $this->context->currency = new Currency(Currency::getIdByNumericIsoCode((int)$this->data['currencyCode']));
         $this->context->cart = new Cart((int)$return_context['id_cart']);
-        $this->context->cart->id_currency = Currency::getIdByIsoCodeNum((int)$this->data['currencyCode']);
+        $this->context->cart->id_currency = Currency::getIdByNumericIsoCode((int)$this->data['currencyCode']);
         $this->context->customer = new Customer((int)$this->context->cart->id_customer);
         $id_order = Order::getOrderByCartId((int)$this->context->cart->id);
         $this->context->order = new Order((int)$id_order);

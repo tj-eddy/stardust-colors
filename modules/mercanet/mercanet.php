@@ -1730,7 +1730,6 @@ class Mercanet extends PaymentModule
         $newOption = new PaymentOption();
         $newOption->setModuleName($this->name)
             ->setCallToActionText($this->trans('Pay by Mecarnet', [], 'Modules.Mecarnet.Admin'))
-            ->setAction($this->context->link->getModuleLink($this->name, 'validation', [], true))
             ->setAdditionalInformation($this->fetch('module:mercanet/views/templates/hook/direct-payment.tpl'));
 
 

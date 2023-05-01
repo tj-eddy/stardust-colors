@@ -1603,6 +1603,7 @@ class Mercanet extends PaymentModule
      */
     public function hookPayment($params)
     {
+        die('debug payment');
         // Check if a payment can be display
         if (!$this->canDisplayPayment()) {
             return false;

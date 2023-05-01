@@ -43,6 +43,8 @@ class Mercanet extends PaymentModule
 
     public function __construct()
     {
+        die;
+
         $this->name = 'mercanet';
         $this->tab = 'payments_gateways';
         $this->version = '1.6.12';
@@ -1603,8 +1605,6 @@ class Mercanet extends PaymentModule
      */
     public function hookPayment($params)
     {
-        die('debug payment');
-
         // Check if a payment can be display
         if (!$this->canDisplayPayment()) {
             return false;

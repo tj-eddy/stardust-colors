@@ -36,32 +36,7 @@
     {include file='checkout/_partials/order-final-summary.tpl'}
   {/if}
 
-  <div id="payment-confirmation">
-    <div class="ps-shown-by-js">
-      <button type="submit" {if version_compare($sttheme.ps_version,'1.7.8.0','<') && !$selected_payment_option} disabled {/if} class="btn btn-default {if version_compare($sttheme.ps_version,'1.7.7.8','>') && !$selected_payment_option} disabled {/if}">
-        {l s='Place order' d='Shop.Theme.Checkout'}
-      </button>
-      
-      <article class="alert alert-danger mt-4 js-alert-payment-conditions" role="alert" data-alert="danger">
-        {l
-          s='Please make sure you\'ve chosen a [1]payment method[/1] and accepted the [2]terms and conditions[/2].'
-          sprintf=[
-            '[1]' => '',
-            '[/1]' => '',
-            '[2]' => '',
-            '[/2]' => ''
-          ]
-          d='Shop.Theme.Checkout'
-        }
-      </article>
-      
-    </div>
-    <div class="ps-hidden-by-js">
-      {if $selected_payment_option and $all_conditions_approved}
-        <label for="pay-with-{$selected_payment_option}">{l s='Order with an obligation to pay' d='Shop.Theme.Checkout'}</label>
-      {/if}
-    </div>
-  </div>
+
 
   {hook h='displayPaymentByBinaries'}
 

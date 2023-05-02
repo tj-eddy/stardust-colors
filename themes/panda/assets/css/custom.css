@@ -499,3 +499,12 @@ article {
 #reinsurance_block li a:hover span {
     color: #f9a744!important
 }
+
+body #st_mega_menu_wrap .ma_level_0:before {
+    position: absolute;
+    width: 2px;
+    height: 25px;
+    content: url(https://stardusthost.stardustcolors.com/themes/panda/assets/img/afterli.png);
+    right: 0;
+    top: 15px;
+}

@@ -513,35 +513,3 @@ body #st_mega_menu_wrap .ma_level_0:before {
 .title_flex_right{
     display: none !important;
 }
-
-
-#homepage-slider .bx-wrapper .bx-pager.bx-default-pager a {
-    background: transparent!important;
-    border: 2px solid rgba(255,255,255,0.5);
-    width: 15px;
-    height: 15px;
-    border-radius: 100%;
-    -moz-border-radius: 100%;
-    -webkit-border-radius: 100%
-}
-
-.bx-wrapper .bx-pager.bx-default-pager a:hover,.bx-wrapper .bx-pager.bx-default-pager a.active {
-    background: #F9A744!important;
-    border: 2px solid #F9A744!important;
-    position: relative
-}
-
-.bx-wrapper .bx-pager.bx-default-pager a:hover:before,.bx-wrapper .bx-pager.bx-default-pager a.active:before {
-    position: absolute;
-    content: '';
-    width: 7px;
-    height: 7px;
-    top: 2px;
-    left: 2px;
-    border-radius: 100%;
-    background: #F9A744
-}
-
-.bx-wrapper .bx-pager,.bx-wrapper .bx-controls-auto {
-    bottom: 10px!important
-}

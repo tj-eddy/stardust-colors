@@ -179,6 +179,7 @@ class arobasesreseauxsociaux extends Module{
                 'twitter'=>$twitter,
                 'googleplus'=>$googleplus,
                 'instagram'=>$instagram,
+                "modules_dir" => _PS_MODULE_DIR_
             )
 
         );

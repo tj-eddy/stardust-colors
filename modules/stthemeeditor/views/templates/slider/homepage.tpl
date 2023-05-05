@@ -94,37 +94,37 @@
             <div class="col-lg-3 display_as_grid products_slider desktop-only">
                 <div class="featured_categories_list">
                     <div style="padding-top: 5%">
-                        <a class="custom-card" href="https://preproduction.stardustcolors.com/208-code-couleur-voiture" title="" style="border: 0;">
+                        <a class="custom-card" href="https://stardusthost.stardustcolors.com/208-code-couleur-voiture" title="" style="border: 0;">
                             <div class="">
-                                <img src="https://preproduction.stardustcolors.com/img/cms/vignette_lateral/vignette-laterale-auto-grande-min.png" alt=""  class="replace-2x img-responsive" />
+                                <img src="https://stardusthost.stardustcolors.com/img/cms/vignette_lateral/vignette-laterale-auto-grande-min.png" alt=""  class="replace-2x img-responsive" />
                             </div>
                         </a>
                     </div>
                     <div style="padding-top: 5%">
-                        <a class="custom-card" href="https://preproduction.stardustcolors.com/209-code-couleur-moto" title="" style="border: 0;">
+                        <a class="custom-card" href="https://stardusthost.stardustcolors.com/209-code-couleur-moto" title="" style="border: 0;">
                             <div class="">
-                                <img src="https://preproduction.stardustcolors.com/img/cms/vignette_lateral/vignette-laterale-moto-min.png" alt=""  class="replace-2x img-responsive" />
+                                <img src="https://stardusthost.stardustcolors.com/img/cms/vignette_lateral/vignette-laterale-moto-min.png" alt=""  class="replace-2x img-responsive" />
                             </div>
                         </a>
                     </div>
                     <div style="padding-top: 5%">
                         <a class="custom-card" href="https://www.stardustcolors.com/472-model" title="" style="border: 0;">
                             <div class="">
-                                <img src="https://preproduction.stardustcolors.com/img/cms/vignette_lateral/vignette-laterale-hikarirc-min.png" alt=""  class="replace-2x img-responsive" />
+                                <img src="https://stardusthost.stardustcolors.com/img/cms/vignette_lateral/vignette-laterale-hikarirc-min.png" alt=""  class="replace-2x img-responsive" />
                             </div>
                         </a>
                     </div>
                     <div style="padding-top: 5%">
-                        <a class="custom-card" href="https://preproduction.stardustcolors.com/135-peinture-pour-aerographe" title="" style="border: 0;">
+                        <a class="custom-card" href="https://stardusthost.stardustcolors.com/135-peinture-pour-aerographe" title="" style="border: 0;">
                             <div class="">
-                                <img src="https://preproduction.stardustcolors.com/img/cms/vignette_lateral/vignette-laterale-aerographe-min.png" alt=""  class="replace-2x img-responsive" />
+                                <img src="https://stardusthost.stardustcolors.com/img/cms/vignette_lateral/vignette-laterale-aerographe-min.png" alt=""  class="replace-2x img-responsive" />
                             </div>
                         </a>
                     </div>
                     <div style="padding-top: 5%">
-                        <a class="custom-card" href="https://preproduction.stardustcolors.com/413-velo" title="" style="border: 0;">
+                        <a class="custom-card" href="https://stardusthost.stardustcolors.com/413-velo" title="" style="border: 0;">
                             <div class="">
-                                <img src="https://preproduction.stardustcolors.com/img/cms/vignette_lateral/vignette-laterale-velo-min.png" alt=""  class="replace-2x img-responsive" />
+                                <img src="https://stardusthost.stardustcolors.com/img/cms/vignette_lateral/vignette-laterale-velo-min.png" alt=""  class="replace-2x img-responsive" />
                             </div>
                         </a>
                     </div>

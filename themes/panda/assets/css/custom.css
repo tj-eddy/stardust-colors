@@ -529,3 +529,7 @@ body #st_mega_menu_wrap .ma_level_0:before {
 #multilink_4{
     max-width: 100% !important;
 }
+
+#footer > flex_child{
+    display: none;
+}

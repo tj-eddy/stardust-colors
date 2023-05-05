@@ -20,5 +20,5 @@
 			href="https://stardusthost.stardustcolors.com/documents/fr/catalogue.pdf"
 			target="_blank">
 		<img class="download_pdf_social"
-			 src="https://stardusthost.stardustcolors.com/themes/panda/assets/img/icone_bas_traduit_FR-min.PNG"  alt="download"></a>
+			 src="https://stardusthost.stardustcolors.com/themes/panda/assets/img/icone_bas_traduit_FR-min.png"  alt="download"></a>
 </div>

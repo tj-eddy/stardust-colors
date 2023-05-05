@@ -13,14 +13,12 @@
 		<img src="/modules/arobasesreseauxsociaux/images/iconinstagram.png" alt="icon_instagram" class="jQueryRotate"/>
 	</a>{/if}
 	<a href="https://www.youtube.com/stardustcolors1" title="{l s='Suivez-nous sur youtube'}" target="_blank">
-		<img style="margin-bottom: 8%;margin-left: -1%;" class="jQueryRotate" src="https://www.stardustcolors.com/themes/panda/img/icone-youtube5.png" width="50" alt="">
+		<img class="jQueryRotate" src="https://www.stardustcolors.com/themes/panda/img/icone-youtube5.png" width="50" alt="">
 	</a>
 
 	<a
 			href="https://www.stardustcolors.com/documents/fr/catalogue.pdf"
 			target="_blank">
-		<img style=" position: absolute;
-    width: 191px;
-    top: 23%;"
+		<img class="download_pdf_social"
 			 src="https://www.stardustcolors.com/themes/panda/img/icone_bas_traduit_FR-min.PNG"  alt="download"></a>
 </div>

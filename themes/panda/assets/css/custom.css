@@ -519,3 +519,9 @@ body #st_mega_menu_wrap .ma_level_0:before {
     text-transform: uppercase;
     margin-bottom: 15px;
 }
+
+.download_pdf_social{
+    position: absolute;
+    width: 191px;
+    top: 36%;
+}

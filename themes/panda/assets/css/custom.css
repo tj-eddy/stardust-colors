@@ -527,5 +527,5 @@ body #st_mega_menu_wrap .ma_level_0:before {
 }
 
 footer.title_flex_right{
-    display: none;
+    display: none !important;
 }

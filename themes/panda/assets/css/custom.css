@@ -525,3 +525,7 @@ body #st_mega_menu_wrap .ma_level_0:before {
     width: 191px;
     top: 36%;
 }
+
+footer.title_flex_right{
+    display: none;
+}

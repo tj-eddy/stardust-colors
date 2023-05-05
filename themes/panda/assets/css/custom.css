@@ -530,7 +530,7 @@ body #st_mega_menu_wrap .ma_level_0:before {
     max-width: 100% !important;
 }
 
-.sttext_item_content > ul > li > a:before {
+.sttext_item_content > ul > li > span >  a:before {
     font-family: "fontello";
     content: "\f105";
     display: inline-block;

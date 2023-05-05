@@ -251,7 +251,11 @@ body{
 }
 
 #st_header .search_widget_block {
-    width: 192px !important;
+    width: 170px !important;
+}
+
+#st_ma_381{
+    padding: 16px 34px !important;
 }
 
 .st_mega_menu .ma_level_0, .mobile_bar_tri_text, #st_mega_menu_column_mobile .mo_advanced_ma_level_0 {

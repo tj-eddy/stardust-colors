@@ -512,3 +512,10 @@ body #st_mega_menu_wrap .ma_level_0:before {
     right: 0;
     top: 15px;
 }
+
+.reseausociaux .titlebloc {
+    font: 17px 'AllerDisplay-Regular';
+    color: #F9A744;
+    text-transform: uppercase;
+    margin-bottom: 15px;
+}

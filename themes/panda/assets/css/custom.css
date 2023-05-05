@@ -525,15 +525,3 @@ body #st_mega_menu_wrap .ma_level_0:before {
     width: 191px;
     top: 36%;
 }
-
-#multilink_4{
-    max-width: 100% !important;
-}
-
-.sttext_item_content > ul > li > span >  a:before {
-    font-family: "fontello";
-    content: "\f105";
-    display: inline-block;
-    padding-right: 8px;
-    width: 12px;
-}

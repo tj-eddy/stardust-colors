@@ -564,7 +564,7 @@ footer .title_flex_right{
     padding-left: 65px;
     padding-right: 89px;
     font-size: 12px;
-    text-transform: capitalize;
+    text-transform: none;
 }
 
 .logo_footer{
@@ -576,5 +576,5 @@ footer .title_flex_right{
     padding-right: 89px;
     padding-top: 20%;
     font-size: 12px;
-    text-transform: capitalize;
+    text-transform: none;
 }

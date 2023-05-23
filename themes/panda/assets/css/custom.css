@@ -343,7 +343,7 @@ body{
 }
 
 .vl_footer{
-    border-left: 1px solid #B2BEB5;
+    border-left: 1px solid #6D2BC3;
 }
 
 article {
@@ -540,6 +540,10 @@ footer .title_flex_right{
 }
 
 .text_after_logo_footer{
-    padding-left: 110px;
-    padding-right: 30px;
+    padding-left: 65px;
+    padding-right: 89px;
+}
+
+.logo_footer{
+    padding-right: 20%;
 }

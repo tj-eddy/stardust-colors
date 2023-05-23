@@ -27,7 +27,7 @@
     {foreach $columns as $column}
         {if isset($column['columns']) && count($column['columns'])}
 		<div id="steasy_column_{$column['id_st_easy_content_column']}" class="row {if $column['hide_on_mobile'] == 1} hidden-md-down {elseif $column['hide_on_mobile'] == 2} hidden-lg-up {/if}">
-			{foreach $column['columns'] as $sub_column}
+			{foreach $column['columns'] as $sub_column }
 	        	{math assign="column_width" equation='(x*y)/y' x=$sub_column['width'] y=10} 
                 {if isset($sub_column['width_md'])}{if $sub_column['width_md']!=0}{math assign="column_width_md" equation='(x*y)/y' x=$sub_column['width_md'] y=10}{else}{math assign="column_width_md" equation='(x*y)/y' x=$sub_column['width'] y=10}{/if}{else}{assign var='column_width_md' value=12}{/if}
                 {if isset($sub_column['width_xs'])}{if $sub_column['width_xs']!=0}{math assign="column_width_xs" equation='(x*y)/y' x=$sub_column['width_xs'] y=10}{elseif $sub_column['width_md']!=0}{math assign="column_width_xs" equation='(x*y)/y' x=$sub_column['width_md'] y=10}{else}{math assign="column_width_xs" equation='(x*y)/y' x=$sub_column['width'] y=10}{/if}{else}{assign var='column_width_xs' value=12}{/if}
@@ -38,7 +38,7 @@
 	                	<div class="steasy_element_block">{include file="module:steasycontent/views/templates/hook/steasycontent-element-{$sub_column['element']}.tpl" sub_column=$sub_column}</div>
             		{/if}
 	            </div>
-				{if $column['id_st_easy_content_column'] == 26}
+				{if $column['id_st_easy_content_column'] == 26 && !$sub_column@last}
 					<div class="vl_footer"></div>
 				{/if}
 	        {/foreach}

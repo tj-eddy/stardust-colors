@@ -568,3 +568,9 @@ footer .title_flex_right{
 .logo_footer{
     padding-right: 20%;
 }
+
+.text_{
+    padding-left: 65px;
+    padding-right: 89px;
+    padding-top: 20%;
+}

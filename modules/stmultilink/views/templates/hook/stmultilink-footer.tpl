@@ -43,6 +43,9 @@
     {/if}
     </ul>
 </section>
+    {if $link_group.id_st_multi_link_group == 11 || $link_group.id_st_multi_link_group == 12}
+        <div class="vl_footer_{$link_group.id_st_multi_link_group}"></div>
+    {/if}
 {/foreach}
 <!-- /MODULE st stmultilink -->
 {/if}

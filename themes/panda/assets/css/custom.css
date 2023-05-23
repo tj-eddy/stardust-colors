@@ -534,3 +534,8 @@ body #st_mega_menu_wrap .ma_level_0:before {
 footer .title_flex_right{
     display: none !important;
 }
+
+.text_after_logo_footer{
+    padding-left: 110px;
+    padding-right: 30px;
+}

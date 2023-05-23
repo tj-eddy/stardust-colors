@@ -231,7 +231,7 @@ body{
         display: none;
     }
 
-    .desktop-only, .vl ,.vl_footer_11,.vl_footer_13{
+    .desktop-only, .vl ,.vl_footer_11,.vl_footer_13,.text_after_logo_footer,.text_,.line{
         display: none;
     }
 

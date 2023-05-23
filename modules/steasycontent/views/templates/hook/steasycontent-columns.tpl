@@ -39,7 +39,7 @@
             		{/if}
 	            </div>
 				{if $column['id_st_easy_content_column'] == 26}
-					<div class="vl"></div>
+					<div class="vl_footer"></div>
 				{/if}
 	        {/foreach}
 		</div>

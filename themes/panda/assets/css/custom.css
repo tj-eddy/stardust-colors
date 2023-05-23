@@ -342,6 +342,10 @@ body{
     top: 14px;
 }
 
+.vl_footer{
+    border-left: 1px solid #B2BEB5;
+}
+
 article {
     border: 1px solid #B2BEB5;
 }

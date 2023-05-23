@@ -359,6 +359,12 @@ body{
     top: 30px;
 }
 
+.line{
+    border-color: #6D2BC3 !important;
+    position: absolute;
+    width: 60%;
+    left: 18%;
+}
 
 article {
     border: 1px solid #B2BEB5;

@@ -39,7 +39,7 @@
             		{/if}
 	            </div>
 				{if $column['id_st_easy_content_column'] == 26 && !$sub_column@last}
-					<div class="vl_footer"></div>
+					<div class="vl_footer_{$sub_column['element']}"></div>
 				{/if}
 	        {/foreach}
 		</div>

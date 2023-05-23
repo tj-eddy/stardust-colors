@@ -578,3 +578,11 @@ footer .title_flex_right{
     font-size: 12px;
     text-transform: none;
 }
+
+#footer .title_block .title_block_inner{
+    color: #fff !important;
+}
+
+.bullet li a{
+    color: #fff !important;
+}

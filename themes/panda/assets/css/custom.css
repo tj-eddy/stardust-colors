@@ -650,6 +650,16 @@ footer .title_flex_right{
     font-size: 14px;
     margin: 0;
 }
+
+.tag_date_publish {
+    background-color: #ccc;
+    color: #fff;
+    border-radius: 50px;
+    font-size: 12px;
+    margin: 0;
+    padding: 2px 10px;
+    text-transform: uppercase;
+}
 .tag-teal {
 background-color: #92d4e4;
 }

@@ -664,6 +664,7 @@ footer .title_flex_right{
     color:  #000c25;
     font-family: 'AllerDisplay-regular';
     text-transform: uppercase;
+    font-size: 16px;
 }
 .card-body p {
     font-size: 14px;

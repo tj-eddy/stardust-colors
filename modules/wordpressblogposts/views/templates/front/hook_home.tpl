@@ -15,24 +15,16 @@
             <ul class="container-blog row">
                 {foreach from=$wbp_posts item=post name=wbp_posts}
                     {if $post->post_image != ""}
-                       {* <li class="col last_blog_img">
-                            <a class="custom-card" href="{$post->url}" title="{$post->title|escape:'htmlall':'UTF-8'}"
-                               style="border: 0;">
-                                <div class="category-thumb">
-                                    <img src="{$post->post_image}" alt="{$post->title|escape:'htmlall':'UTF-8'}"
-                                         class="replace-2x img-responsive"/>
-                                </div>
-                            </a>
-                        </li> *}
                         <div class="card">
                             <div class="card-header">
-                                <img src="{$post->post_image}" alt="" />
+                                <img src="{$post->post_image}" alt="{$post->title|escape:'htmlall':'UTF-8'}" />
                             </div>
                             <div class="card-body">
                                 <span class="tag_date_publish">{l s="Publié le"} : {$post->pub_date|date_format:"%D"}</span>
                                 <h4>{$post->title|escape:'htmlall':'UTF-8'}</h4>
                                 <p>
                                     {$post->description|truncate:200:"..."}
+                                    <span class="tag_show_more"><a href="{$post->url}">{l s="Lire la suite ..."}</a></span>
                                 </p>
                             </div>
                         </div>

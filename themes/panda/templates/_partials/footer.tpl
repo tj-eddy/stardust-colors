@@ -30,7 +30,7 @@
     </div>
     <div id="social-network">
         <div class="container">
-            {hook h="hookCustomSocialNetwork"}
+            {hook h="customSocialNetwork"}
         </div>
     </div>
 {/if}

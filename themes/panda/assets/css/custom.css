@@ -620,9 +620,6 @@ footer .title_flex_right{
 }
 
 /* blog design */
-
-@import url("https://fonts.googleapis.com/css2?family=Open+Sans:wght@400;600;700&display=swap");
-
 * {
     box-sizing: border-box;
 }
@@ -691,8 +688,16 @@ footer .title_flex_right{
     color: #888785;
 }
 @media (max-width: 940px) {
-    .container {
+    .container-blog {
         grid-template-columns: 1fr;
         justify-items: center;
     }
+}
+
+.container-blog{
+    display: grid;
+    grid-template-columns: repeat(3, 1fr);
+    gap: 20px;
+    width: 940px;
+    margin: auto;
 }

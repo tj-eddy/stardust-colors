@@ -12,7 +12,7 @@
             {if $wbp_posts|@count gt 2}
                 {assign "col_size_md" "4"}
             {/if}
-            <ul class="row">
+            <ul class="featured_categories_list row">
                 {foreach from=$wbp_posts item=post name=wbp_posts}
                     {if $post->post_image != ""}
                        {* <li class="col last_blog_img">
@@ -35,13 +35,6 @@
                                     Lorem ipsum dolor sit amet consectetur adipisicing elit. Molestias
                                     consequuntur sequi suscipit iure fuga ea!
                                 </p>
-                                <div class="user">
-                                    <img src="https://3.bp.blogspot.com/--sCpJJGYWEA/W2P4C51CYSI/AAAAAAAAQcI/LR4U_--Wf1E3wz7RLZtmwBPObm_ky9tQQCLcBGAs/s1600/beautiful-indian-women-photos-1.jpg" alt="" />
-                                    <div class="user-info">
-                                        <h5>Carrie Brewer</h5>
-                                        <small>23 Dec 2020</small>
-                                    </div>
-                                </div>
                             </div>
                         </div>
                     {/if}

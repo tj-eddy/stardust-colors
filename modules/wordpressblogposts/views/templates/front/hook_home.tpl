@@ -25,7 +25,7 @@
                                 <p>
                                     {$post->description|truncate:200:"..."}
                                 </p>
-                                <span class="tag_show_more"><a target="_blank" href="{$post->url}">{l s="Lire la suite ..."}</a></span>
+                                <span class="tag_show_more"><a target="_blank" href="{$post->url}">{l s="Lire la suite"} > </a></span>
                             </div>
                         </div>
                     {/if}

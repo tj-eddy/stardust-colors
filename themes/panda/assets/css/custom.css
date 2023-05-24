@@ -663,6 +663,7 @@ footer .title_flex_right{
 }
 .card-body h4 {
     margin: 10px 0;
+    background-color: #000c25;
 }
 .card-body p {
     font-size: 14px;

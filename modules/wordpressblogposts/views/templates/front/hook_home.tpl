@@ -29,7 +29,7 @@
                                 <img src="{$post->post_image}" alt="" />
                             </div>
                             <div class="card-body">
-                                <span class="tag tag-pink">{l s="Publié le"} : {$post->pub_date}</span>
+                                <span class="tag tag-pink">{l s="Publié le"} : {$post->pub_date|date_format:"%D"}</span>
                                 <h4>{$post->title|escape:'htmlall':'UTF-8'}</h4>
                                 <p>
                                     {$post->description|truncate:200:"..."}

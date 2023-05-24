@@ -26,14 +26,13 @@
                         </li> *}
                         <div class="card">
                             <div class="card-header">
-                                <img src="https://dynaimage.cdn.cnn.com/cnn/q_auto,w_412,c_fill,g_auto,h_232,ar_16:9/http%3A%2F%2Fcdn.cnn.com%2Fcnnnext%2Fdam%2Fassets%2F200305114843-01-edge-hudson-yards-observation-deck.jpg" alt="" />
+                                <img src="{$post->post_image}" alt="" />
                             </div>
                             <div class="card-body">
-                                <span class="tag tag-pink">Travel</span>
-                                <h4>New York City | Layout, People, Economy, Culture, & History</h4>
+                                <span class="tag tag-pink">{l s="Publié le"} : {$post->pub_date}</span>
+                                <h4>{$post->title|escape:'htmlall':'UTF-8'}</h4>
                                 <p>
-                                    Lorem ipsum dolor sit amet consectetur adipisicing elit. Molestias
-                                    consequuntur sequi suscipit iure fuga ea!
+                                    {$post->description}
                                 </p>
                             </div>
                         </div>

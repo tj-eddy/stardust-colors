@@ -663,7 +663,7 @@ footer .title_flex_right{
 }
 .card-body h4 {
     margin: 10px 0;
-    background-color: #000c25;
+    color:  #000c25;
     font-family: 'AllerDisplay-regular';
     font-weight: bold;
 }

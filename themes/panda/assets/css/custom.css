@@ -360,11 +360,11 @@ body{
 }
 
 .line{
-    border-color: #6D2BC3 !important;
+    border-color: #6D2BC3!important;
     position: absolute;
     width: 60%;
     left: 18%;
-    top: 260px;
+    top: 250px;
 }
 
 article {
@@ -563,6 +563,7 @@ footer .title_flex_right{
 .text_after_logo_footer{
     padding-left: 65px;
     padding-right: 89px;
+    padding-top: 12%;
     font-size: 12px;
     text-transform: none;
 }
@@ -574,7 +575,7 @@ footer .title_flex_right{
 .text_{
     padding-left: 65px;
     padding-right: 89px;
-    padding-top: 20%;
+    padding-top: 10%;
     font-size: 12px;
     text-transform: none;
 }

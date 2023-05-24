@@ -12,7 +12,7 @@
             {if $wbp_posts|@count gt 2}
                 {assign "col_size_md" "4"}
             {/if}
-            <ul class="featured_categories_list row">
+            <ul class="container-blog row">
                 {foreach from=$wbp_posts item=post name=wbp_posts}
                     {if $post->post_image != ""}
                        {* <li class="col last_blog_img">

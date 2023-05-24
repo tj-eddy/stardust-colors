@@ -28,6 +28,11 @@
             {hook h="displayWBPPostsCustom"}
         </div>
     </div>
+    <div id="social-network">
+        <div class="container">
+            {hook h="hookCustomSocialNetwork"}
+        </div>
+    </div>
 {/if}
 <footer id="footer" class="footer-container">
     <div id="footer_before_container">{hook h="displayFooterBefore"}</div>

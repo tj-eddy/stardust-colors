@@ -644,14 +644,14 @@ footer .title_flex_right{
     padding: 20px;
     min-height: 250px;
 }
-.tag {
+.tag_date_publish {
     color: #6D2BC3;
     border-radius: 50px;
     font-size: 14px;
     margin: 0;
 }
 
-.tag_date_publish {
+.tag {
     background-color: #ccc;
     color: #fff;
     border-radius: 50px;

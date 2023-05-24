@@ -37,6 +37,7 @@ class arobasesreseauxsociaux extends Module{
             !$this->registerHook('displayHome') ||
             !$this->registerHook('displayFooter') ||
             !$this->registerHook('header') ||
+            !$this->registerHook('customSocialNetwork') ||
             !Configuration::updateValue('AROBASESRESEAUXSOCIAUX', 'arobasesreseauxsociaux')
         )
             return false;
@@ -189,6 +190,15 @@ class arobasesreseauxsociaux extends Module{
         $this->context->controller->addJS($this->_path.'js/script.js');
     }
     public function hookDisplayFooter($params){
+        return $this->hookDisplayHome($params);
+    }
+
+    /**
+     * @param $params
+     * @return false|string
+     */
+    public function hookCustomSocialNetwork($params)
+    {
         return $this->hookDisplayHome($params);
     }
 

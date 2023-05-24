@@ -600,3 +600,18 @@ footer .title_flex_right{
 .li_arrow{
     color: #48b5e0 !important;
 }
+
+.info_footer{
+    padding-top: 16px;
+}
+
+.text_info_technique,.text_info_commercial{
+    color: #48b5e0;
+    font-weight: bold;
+}
+
+.email_info_technique,.email_info_commercial{
+    color: #6D2BC3;
+    font-size: 14px;
+}
+

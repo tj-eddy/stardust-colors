@@ -24,8 +24,8 @@
                                 <h4>{$post->title|escape:'htmlall':'UTF-8'}</h4>
                                 <p>
                                     {$post->description|truncate:200:"..."}
-                                    <span class="tag_show_more"><a href="{$post->url}">{l s="Lire la suite ..."}</a></span>
                                 </p>
+                                <span class="tag_show_more"><a href="{$post->url}">{l s="Lire la suite ..."}</a></span>
                             </div>
                         </div>
                     {/if}

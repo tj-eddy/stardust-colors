@@ -651,10 +651,13 @@ footer .title_flex_right{
     margin: 0;
 }
 .tag_show_more {
-    color: #6D2BC3;
-    border-radius: 50px;
     font-size: 14px;
-    margin: 0;
+    text-transform: uppercase;
+    font-weight: bold;
+}
+
+.tag_show_more a{
+    color: #48b5e0;
 }
 
 .tag {

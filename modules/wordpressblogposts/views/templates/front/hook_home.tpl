@@ -32,7 +32,7 @@
                                 <span class="tag tag-pink">{l s="Publié le"} : {$post->pub_date}</span>
                                 <h4>{$post->title|escape:'htmlall':'UTF-8'}</h4>
                                 <p>
-                                    {$post->description|truncate:30:"..."}
+                                    {$post->description|truncate:200:"..."}
                                 </p>
                             </div>
                         </div>

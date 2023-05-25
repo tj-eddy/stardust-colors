@@ -352,9 +352,10 @@ body{
 
 .vl_footer_rs{
     border-left: 1px solid #460761;
-    height: 367px;
+    height: 380px;
     position: absolute;
     left: 66%;
+    bottom: -11px;
 }
 
 .cy-bloc{

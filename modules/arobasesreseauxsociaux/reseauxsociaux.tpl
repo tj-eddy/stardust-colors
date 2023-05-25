@@ -3,7 +3,7 @@
         <div class="reseausociaux col-sm-12">
             {if (isset($titremodules))}
                 <div class="titlebloc">{$titremodules}</div>{/if}
-            {if (isset($titremodules))}
+            {if (isset($secondetitre))}
                 <p class="secondtitlebloc">{$secondetitre}</p>{/if}
             {if (isset($facebooklink))}<a href="https://www.facebook.com/{$facebooklink}"
                                           title="{l s='Suivez-nous sur facebook'}" target="_blank">

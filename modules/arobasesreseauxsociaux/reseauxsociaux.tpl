@@ -1,6 +1,6 @@
 <div class="row">
     <section class="rs">
-        <div class="reseausociaux col-sm-12">
+        <div class="reseausociaux col-sm-8">
             {if (isset($titremodules))}
                 <div class="titlebloc">{$titremodules}</div>{/if}
             {if (isset($secondetitre))}
@@ -38,7 +38,10 @@
                      src="https://stardusthost.stardustcolors.com/themes/panda/assets/img/icone_bas_traduit_FR-min.png"  alt="download"></a>*}
         </div>
     </section>
+    <div class="vl_footer_rs">
     <section class="download_catalogue">
-
+        <div class="col-sm-4">
+            <div class="titlebloc">{l s='Télécharger notre'} <span>{l s='e-catalogue'}</span></div>
+        </div>
     </section>
 </div>

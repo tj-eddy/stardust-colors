@@ -4,7 +4,7 @@
            {if (isset($titremodules))}
                <div class="titlebloc">{$titremodules}</div>{/if}
            {if (isset($secondetitre))}
-               <p class="secondtitlebloc">{$secondetitre}</p>{/if}
+               <p class="secondtitlebloc">{$secondetitre|nl2br}</p>{/if}
            {if (isset($facebooklink))}<a href="https://www.facebook.com/{$facebooklink}"
                                          title="{l s='Suivez-nous sur facebook'}" target="_blank">
                    <img src="/modules/arobasesreseauxsociaux/images/iconfacebook.png" alt="icon_facebook"
@@ -41,7 +41,7 @@
                 </div>
                 <div class="col cy-desc">
                     <h3>{$ytb_title}</h3>
-                    <p>{$ytb_desc}</p>
+                    <p>{$ytb_desc|nl2br}</p>
                     <a href="https://www.youtube.com/{$ytbLink}" target="_blank" class="btn btn-primary btn-sm">{l s="Je decouvre"}</a>
                 </div>
             </div>

@@ -544,8 +544,8 @@ body #st_mega_menu_wrap .ma_level_0:before {
 }
 
 .reseausociaux .titlebloc {
-    font: 17px 'AllerDisplay-Regular';
-    color: #F9A744;
+    font: 22px 'AllerDisplay-Regular';
+    color: #ffff;
     text-transform: uppercase;
     margin-bottom: 15px;
 }
@@ -722,4 +722,15 @@ grid-template-columns: repeat(3, 1fr);
 gap: 20px;
 /*width: 940px;*/
 margin: auto;
+}
+
+
+/**
+design RS & catalogue
+ */
+
+#social-network{
+    padding-top: 5%;
+    padding-bottom: 5%;
+    background-color: #000;
 }

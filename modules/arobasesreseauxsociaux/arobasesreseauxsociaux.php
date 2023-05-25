@@ -97,6 +97,11 @@ class arobasesreseauxsociaux extends Module{
                     'size' => 255
                 ),
                 array(
+                    'type' => 'textarea',
+                    'label' => $this->l('Description'),
+                    'name' => 'DESCRIPTIONRS',
+                ),
+                array(
                     'type' => 'text',
                     'label' => $this->l('Facebook'),
                     'name' => 'LINKFACEBOOK',
@@ -159,6 +164,7 @@ class arobasesreseauxsociaux extends Module{
 
         // Load current value
         $helper->fields_value['TITLEMODULES'] = Configuration::get('TITLEMODULES');
+        $helper->fields_value['DESCRIPTIONRS'] = Configuration::get('DESCRIPTIONRS');
         $helper->fields_value['LINKFACEBOOK'] = Configuration::get('LINKFACEBOOK');
         $helper->fields_value['LINKTWITTER'] = Configuration::get('LINKTWITTER');
         $helper->fields_value['LINKGOOGLEPLUS'] = Configuration::get('LINKGOOGLEPLUS');
@@ -169,6 +175,7 @@ class arobasesreseauxsociaux extends Module{
     public function hookDisplayHome($params){
         global $smarty;
         $my_title = Configuration::get('TITLEMODULES');
+        $description = Configuration::get('DESCRIPTIONRS');
         $facebook = Configuration::get('LINKFACEBOOK');
         $twitter = Configuration::get('LINKTWITTER');
         $googleplus = Configuration::get('LINKGOOGLEPLUS');
@@ -176,6 +183,7 @@ class arobasesreseauxsociaux extends Module{
         $smarty->assign(
             array(
                 'titremodules'=>$my_title,
+                'secondetitre'=>$description,
                 'facebooklink'=>$facebook,
                 'twitter'=>$twitter,
                 'googleplus'=>$googleplus,

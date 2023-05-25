@@ -106,7 +106,7 @@ class arobasesreseauxsociaux extends Module{
                     'name' => 'DESCRIPTIONRS',
                 ),
                 array(
-                    'type' => 'url',
+                    'type' => 'link',
                     'label' => $this->l('Youtube Embed url'),
                     'name' => 'YOUTUBEEMBED',
                 ),

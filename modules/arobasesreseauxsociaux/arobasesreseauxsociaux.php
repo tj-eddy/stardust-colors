@@ -194,7 +194,7 @@ class arobasesreseauxsociaux extends Module{
         $smarty->assign(
             array(
                 'titremodules'=>$my_title,
-                'youtube_embed'=>$youtubeEmbed,
+                'url_youtube_embed'=>$youtubeEmbed,
                 'secondetitre'=>$description,
                 'facebooklink'=>$facebook,
                 'twitter'=>$twitter,

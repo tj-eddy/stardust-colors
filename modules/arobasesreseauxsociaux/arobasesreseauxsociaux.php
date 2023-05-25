@@ -62,12 +62,14 @@ class arobasesreseauxsociaux extends Module{
         if (Tools::isSubmit('submit'.$this->name))
         {
             $my_title = strval(Tools::getValue('TITLEMODULES'));
+            $description = strval(Tools::getValue('DESCRIPTIONRS'));
             $my_facebook = strval(Tools::getValue('LINKFACEBOOK'));
             $my_twiiter = strval(Tools::getValue('LINKTWITTER'));
             $my_googleplus = strval(Tools::getValue('LINKGOOGLEPLUS'));
             $my_instagramm = strval(Tools::getValue('LINKINSTAGRAM'));
 
                 Configuration::updateValue('TITLEMODULES', $my_title);
+                Configuration::updateValue('DESCRIPTIONRS', $description);
                 Configuration::updateValue('LINKFACEBOOK', $my_facebook);
                 Configuration::updateValue('LINKTWITTER', $my_twiiter);
                 Configuration::updateValue('LINKGOOGLEPLUS', $my_googleplus);

@@ -36,10 +36,11 @@
             <img class="download_pdf_social"
                  src="https://stardusthost.stardustcolors.com/themes/panda/assets/img/icone_bas_traduit_FR-min.png"  alt="download"></a>*}
 
-        <div class="chaine-youtube">
-            <iframe width="420" height="345" src="{$url_youtube_embed}">
-            </iframe>
-        </div>
+        {if isset($url_youtube_embed)}
+            <div class="chaine-youtube">
+                <iframe width="350" height="200" src="{$url_youtube_embed}"></iframe>
+            </div>
+        {/if}
     </div>
     <hr class="vl_footer_rs">
     <div class="catalogue col-sm-6">

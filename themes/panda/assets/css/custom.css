@@ -359,6 +359,30 @@ body{
 
 .cy-bloc{
     padding-top: 20px;
+    background-color: rgba(3, 5, 62, 0.5);
+    border-radius: 4px;
+    width: 100%;
+}
+
+.cy-url{
+ padding-right: 0 !important;
+}
+
+.cy-desc{
+    padding-left: 0 !important;
+    color: #fff;
+}
+
+.cy-desc h3{
+    font-family: 'AllerDisplay-regular';
+}
+
+cy-desc a{
+    border: 1px solid #48b5e0;
+    border-radius: 23px;
+    background-color: #48b5e0;
+    margin-left: 6px;
+    text-transform: inherit;
 }
 
 .e-cat{

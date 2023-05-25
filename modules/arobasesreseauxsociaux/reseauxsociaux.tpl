@@ -45,7 +45,7 @@
                 </div>
                 <div class="col cy-desc">
                     <h3>Chaine youtube</h3>
-                    <p>Lorem ipsum dolor sit amet, consectetur adipisicing elit. </p>
+                    <p>Lorem ipsum dolor sit amet, consectetur adipisicing elit. Alias amet fuga itaque laboriosam maxime, minus modi natus nesciunt possimus repellat </p>
                     <a href="" class="btn btn-primary btn-sm">Je decouvre</a>
                 </div>
             </div>

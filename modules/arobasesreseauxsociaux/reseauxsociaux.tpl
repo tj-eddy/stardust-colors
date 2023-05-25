@@ -24,7 +24,7 @@
                 <img src="/modules/arobasesreseauxsociaux/images/iconinstagram.png" alt="icon_instagram"
                      class="jQueryRotate"/>
             </a>{/if}
-        <a href="https://www.youtube.com/stardustcolors1" title="{l s='Suivez-nous sur youtube'}" target="_blank">
+        <a href="https://www.youtube.com/{$ytbLink}" title="{l s='Suivez-nous sur youtube'}" target="_blank">
             <img class="jQueryRotate"
                  src="https://stardusthost.stardustcolors.com/themes/panda/assets/img/icone-youtube5.png" width="50"
                  alt="">
@@ -46,7 +46,7 @@
                 <div class="col cy-desc">
                     <h3>Chaine youtube</h3>
                     <p>Lorem ipsum dolor sit amet, consectetur adipisicing elit. Alias amet fuga itaque laboriosam maxime, minus modi natus nesciunt possimus repellat </p>
-                    <a href="" class="btn btn-primary btn-sm">Je decouvre</a>
+                    <a href="https://www.youtube.com/{$ytbLink}" class="btn btn-primary btn-sm">Je decouvre</a>
                 </div>
             </div>
         {/if}

@@ -37,8 +37,17 @@
                  src="https://stardusthost.stardustcolors.com/themes/panda/assets/img/icone_bas_traduit_FR-min.png"  alt="download"></a>*}
 
         {if isset($url_youtube_embed)}
-            <div class="chaine-youtube">
-                <iframe width="350" height="200" src="{$url_youtube_embed}"></iframe>
+            <div class="row">
+                <div class="col">
+                    <div class="chaine-youtube">
+                        <iframe width="350" height="200" src="{$url_youtube_embed}"></iframe>
+                    </div>
+                </div>
+                <div class="col">
+                    <h3>Chaine youtube</h3>
+                    <p>Lorem ipsum dolor sit amet, consectetur adipisicing elit. </p>
+                    <a href="" class="btn btn-primary btn-sm">Je decouvre</a>
+                </div>
             </div>
         {/if}
     </div>

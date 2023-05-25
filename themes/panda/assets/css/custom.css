@@ -784,3 +784,7 @@ design RS & catalogue
     padding-bottom: 5%;
     background-color: #462A83;
 }
+
+.btn-rs{
+    padding-bottom: 20px !important;
+}

@@ -375,9 +375,10 @@ body{
 
 .cy-desc h3{
     font-family: 'AllerDisplay-regular';
+    text-transform: uppercase;
 }
 
-cy-desc a{
+.cy-desc a{
     border: 1px solid #48b5e0;
     border-radius: 23px;
     background-color: #48b5e0;

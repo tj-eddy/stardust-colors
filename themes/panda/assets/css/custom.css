@@ -360,7 +360,7 @@ body{
 .cy-bloc{
     padding-top: 12px;
     padding-bottom: 7px;
-    background-color: rgba(3, 5, 62, 0.5);
+    background-color: #000c25;
     border-radius: 4px;
     width: 100%;
 }
@@ -783,7 +783,7 @@ design RS & catalogue
 #social-network{
     padding-top: 5%;
     padding-bottom: 5%;
-    background-color: #462A83;
+    background-color: rgba(3,5,62);
 }
 
 .btn-rs{

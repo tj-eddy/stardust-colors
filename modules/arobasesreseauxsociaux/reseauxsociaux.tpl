@@ -1,5 +1,5 @@
 <div class="row">
-    <div class="reseausociaux col-sm-6">
+    <div class="reseausociaux col-sm-8">
         {if (isset($titremodules))}
             <div class="titlebloc">{$titremodules}</div>{/if}
         {if (isset($secondetitre))}
@@ -38,12 +38,12 @@
 
         {if isset($url_youtube_embed)}
             <div class="row cy-bloc">
-                <div class="col">
+                <div class="col cy-url">
                     <div class="chaine-youtube">
                         <iframe width="350" height="200" src="{$url_youtube_embed}"></iframe>
                     </div>
                 </div>
-                <div class="col">
+                <div class="col cy-desc">
                     <h3>Chaine youtube</h3>
                     <p>Lorem ipsum dolor sit amet, consectetur adipisicing elit. </p>
                     <a href="" class="btn btn-primary btn-sm">Je decouvre</a>
@@ -52,7 +52,7 @@
         {/if}
     </div>
     <hr class="vl_footer_rs">
-    <div class="catalogue col-sm-6">
+    <div class="catalogue col-sm-4">
         <div class="titlebloc">{l s='Télécharger notre'}</div>
         <span class="titlebloc e-cat">{l s='e-catalogue'}</span>
     </div>

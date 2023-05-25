@@ -354,7 +354,11 @@ body{
     border-left: 1px solid #460761;
     height: 200px;
     position: absolute;
-    left: 48%;
+    left: 66%;
+}
+
+.cy-bloc{
+    padding-top: 20px;
 }
 
 .e-cat{

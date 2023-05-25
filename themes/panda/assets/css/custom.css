@@ -335,7 +335,7 @@ body{
 }
 
 .vl {
-    border-left: 1px solid #B2BEB5;
+    border-left: 1px solid #460761;
     height: 930px;
     position: absolute;
     left: 77%;
@@ -343,7 +343,7 @@ body{
 }
 
 .vl_footer_11{
-    border-left: 1px solid #6D2BC3;
+    border-left: 1px solid #460761;
     height: 470px;
     position: absolute;
     left: 30%;
@@ -351,7 +351,7 @@ body{
 }
 
 .vl_footer_rs{
-    border-left: 1px solid #6D2BC3;
+    border-left: 1px solid #460761;
     height: 200px;
     position: absolute;
     left: 48%;
@@ -362,7 +362,7 @@ body{
 }
 
 .vl_footer_13{
-    border-left: 1px solid #6D2BC3;
+    border-left: 1px solid #460761;
     height: 470px;
     position: absolute;
     left: 66%;
@@ -370,7 +370,7 @@ body{
 }
 
 .line{
-    border-color: #6D2BC3!important;
+    border-color: #460761!important;
     position: absolute;
     width: 60%;
     left: 18%;

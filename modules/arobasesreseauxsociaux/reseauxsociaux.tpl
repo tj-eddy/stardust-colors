@@ -40,7 +40,7 @@
     </section>
     <div class="vl_footer_rs">
     <section class="download_catalogue">
-        <div class="reseausociaux col-sm-4">
+        <div class="catalogue col-sm-4">
             <div class="titlebloc">{l s='Télécharger notre'} <span>{l s='e-catalogue'}</span></div>
         </div>
     </section>

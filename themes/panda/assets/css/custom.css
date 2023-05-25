@@ -558,6 +558,13 @@ body #st_mega_menu_wrap .ma_level_0:before {
     margin-bottom: 15px;
 }
 
+.catalogue .titlebloc {
+    font: 22px 'AllerDisplay-Regular';
+    color: #ffff;
+    text-transform: uppercase;
+    margin-bottom: 15px;
+}
+
 .download_pdf_social{
     position: absolute;
     width: 191px;

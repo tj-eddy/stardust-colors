@@ -62,6 +62,7 @@ class arobasesreseauxsociaux extends Module{
         if (Tools::isSubmit('submit'.$this->name))
         {
             $my_title = strval(Tools::getValue('TITLEMODULES'));
+            $youtubeEmbed = strval(Tools::getValue('YOUTUBEEMBED'));
             $description = strval(Tools::getValue('DESCRIPTIONRS'));
             $my_facebook = strval(Tools::getValue('LINKFACEBOOK'));
             $my_twiiter = strval(Tools::getValue('LINKTWITTER'));
@@ -69,6 +70,7 @@ class arobasesreseauxsociaux extends Module{
             $my_instagramm = strval(Tools::getValue('LINKINSTAGRAM'));
 
                 Configuration::updateValue('TITLEMODULES', $my_title);
+                Configuration::updateValue('YOUTUBEEMBED', $youtubeEmbed);
                 Configuration::updateValue('DESCRIPTIONRS', $description);
                 Configuration::updateValue('LINKFACEBOOK', $my_facebook);
                 Configuration::updateValue('LINKTWITTER', $my_twiiter);
@@ -102,6 +104,11 @@ class arobasesreseauxsociaux extends Module{
                     'type' => 'textarea',
                     'label' => $this->l('Description'),
                     'name' => 'DESCRIPTIONRS',
+                ),
+                array(
+                    'type' => 'url',
+                    'label' => $this->l('Youtube Embed url'),
+                    'name' => 'YOUTUBEEMBED',
                 ),
                 array(
                     'type' => 'text',
@@ -166,6 +173,7 @@ class arobasesreseauxsociaux extends Module{
 
         // Load current value
         $helper->fields_value['TITLEMODULES'] = Configuration::get('TITLEMODULES');
+        $helper->fields_value['YOUTUBEEMBED'] = Configuration::get('YOUTUBEEMBED');
         $helper->fields_value['DESCRIPTIONRS'] = Configuration::get('DESCRIPTIONRS');
         $helper->fields_value['LINKFACEBOOK'] = Configuration::get('LINKFACEBOOK');
         $helper->fields_value['LINKTWITTER'] = Configuration::get('LINKTWITTER');
@@ -177,6 +185,7 @@ class arobasesreseauxsociaux extends Module{
     public function hookDisplayHome($params){
         global $smarty;
         $my_title = Configuration::get('TITLEMODULES');
+        $youtubeEmbed = Configuration::get('YOUTUBEEMBED');
         $description = Configuration::get('DESCRIPTIONRS');
         $facebook = Configuration::get('LINKFACEBOOK');
         $twitter = Configuration::get('LINKTWITTER');
@@ -185,6 +194,7 @@ class arobasesreseauxsociaux extends Module{
         $smarty->assign(
             array(
                 'titremodules'=>$my_title,
+                'youtube_embed'=>$youtubeEmbed,
                 'secondetitre'=>$description,
                 'facebooklink'=>$facebook,
                 'twitter'=>$twitter,

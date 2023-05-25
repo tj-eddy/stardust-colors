@@ -62,6 +62,8 @@ class arobasesreseauxsociaux extends Module{
         if (Tools::isSubmit('submit'.$this->name))
         {
             $my_title = strval(Tools::getValue('TITLEMODULES'));
+            $ytbtitle = strval(Tools::getValue('YTBTITLE'));
+            $ytbdesc = strval(Tools::getValue('YTBDESC'));
             $youtubeEmbed = strval(Tools::getValue('YOUTUBEEMBED'));
             $youtubeLink = strval(Tools::getValue('LINKYOUTUBE'));
             $description = strval(Tools::getValue('DESCRIPTIONRS'));
@@ -71,6 +73,8 @@ class arobasesreseauxsociaux extends Module{
             $my_instagramm = strval(Tools::getValue('LINKINSTAGRAM'));
 
                 Configuration::updateValue('TITLEMODULES', $my_title);
+                Configuration::updateValue('YTBTITLE', $ytbtitle);
+                Configuration::updateValue('YTBDESC', $ytbdesc);
                 Configuration::updateValue('YOUTUBEEMBED', $youtubeEmbed);
                 Configuration::updateValue('LINKYOUTUBE', $youtubeLink);
                 Configuration::updateValue('DESCRIPTIONRS', $description);
@@ -114,8 +118,16 @@ class arobasesreseauxsociaux extends Module{
                 ),
                 array(
                     'type' => 'text',
-                    'label' => $this->l('Youtube'),
+                    'label' => $this->l('Youtube channel link'),
                     'name' => 'LINKYOUTUBE',
+                ), array(
+                    'type' => 'text',
+                    'label' => $this->l('Youtube title'),
+                    'name' => 'YTBTITLE',
+                ), array(
+                    'type' => 'text',
+                    'label' => $this->l('Youtube description'),
+                    'name' => 'YTBDESC',
                 ),
                 array(
                     'type' => 'text',
@@ -180,6 +192,8 @@ class arobasesreseauxsociaux extends Module{
 
         // Load current value
         $helper->fields_value['TITLEMODULES'] = Configuration::get('TITLEMODULES');
+        $helper->fields_value['YTBDESC'] = Configuration::get('YTBDESC');
+        $helper->fields_value['YTBTITLE'] = Configuration::get('YTBTITLE');
         $helper->fields_value['LINKYOUTUBE'] = Configuration::get('LINKYOUTUBE');
         $helper->fields_value['YOUTUBEEMBED'] = Configuration::get('YOUTUBEEMBED');
         $helper->fields_value['DESCRIPTIONRS'] = Configuration::get('DESCRIPTIONRS');
@@ -193,6 +207,8 @@ class arobasesreseauxsociaux extends Module{
     public function hookDisplayHome($params){
         global $smarty;
         $my_title = Configuration::get('TITLEMODULES');
+        $ytb_desc = Configuration::get('YTBDESC');
+        $ytb_title = Configuration::get('YTBTITLE');
         $ytbLink = Configuration::get('LINKYOUTUBE');
         $youtubeEmbed = Configuration::get('YOUTUBEEMBED');
         $description = Configuration::get('DESCRIPTIONRS');
@@ -203,6 +219,8 @@ class arobasesreseauxsociaux extends Module{
         $smarty->assign(
             array(
                 'titremodules'=>$my_title,
+                'ytb_desc'=>$ytb_desc,
+                'ytb_title'=>$ytb_title,
                 'ytbLink'=>$ytbLink,
                 'url_youtube_embed'=>$youtubeEmbed,
                 'secondetitre'=>$description,

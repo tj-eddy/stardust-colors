@@ -39,6 +39,6 @@
     <hr class="vl_footer_rs">
     <div class="catalogue col-sm-6">
         <div class="titlebloc">{l s='Télécharger notre'}</div>
-        <span class="titlebloc">{l s='e-catalogue'}</span>
+        <span class="titlebloc e-cat">{l s='e-catalogue'}</span>
     </div>
 </div>

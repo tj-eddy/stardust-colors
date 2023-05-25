@@ -37,7 +37,7 @@
                  src="https://stardusthost.stardustcolors.com/themes/panda/assets/img/icone_bas_traduit_FR-min.png"  alt="download"></a>*}
 
         {if isset($url_youtube_embed)}
-            <div class="row">
+            <div class="row cy-bloc">
                 <div class="col">
                     <div class="chaine-youtube">
                         <iframe width="350" height="200" src="{$url_youtube_embed}"></iframe>

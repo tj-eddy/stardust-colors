@@ -565,6 +565,10 @@ body #st_mega_menu_wrap .ma_level_0:before {
     margin-bottom: 15px;
 }
 
+.secondtitlebloc{
+    color: #ffff;
+}
+
 .download_pdf_social{
     position: absolute;
     width: 191px;

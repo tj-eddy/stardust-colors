@@ -217,6 +217,7 @@ class arobasesreseauxsociaux extends Module{
         $googleplus = Configuration::get('LINKGOOGLEPLUS');
         $instagram = Configuration::get('LINKINSTAGRAM');
         $imgCatalogue = _MODULE_DIR_.$this->name.'/images/catalogue.jpg';
+        $imgDownload = _MODULE_DIR_.$this->name.'/images/download.jpg';
         $smarty->assign(
             array(
                 'titremodules'=>$my_title,
@@ -230,6 +231,7 @@ class arobasesreseauxsociaux extends Module{
                 'googleplus'=>$googleplus,
                 'instagram'=>$instagram,
                 'imgCatalogue'=>$imgCatalogue,
+                'imgDownload'=>$imgDownload,
             )
 
         );

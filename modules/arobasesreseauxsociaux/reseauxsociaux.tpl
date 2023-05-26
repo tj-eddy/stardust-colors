@@ -56,5 +56,8 @@
         <div class="catalogue_img">
             <img src="{$imgCatalogue}" alt="catalogue"/>
         </div>
+        <div class="download_img">
+            <img src="{$imgDownload}" alt="download">
+        </div>
     </div>
 </div>

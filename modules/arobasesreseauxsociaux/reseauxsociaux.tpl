@@ -53,5 +53,8 @@
     <div class="catalogue col-sm-4">
         <div class="titlebloc">{l s='Télécharger notre'}</div>
         <span class="titlebloc e-cat">{l s='e-catalogue'}</span>
+        <div class="catalogue_img">
+            <img src="{$imgCatalogue}" alt="catalogue"/>
+        </div>
     </div>
 </div>

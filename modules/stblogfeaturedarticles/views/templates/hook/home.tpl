@@ -44,7 +44,7 @@
                     <div class="flex_child title_flex_left"></div>
                     {if $p_c.link}<a href="{$p_c.link}" title="{$p_c.name}" class="title_block_inner">{else}<div class="title_block_inner">{/if}
                     {if isset($p_c.slider_title) && $p_c.slider_title}
-                        {$p_c.slider_title}
+                        {$p_c.slider_title|nl2br}
                     {else}
                        {if $blog_slider_type==2}
                             {l s='Recent articles' d='Shop.Theme.Panda'}

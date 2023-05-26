@@ -377,6 +377,8 @@ body{
 .cy-desc{
     padding-left: 0 !important;
     color: #fff;
+    padding-top: 12px;
+    padding-bottom: 12px;
 }
 
 .cy-desc h3{

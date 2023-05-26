@@ -809,7 +809,7 @@ design RS & catalogue
     padding-bottom: 20px !important;
 }
 
-.view_more_blog{
+.view_more_blog a{
     text-transform: uppercase;
     font-family: AllerDisplay-regular;
     font-size: 20px;

@@ -300,6 +300,7 @@ body{
     font: 16px "AllerDisplay-Regular";
     color: #272428;
     text-align: center;
+    white-space: break-spaces;
 }
 
 #reinsurance_block li img {

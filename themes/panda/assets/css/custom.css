@@ -378,6 +378,7 @@ body{
     padding-top: 24px;
 }
 
+.chaine-youtube iframe{border: 1px solid #000}
 .cy-desc h3{
     font-family: 'AllerDisplay-regular';
     text-transform: uppercase;

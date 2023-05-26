@@ -174,7 +174,6 @@
 {l s='Facebook' d='Shop.Theme.Panda'}
 {l s='Featured categories' d='Shop.Theme.Panda'}
 {l s='No featured categories' d='Shop.Theme.Panda'}
-{l s='Featureds %nl Products' sprintf=["%nl" => "<br>"] d='Shop.Theme.Panda'}
 {l s='New products' d='Shop.Theme.Panda'}
 {l s='Follow' d='Shop.Theme.Panda'}
 {l s='Posts' d='Shop.Theme.Panda'}

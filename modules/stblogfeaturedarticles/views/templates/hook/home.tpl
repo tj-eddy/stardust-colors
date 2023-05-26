@@ -49,7 +49,9 @@
                        {if $blog_slider_type==2}
                             {l s='Recent articles' d='Shop.Theme.Panda'}
                         {else}
-
+                            {if isset($p_c.is_root_category) && $p_c.is_root_category}{l s='Featured articles' d='Shop.Theme.Panda'}{else}
+                            {$p_c.name}
+                            {/if}
                         {/if}
                     {/if}
                     {if $p_c.link}</a>{else}</div>{/if}

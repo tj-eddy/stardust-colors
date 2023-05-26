@@ -363,11 +363,13 @@ body{
 }
 
 .cy-bloc{
-    padding-top: 16px;
-    padding-bottom: 10px;
+    padding-top: 13px;
+    padding-bottom: 7px;
     background-color: #000c25;
     border-radius: 4px;
-    width: 100%;
+    width: 96%;
+    border: 1px solid #000c25;
+    margin-left: 0%;
 }
 
 
@@ -388,6 +390,7 @@ body{
     margin-left: 6px;
     text-transform: inherit;
     font-weight: bold;
+    margin-top: 20%;
 }
 
 .e-cat{
@@ -786,7 +789,7 @@ color: #888785;
 .container-blog{
 display: grid;
 grid-template-columns: repeat(3, 1fr);
-gap: 20px;
+gap: 44px;
 /*width: 940px;*/
 margin: auto;
 }

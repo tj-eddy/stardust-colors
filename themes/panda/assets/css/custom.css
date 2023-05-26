@@ -352,7 +352,7 @@ body{
 
 .vl_footer_rs{
     border-left: 1px solid #460761;
-    height: 380px;
+    height: 392px;
     position: absolute;
     left: 66%;
     bottom: -11px;
@@ -586,17 +586,25 @@ body #st_mega_menu_wrap .ma_level_0:before {
 }
 
 .reseausociaux .titlebloc {
-    font: 22px 'AllerDisplay-Regular';
+    font: 23px 'AllerDisplay-Regular';
     color: #ffff;
     text-transform: uppercase;
     margin-bottom: 15px;
 }
 
+.reseausociaux{
+    padding-left: 26px !important;
+}
+
 .catalogue .titlebloc {
-    font: 22px 'AllerDisplay-Regular';
+    font: 23px 'AllerDisplay-Regular';
     color: #ffff;
     text-transform: uppercase;
     margin-bottom: 15px;
+}
+
+.catalogue{
+    padding-left: 80px !important;
 }
 
 .secondtitlebloc{

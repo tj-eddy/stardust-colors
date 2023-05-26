@@ -352,7 +352,7 @@ body{
 
 .vl_footer_rs{
     border-left: 1px solid #460761;
-    height: 392px;
+    height: 482px;
     position: absolute;
     left: 66%;
     bottom: -11px;
@@ -363,16 +363,13 @@ body{
 }
 
 .cy-bloc{
-    padding-top: 15px;
+    padding-top: 16px;
     padding-bottom: 10px;
     background-color: #000c25;
     border-radius: 4px;
     width: 100%;
 }
 
-.cy-url{
- padding-right: 0 !important;
-}
 
 .cy-desc{
     color: #fff;
@@ -609,7 +606,7 @@ body #st_mega_menu_wrap .ma_level_0:before {
 }
 
 .catalogue{
-    padding-left: 66px!important
+    padding-left: 22px!important;
 }
 
 .secondtitlebloc{

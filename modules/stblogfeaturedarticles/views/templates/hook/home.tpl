@@ -43,18 +43,7 @@
                 <div class="title_block flex_container title_align_{if $column_slider}0{else}{(int)$p_c.title_align}{/if} title_style_{if isset($is_blog) && $is_blog}{(int)$stblog.heading_style}{else}{(int)$sttheme.heading_style}{/if} {if isset($p_c.sub_title) && $p_c.sub_title} st_has_sub_title {/if}">
                     <div class="flex_child title_flex_left"></div>
                     {if $p_c.link}<a href="{$p_c.link}" title="{$p_c.name}" class="title_block_inner">{else}<div class="title_block_inner">{/if}
-                    {if isset($p_c.slider_title) && $p_c.slider_title}
-                        {$p_c.slider_title}
-                    {else}
-                       {if $blog_slider_type==2}
-                            {l s='Recent articles' d='Shop.Theme.Panda'}
-                        {else}
-                            {if isset($p_c.is_root_category) && $p_c.is_root_category}{l s='Featured articles' d='Shop.Theme.Panda'}{else}
-                            {$p_c.name}
-                            {/if}
-                        {/if}
-                    {/if}
-                    {if $p_c.link}</a>{else}</div>{/if}
+
                     <div class="flex_child title_flex_right"></div>
                     {if isset($p_c.view_more) && $p_c.view_more==2 && $p_c.link}<div class="flex_box"><a href="{$p_c.link}" class="go view_more_at_tr" title="{l s='View more' d='Shop.Theme.Panda'}">{l s='View More' d='Shop.Theme.Panda'}</a></div>{/if}
                     {if $p_c.direction_nav && ((!$p_c.grid && $p_c.direction_nav==1) || $column_slider) && isset($p_c.blogs) && $p_c.blogs}

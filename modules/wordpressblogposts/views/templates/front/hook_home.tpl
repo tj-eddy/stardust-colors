@@ -31,7 +31,7 @@
                     {/if}
                 {/foreach}
             </ul>
-            <div class="view_more_blog"><a href="/blog">{l s="Voir toutes nos actus"}</a></div>
+            <div class="view_more_blog"><a target="_blank" href="/blog">{l s="Voir toutes nos actus"}</a></div>
         </div>
     </div>
 {/if}

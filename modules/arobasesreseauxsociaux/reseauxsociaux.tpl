@@ -38,7 +38,7 @@
             <div class="row cy-bloc">
                 <div class="col cy-url">
                     <div class="chaine-youtube">
-                        <iframe width="350" height="200" src="{$url_youtube_embed}"></iframe>
+                        <iframe width="380" height="250" src="{$url_youtube_embed}"></iframe>
                     </div>
                 </div>
                 <div class="col cy-desc">

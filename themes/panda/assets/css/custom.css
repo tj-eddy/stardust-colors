@@ -363,8 +363,8 @@ body{
 }
 
 .cy-bloc{
-    padding-top: 12px;
-    padding-bottom: 7px;
+    padding-top: 15px;
+    padding-bottom: 10px;
     background-color: #000c25;
     border-radius: 4px;
     width: 100%;
@@ -375,10 +375,8 @@ body{
 }
 
 .cy-desc{
-    padding-left: 0 !important;
     color: #fff;
-    padding-top: 12px;
-    padding-bottom: 12px;
+    padding-top: 24px;
 }
 
 .cy-desc h3{
@@ -611,7 +609,7 @@ body #st_mega_menu_wrap .ma_level_0:before {
 }
 
 .catalogue{
-    padding-left: 80px !important;
+    padding-left: 66px!important
 }
 
 .secondtitlebloc{

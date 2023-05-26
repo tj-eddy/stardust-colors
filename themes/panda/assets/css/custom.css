@@ -831,3 +831,7 @@ design RS & catalogue
     width: 64%;
     padding-top: 34px;
 }
+
+.download_img img{
+    width: 64%;
+}

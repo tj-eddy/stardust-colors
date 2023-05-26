@@ -30,8 +30,8 @@
                         </div>
                     {/if}
                 {/foreach}
-                <div class="view_more_blog"><a href="/blog">{l s="Voir toutes nos actus"}</a></div>
             </ul>
+            <div class="view_more_blog"><a href="/blog">{l s="Voir toutes nos actus"}</a></div>
         </div>
     </div>
 {/if}

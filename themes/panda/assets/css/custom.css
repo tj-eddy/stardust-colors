@@ -812,10 +812,15 @@ design RS & catalogue
 .view_more_blog a{
     text-transform: uppercase;
     font-family: AllerDisplay-regular;
-    font-size: 20px;
+    font-size: 16px;
     border: 1px solid #48b5e0;
     border-radius: 23px;
     background-color: #48b5e0;
-    margin-left: 6px;
+    color: #fff;
+    padding: 8px 14px;
+}
+
+.view_more_blog{
+    padding-top: 40px;
     text-align: center;
 }

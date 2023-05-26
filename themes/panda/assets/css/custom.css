@@ -358,6 +358,10 @@ body{
     bottom: -11px;
 }
 
+.btn-rotate a {
+    padding-right: 20px;
+}
+
 .cy-bloc{
     padding-top: 12px;
     padding-bottom: 7px;

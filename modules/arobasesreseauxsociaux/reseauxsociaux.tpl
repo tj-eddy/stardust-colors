@@ -57,7 +57,7 @@
             <img src="{$imgCatalogue}" alt="catalogue"/>
         </div>
         <div class="download_img">
-            <a href="documents/fr/catalogue.pdf"><img src="{$imgDownload}" alt="download"></a>
+            <a target="_blank" href="documents/fr/catalogue.pdf"><img src="{$imgDownload}" alt="download"></a>
         </div>
     </div>
 </div>

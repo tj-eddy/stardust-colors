@@ -405,7 +405,8 @@ body{
     position: absolute;
     width: 60%;
     left: 18%;
-    top: 250px;
+    top: 194px;
+}
 }
 
 article {
@@ -616,13 +617,15 @@ footer .title_flex_right{
 .text_after_logo_footer{
     padding-left: 65px;
     padding-right: 89px;
-    /*padding-top: 12%;*/
     font-size: 12px;
     text-transform: none;
+    padding-top: 24%;
 }
 
 .logo_footer{
     padding-right: 20%;
+    position: absolute;
+    top: -20%;
 }
 
 .text_{

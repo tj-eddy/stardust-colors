@@ -596,7 +596,7 @@ body #st_mega_menu_wrap .ma_level_0:before {
     font: 23px 'AllerDisplay-Regular';
     color: #ffff;
     text-transform: uppercase;
-    margin-bottom: 15px;
+    /*margin-bottom: 15px;*/
 }
 
 .reseausociaux{
@@ -607,7 +607,7 @@ body #st_mega_menu_wrap .ma_level_0:before {
     font: 23px 'AllerDisplay-Regular';
     color: #ffff;
     text-transform: uppercase;
-    margin-bottom: 15px;
+    /*margin-bottom: 15px;*/
 }
 
 .catalogue{
@@ -825,4 +825,9 @@ design RS & catalogue
 .view_more_blog{
     padding-top: 40px;
     text-align: center;
+}
+
+.catalogue_img img{
+    width: 64%;
+    padding-top: 34px;
 }

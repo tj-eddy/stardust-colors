@@ -669,6 +669,7 @@ footer .title_flex_right{
 .email_info_technique,.email_info_commercial{
     color: #6D2BC3;
     font-size: 14px;
+    text-decoration: underline;
 }
 
 .number_service_commercial{

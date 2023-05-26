@@ -1,7 +1,7 @@
 {if $title}
 <div class="title_block flex_container title_align_{if $column_slider}0{else}{(int)$title_position}{/if} title_style_{if 0 && isset($is_blog) && $is_blog}{(int)$stblog.heading_style}{else}{(int)$sttheme.heading_style}{/if} {if isset($sub_title) && $sub_title} st_has_sub_title {/if}">
     <div class="flex_child title_flex_left"></div>
-    <div class="title_block_inner">{$title|escape:'htmlall':'UTF-8'}</div>
+    <div class="title_block_inner">{$title|escape:'htmlall':'UTF-8'|nl2br}</div>
     <div class="flex_child title_flex_right"></div>
     {if $pro_or_blog_slider}
         {if isset($view_more) && $view_more==2 && ((isset($title_link) && $title_link) || (isset($url_entity) && $url_entity))}<div class="flex_box"><a href="{if isset($title_link) && $title_link}{$title_link}{else}{url entity=$url_entity}{/if}" class="view_more_at_tr st_slider_view_more inline_block" title="{if isset($view_more_text) && $view_more_text}{$view_more_text}{else}{l s='View more' d='Shop.Theme.Panda'}{/if}">{if isset($view_more_text) && $view_more_text}{$view_more_text}{else}{l s='View more' d='Shop.Theme.Panda'}{/if}</a></div>{/if}

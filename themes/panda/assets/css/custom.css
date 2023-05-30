@@ -835,3 +835,11 @@ design RS & catalogue
 .download_img img{
     width: 64%;
 }
+
+.s_title_block{
+    font-weight: bold !important;
+}
+
+.s_title_block a {
+    text-transform: uppercase !important;
+}

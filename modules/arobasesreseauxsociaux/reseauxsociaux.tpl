@@ -28,7 +28,7 @@
                    </a>{/if}
                <a href="https://www.youtube.com/{$ytbLink}" title="{l s='Suivez-nous sur youtube'}" target="_blank">
                    <img class="jQueryRotate"
-                        src="https://stardusthost.stardustcolors.com/themes/panda/assets/img/icone-youtube5.png" width="50"
+                        src="https://stardusthost.stardustcolors.com/themes/panda/assets/img/ytb-icon.png" width="50"
                         alt="">
                </a>
            </div>

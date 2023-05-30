@@ -843,3 +843,7 @@ design RS & catalogue
 .s_title_block a {
     text-transform: uppercase !important;
 }
+
+.product_list.grid .pro_second_box, .products_sldier_swiper .pro_second_box{
+    padding: 0 6px !important;
+}

@@ -846,3 +846,11 @@ design RS & catalogue
 .product_list.grid .pro_second_box, .products_sldier_swiper .pro_second_box{
     padding: 0 6px !important;
 }
+
+.pro_first_box{
+    background: #fff !important;
+}
+
+.product_img_link{
+    padding: 0 10px !important;
+}

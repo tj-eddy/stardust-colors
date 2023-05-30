@@ -191,9 +191,10 @@ body{
     padding-right: 0;
     padding-left: 0;
     position: relative;
-    background-color: #ffff;
-    margin-top: 20px;
+    background-color: #fff;
+    margin-top: 10px;
     border-radius: 2px;
+    margin-left: -9%;
 }
 
 

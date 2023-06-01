@@ -323,6 +323,11 @@ body{
     -o-transition: all .5s;
 }
 
+#width7 {
+margin: 0 !important;
+
+}
+
 #reinsurance_block li span {
     padding-top: 12px;
     display: block;

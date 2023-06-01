@@ -16,7 +16,7 @@
 	-o-transition: all .5s;
 }
 #reinsurance_block li:hover{
-	padding-top:0 !important;
+	padding-top:7px !important;
 }
 #reinsurance_block .width1 li {width:960px}
 #reinsurance_block .width2 li {width:470px}

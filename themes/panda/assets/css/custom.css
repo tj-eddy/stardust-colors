@@ -169,6 +169,23 @@ body{
         max-width: 100%;
     }
 
+    .container-blog {
+        display: flex !important;
+
+    }
+
+    .chaine-youtube iframe {
+        width: 240px !important;
+    }
+
+    .vl_footer_rs {
+        display: none;
+    }
+
+    .catalogue .titlebloc{
+        margin-top: 20px;
+    }
+
     #reinsurance_block li {
         width: 100% !important;
         padding: 20px 10px !important;

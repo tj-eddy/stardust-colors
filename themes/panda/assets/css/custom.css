@@ -934,3 +934,7 @@ design RS & catalogue
 .pentures{
     padding-left: 17%;
 }
+
+.swiper_images_slider .swiper-container{
+    width: 97% !important;
+}

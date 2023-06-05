@@ -14,6 +14,7 @@
             {/if}
             <ul class="container-blog row">
                 {foreach from=$wbp_posts item=post name=wbp_posts}
+                    {dump($wbp_posts)}
                     {if $post->post_image != ""}
                         <div class="card">
                             <div class="card-header">
@@ -26,6 +27,11 @@
                                     {$post->description|truncate:200:"..."}
                                 </p>
                                 <span class="tag_show_more"><a target="_blank" href="{$post->url}">{l s="Lire la suite"} > </a></span>
+                                <div class="blog_flag">
+                                    <div class="blog_flag_text">
+
+                                    </div>
+                                </div>
                             </div>
                         </div>
                     {/if}

@@ -861,3 +861,34 @@ design RS & catalogue
    /* padding: 0 10px !important;*/
     padding: 7px;
 }
+
+
+.blog_flag{
+    position: absolute;
+    top: 20px;
+    left: 0;
+    z-index: 2;
+    display: flex;
+    -webkit-box-orient: vertical;
+    -webkit-box-direction: normal;
+    -ms-flex-wrap: wrap;
+    flex-wrap: wrap;
+    width: 100%;
+    pointer-events: none;
+}
+
+.blog_flag_text{
+    width: -moz-fit-content;
+    width: fit-content;
+    padding: 0.3125rem 0.4375rem;
+    margin-top: 0.625rem;
+    font-size: 1rem;
+    font-weight: 700;
+    color: #fff;
+    text-transform: uppercase;
+    pointer-events: auto;
+    background: #48b5e0;
+    font-family: 'AllerDisplay-regular';
+    border-top-right-radius: 10px;
+    border-bottom-right-radius: 10px;
+}

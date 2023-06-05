@@ -830,11 +830,10 @@ color: #888785;
 }
 
 .container-blog{
-display: grid;
-grid-template-columns: repeat(3, 1fr);
-gap: 44px;
-/*width: 940px;*/
-margin: auto;
+    display: grid;
+    grid-template-columns: repeat(4, 1fr);
+    gap: 17px;
+    margin: auto;
 }
 
 

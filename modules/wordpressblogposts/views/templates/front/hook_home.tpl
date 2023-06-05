@@ -14,7 +14,6 @@
             {/if}
             <ul class="container-blog row">
                 {foreach from=$wbp_posts item=post name=wbp_posts}
-                    {dump($wbp_posts)}
                     {if $post->post_image != ""}
                         <div class="card">
                             <div class="card-header">

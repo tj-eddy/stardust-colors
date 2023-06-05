@@ -160,6 +160,7 @@ class WBPModel {
         $recent_posts = wp_get_recent_posts( $args);
         $posts = array();
         foreach($recent_posts as $post){
+            dump($post);die;
             $image = wp_get_attachment_image_src( get_post_thumbnail_id( $post['ID'] ));
             $posts[] = array(
                 'url' => get_permalink($post['ID']),

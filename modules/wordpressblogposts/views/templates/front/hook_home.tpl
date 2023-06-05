@@ -2,9 +2,9 @@
     <div id="wbpblogposts" class="blocpost">
         <div class="products_block col-sm-12 contentblock">
             <div class="row">
-                <div class="col"><h1 class="last_blog_title">{l s='DERNIERS ARTICLES DU BLOG' mod='wordpressblogposts'}</h1>
+                <div class="col-9"><h1 class="last_blog_title">{l s='DERNIERS ARTICLES DU BLOG' mod='wordpressblogposts'}</h1>
                 </div>
-                <div class="col"><div class="view_more_blog"><a target="_blank" href="/blog">{l s="Voir toutes nos actus"}</a></div></div>
+                <div class="col-3"><div class="view_more_blog"><a target="_blank" href="/blog">{l s="Voir toutes nos actus"}</a></div></div>
             </div>
             <p>
                 {l s="Retrouvez nos astuces,test,tuto et conseils de pro afin d'utiliser au mieux nos produits Stardust Colors" d="Shop.Theme.Panda"}

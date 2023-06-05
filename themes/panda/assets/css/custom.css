@@ -887,7 +887,7 @@ design RS & catalogue
 }
 
 .product_list.grid .pro_second_box, .products_sldier_swiper .pro_second_box{
-    /*padding: 0 6px !important;*/
+    padding: 6px 6px 0px !important;
 }
 
 .pro_first_box{

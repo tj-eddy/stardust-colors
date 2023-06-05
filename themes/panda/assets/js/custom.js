@@ -8,4 +8,5 @@ jQuery(function ($) {
     $('#st_ma_381').addClass('is_parent');
     $('.stfeaturedslider_container').removeClass('block');
     $('.easycontent_container').removeClass('block');
+    $('.swiper_container_1').addClass('col-lg-12');
 })

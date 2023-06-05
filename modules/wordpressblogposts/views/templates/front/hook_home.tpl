@@ -28,7 +28,7 @@
                                 <span class="tag_show_more"><a target="_blank" href="{$post->url}">{l s="Lire la suite"} > </a></span>
                                 <div class="blog_flag">
                                     <div class="blog_flag_text">
-                                        {$post->category}
+                                        Actualités
                                     </div>
                                 </div>
                             </div>

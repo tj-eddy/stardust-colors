@@ -163,7 +163,7 @@ class WBPModel {
             $image = wp_get_attachment_image_src( get_post_thumbnail_id( $post['ID'] ));
             $posts[] = array(
                 'url' => get_permalink($post['ID']),
-                'category' => get_the_category($post['ID'])[0]['name'],
+               // 'category' => get_the_category($post['ID'])[0]['name'],
                 'post_image' =>$image[0],
                 'title' => $post['post_title'],
                 'pub_date' => $post['post_date'],

@@ -716,6 +716,7 @@ footer .title_flex_right{
 
 .info_footer{
     padding-top: 16px;
+    line-height: 1.8 !important;
 }
 
 .text_info_technique,.text_info_commercial{

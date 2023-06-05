@@ -160,7 +160,7 @@ class WBPModel {
         $recent_posts = wp_get_recent_posts( $args);
         $posts = array();
         foreach($recent_posts as $post){
-            dump($post);die;
+            dump($post);
             $image = wp_get_attachment_image_src( get_post_thumbnail_id( $post['ID'] ));
             $posts[] = array(
                 'url' => get_permalink($post['ID']),
@@ -171,6 +171,7 @@ class WBPModel {
                 'description' => preg_replace('/(\s\s+|\t|\n)/', ' ',strip_tags(($post['post_content'])))
             );
         }
+        die;
         return json_decode(json_encode($posts));
     }
 

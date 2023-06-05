@@ -886,9 +886,6 @@ design RS & catalogue
     text-transform: uppercase !important;
 }
 
-.product_list.grid .pro_second_box, .products_sldier_swiper .pro_second_box{
-    padding: 6px 6px 0px !important;
-}
 
 .pro_first_box{
     background: #fff !important;
@@ -940,8 +937,4 @@ design RS & catalogue
 }
 .product_img_link img.front-image, .product_image img.front-image{
     /*transform: scale(1.1) !important;*/
-}
-
-.product_list.grid .product_list_item{
-    padding: 0 7px 50px !important;
 }

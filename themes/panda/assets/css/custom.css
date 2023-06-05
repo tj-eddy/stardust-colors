@@ -472,9 +472,13 @@ article {
     position: relative;
     min-width: 206px;
     height: 63px;
-    margin-left: 24%;
+    margin-left: 15%;
     margin-bottom: 4%;
     background-size: 180px !important;
+}
+
+.login_cls{
+    margin: 0 16px;
 }
 
 .cart_text {
@@ -496,7 +500,7 @@ article {
 }
 
 #steasy_column_23 {
-    width: 120% !important;
+    width: 117% !important;
 }
 
 #header_right_bottom .my_account_link, .login {

@@ -163,15 +163,14 @@ class WBPModel {
             $image = wp_get_attachment_image_src( get_post_thumbnail_id( $post['ID'] ));
             $posts[] = array(
                 'url' => get_permalink($post['ID']),
-                'category' => get_the_category($post['ID']),
+                'category' => get_the_category($post['ID'])[0]['name'],
                 'post_image' =>$image[0],
                 'title' => $post['post_title'],
                 'pub_date' => $post['post_date'],
                 'timestamp' => strtotime($post['post_date_gmt']),
                 'description' => preg_replace('/(\s\s+|\t|\n)/', ' ',strip_tags(($post['post_content'])))
             );
-            dump($posts);
-        }die;
+        }
         return json_decode(json_encode($posts));
     }
 

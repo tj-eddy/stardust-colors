@@ -90,7 +90,7 @@ body{
 
 @media (min-width:1025px){
     .swiper-slide{
-        width: 769px !important
+        /*width: 769px !important*/
     }
 }
 

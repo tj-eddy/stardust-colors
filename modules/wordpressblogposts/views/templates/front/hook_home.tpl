@@ -23,7 +23,7 @@
                                 <span class="tag_date_publish">{l s="Publié le"}  {$post->pub_date|date_format:"%d/%m/%Y"}</span>
                                 <h4>{$post->title|escape:'htmlall':'UTF-8'}</h4>
                                 <p>
-                                    {$post->description|truncate:200:"..."}
+                                    {$post->description|truncate:150:"..."}
                                 </p>
                                 <span class="tag_show_more"><a target="_blank" href="{$post->url}">{l s="Lire la suite"} > </a></span>
                                 <div class="blog_flag">

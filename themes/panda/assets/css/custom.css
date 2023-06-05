@@ -938,3 +938,6 @@ design RS & catalogue
 .swiper_images_slider .swiper-container{
     width: 97% !important;
 }
+.product_img_link img.front-image, .product_image img.front-image{
+    transform: scale(1.1) !important;
+}

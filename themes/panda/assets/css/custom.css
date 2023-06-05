@@ -939,5 +939,5 @@ design RS & catalogue
     width: 97% !important;
 }
 .product_img_link img.front-image, .product_image img.front-image{
-    transform: scale(1.1) !important;
+    /*transform: scale(1.1) !important;*/
 }

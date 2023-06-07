@@ -7,7 +7,7 @@ body{
 }
 
 .title_block{
-    margin: 10px 0 10px 0;
+    margin: 30px 0 10px 0;
 }
 
 .title_block_inner {
@@ -304,9 +304,9 @@ body{
 
 #wppost {
     background-color: #6D2BC3;
-    padding-bottom: 20px;
+    padding-bottom: 30px;
     color: #fff;
-    padding-top: 20px;
+    padding-top: 30px;
 }
 
 .last_blog_title, .mu_level_0 {

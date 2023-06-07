@@ -245,7 +245,7 @@ body{
 
 .title_cat {
     background-color: #6d2bc3;
-    padding: 10px;
+    padding: 18px;
     color: #fff;
     text-transform: uppercase;
     font: 18px 'AllerDisplay-regular'
@@ -949,4 +949,8 @@ design RS & catalogue
 
 .top_bar_item{
     padding: 4px 8px;
+}
+
+.detail.description, .detail.priceprod{
+    margin-left: 8px !important;
 }

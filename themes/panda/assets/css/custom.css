@@ -946,3 +946,7 @@ design RS & catalogue
 .product_list.grid .pro_second_box, .products_sldier_swiper .pro_second_box {
     padding: 10px 6px 5px !important;
 }
+
+.top_bar_item{
+    padding: 4px 8px;
+}

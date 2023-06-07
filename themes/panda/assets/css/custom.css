@@ -951,6 +951,6 @@ design RS & catalogue
     padding: 4px 8px;
 }
 
-.detail.description, .detail.priceprod{
+.description,.priceprod{
     margin-left: 8px !important;
 }

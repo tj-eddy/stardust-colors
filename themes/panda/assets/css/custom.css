@@ -492,7 +492,7 @@ article {
 
 .position_cart {
     flex-wrap: wrap;
-    padding-top: 10px;
+    padding-top: 3px;
 }
 
 .item_cart {
@@ -949,7 +949,7 @@ design RS & catalogue
 }
 
 .top_bar_item{
-    padding: 4px 8px;
+    padding: 6px 8px;
 }
 
 .description,.priceprod{

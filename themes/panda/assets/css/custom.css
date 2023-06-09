@@ -472,10 +472,10 @@ article {
     background: url(https://stardusthost.stardustcolors.com/themes/panda/assets/img/bgcart.png) no-repeat;
     position: relative;
     min-width: 206px;
-    height: 63px;
+    height: 66px;
     margin-left: 13%;
     margin-bottom: 4%;
-    /*background-size: 180px !important;*/
+    background-size: 221px !important;
 }
 
 .login_cls{

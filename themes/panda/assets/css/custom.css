@@ -473,7 +473,7 @@ article {
     position: relative;
     min-width: 206px;
     height: 66px;
-    margin-left: 13%;
+    margin-left: 15%;
     margin-bottom: 4%;
     background-size: 221px !important;
 }
@@ -496,7 +496,7 @@ article {
 }
 
 .item_cart {
-    padding-left: 56px;
+    padding-left: 62px;
     font-size: 12px;
 }
 

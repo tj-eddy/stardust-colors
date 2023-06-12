@@ -32,7 +32,7 @@
                 {if $ec.title && $ec.title_align!=3 && (!isset($is_product_tab) || !$is_product_tab)}
                 <div class="title_block flex_container title_align_{if $is_column}0{else}{(int)$ec.title_align}{/if} title_style_{if $ec.is_blog}{(int)Configuration::get('ST_BLOG_HEADING_STYLE')}{else}{(int)Configuration::get('STSN_HEADING_STYLE')}{/if}">
                     <div class="flex_child title_flex_left"></div>
-                    {if $ec.url}<a href="{$ec.url}" title="{$ec.title}" class="title_block_inner">{else}<h1 class="title_block_inner">{/if}
+                    {if $ec.url}<a href="{$ec.url}" title="{$ec.title}" class="title_block_inner">{else}<div class="title_block_inner">{/if}
                     {$ec.title}
                     {if $ec.url}</a>{else}</div>{/if}
                     <div class="flex_child title_flex_right"></div>

@@ -975,7 +975,9 @@ design RS & catalogue
     color: #412BAD;
     font-weight: 900;
 }
-
+#steasy_column_25{
+    padding-left: 0;
+}
 .style_content h3 {
    /* font-size: 17px;*/
     margin-bottom: 14px;

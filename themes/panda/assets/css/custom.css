@@ -786,6 +786,14 @@ footer .title_flex_right{
     padding: 2px 10px;
     text-transform: uppercase;
 }
+
+.cursor_show_more{
+    text-decoration: underline;
+    font-size: 12px;
+    color: #008BFF !important;
+    font-weight: 900;
+}
+
 .tag-teal {
 background-color: #92d4e4;
 }

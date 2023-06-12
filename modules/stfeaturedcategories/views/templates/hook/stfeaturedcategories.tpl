@@ -44,7 +44,7 @@
     {if $title_position!=3}
     <div class="title_block flex_container title_align_{(int)$title_position} title_style_{(int)$sttheme.heading_style} {if isset($sub_title) && $sub_title} st_has_sub_title {/if}">
         <div class="flex_child title_flex_left"></div>
-    <div class="title_block_inner">{if isset($title) && $title}{$title}{else}{l s='Featured categories' d='Shop.Theme.Panda'}{/if}</div>
+    <h1 class="title_block_inner">{if isset($title) && $title}{$title}{else}{l s='Featured categories' d='Shop.Theme.Panda'}{/if}</h1>
         <div class="flex_child title_flex_right"></div>
         {if !$display_as_grid && $direction_nav==1 && isset($featured_categories) && $featured_categories}
             <div class="swiper-button-tr {if $hide_direction_nav_on_mob} hidden-md-down {/if}"><div class="swiper-button swiper-button-outer swiper-button-prev"><i class="fto-left-open-3 slider_arrow_left"></i><i class="fto-right-open-3 slider_arrow_right"></i></div><div class="swiper-button swiper-button-outer swiper-button-next"><i class="fto-left-open-3 slider_arrow_left"></i><i class="fto-right-open-3 slider_arrow_right"></i></div></div>        

@@ -789,9 +789,9 @@ footer .title_flex_right{
 
 .cursor_show_more{
     text-decoration: underline;
-    font-size: 12px;
+    font-size: 16px;
     color: #008BFF !important;
-    font-weight: 900;
+    font-weight: bold;
 }
 
 .tag-teal {

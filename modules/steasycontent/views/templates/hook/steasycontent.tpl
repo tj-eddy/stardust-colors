@@ -30,11 +30,11 @@
         {if $ec.is_header_item}<div class="easycontent_header top_bar_item   flex_child"><div class="header_item">{/if}
             <aside id="easycontent_{$ec.id_st_easy_content}" class="easycontent_{$ec.id_st_easy_content} {if $ec.hide_on_mobile == 1} hidden-md-down {elseif $ec.hide_on_mobile == 3} hidden-sm-down {elseif $ec.hide_on_mobile == 2} hidden-lg-up {/if} {if !$ec.is_full_width} block {if ($ec.bg_img || $ec.bg_pattern) || $ec.mpfour} jarallax {/if}{/if} easycontent {if isset($is_column) && $is_column} column_block {/if} {if $ec.type==2 && $ec.module_align>2} easy_stretch_child {if $ec.module_align>10 && $ec.module_align<23} col-lg-{$ec.module_align-10} st_parallax_left {/if} {if $ec.module_align>30 && $ec.module_align<43} col-lg-{$ec.module_align-30} st_parallax_right {/if} {/if}" {if !$ec.is_full_width}{$smarty.capture.parallax_param nofilter}{/if}>
                 {if $ec.title && $ec.title_align!=3 && (!isset($is_product_tab) || !$is_product_tab)}
-                <div class="title_block flex_container title_align_{if $is_column}0{else}{(int)$ec.title_align}{/if} title_style_{if $ec.is_blog}{(int)Configuration::get('ST_BLOG_HEADING_STYLE')}{else}{(int)Configuration::get('STSN_HEADING_STYLE')}{/if}">
+                <h1 class="title_block flex_container title_align_{if $is_column}0{else}{(int)$ec.title_align}{/if} title_style_{if $ec.is_blog}{(int)Configuration::get('ST_BLOG_HEADING_STYLE')}{else}{(int)Configuration::get('STSN_HEADING_STYLE')}{/if}">
                     <div class="flex_child title_flex_left"></div>
-                    {if $ec.url}<a href="{$ec.url}" title="{$ec.title}" class="title_block_inner">{else}<div class="title_block_inner">{/if}
+                    {if $ec.url}<a href="{$ec.url}" title="{$ec.title}" class="title_block_inner">{else}<h1 class="title_block_inner">{/if}
                     {$ec.title}
-                    {if $ec.url}</a>{else}</div>{/if}
+                    {if $ec.url}</a>{else}</h1>{/if}
                     <div class="flex_child title_flex_right"></div>
                 </div>
                 {/if}

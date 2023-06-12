@@ -975,3 +975,10 @@ design RS & catalogue
     color: #412BAD;
     font-weight: 900;
 }
+
+.style_content h3 {
+    font-size: 15px;
+    margin-bottom: 14px;
+    color: #412BAD;
+    font-weight: 900;
+}

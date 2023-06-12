@@ -968,3 +968,10 @@ design RS & catalogue
 .header-container #st_header{
     background-image: url("https://stardusthost.stardustcolors.com/themes/panda/assets/img/bg.jpg");
 }
+
+.style_content h2 {
+    font-size: 17px;
+    margin-bottom: 14px;
+    color: #412BAD;
+    font-weight: 900;
+}

@@ -997,5 +997,7 @@ design RS & catalogue
     text-transform: uppercase;
     font-weight: bold;
     font-size: 14px;
-    padding: 5px;
+    padding-bottom: 5px;
+    padding-right: 5px;
+    padding-top: 5px;
 }

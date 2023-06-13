@@ -988,3 +988,7 @@ design RS & catalogue
 .mu_level_1{
     line-height: 1.2;
 }
+
+.border_right{
+    border: 1px solid #D7D7D7;
+}

@@ -992,3 +992,10 @@ design RS & catalogue
 .border_right{
     border: 1px solid #D7D7D7;
 }
+
+.title_about_partenary{
+    text-transform: uppercase;
+    font-weight: bold;
+    font-size: 14px;
+    padding: 5px;
+}

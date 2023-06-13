@@ -673,7 +673,7 @@ footer .title_flex_right{
 }
 
 .text_after_logo_footer{
-    padding-left: 65px;
+    padding-left: 18px;
     padding-right: 58px;
     font-size: 12px;
     text-transform: none;
@@ -684,6 +684,7 @@ footer .title_flex_right{
     padding-right: 20%;
     position: absolute;
     top: -6%;
+    right: 7%;
 }
 
 .text_{
@@ -997,7 +998,7 @@ design RS & catalogue
     text-transform: uppercase;
     font-weight: bold;
     font-size: 14px;
-    padding-bottom: 5px;
+    padding-bottom: 1px;
     padding-right: 5px;
-    padding-top: 5px;
+    padding-top: 13px;
 }

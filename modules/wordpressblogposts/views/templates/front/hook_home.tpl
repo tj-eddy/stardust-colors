@@ -2,7 +2,7 @@
     <div id="wbpblogposts" class="blocpost">
         <div class="products_block col-sm-12 contentblock">
             <div class="row">
-                <div class="col-9"><h1 class="last_blog_title">{l s='DERNIERS ARTICLES DU BLOG' mod='wordpressblogposts'}</h1>
+                <div class="col-9"><h3 class="last_blog_title">{l s='DERNIERS ARTICLES DU BLOG' mod='wordpressblogposts'}</h3>
                 </div>
                 <div class="col-3" style="padding-right: 2%;"><div class="view_more_blog"><a target="_blank" href="/blog">{l s="Voir toutes nos actus"}</a></div></div>
             </div>

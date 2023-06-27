@@ -125,7 +125,7 @@
                             {/if} alt="{$category.name}" class="replace-2x img-responsive">
                         </div>
                         <div class="category-name">
-                            <h3>{$category.name}</h3>
+                            <p>{$category.name}</p>
                         </div>
                     </a>
                 </div>

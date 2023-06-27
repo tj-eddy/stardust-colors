@@ -57,7 +57,7 @@ body{
     min-height: 46px;
 }
 
-.custom-card .category-name h3 {
+.custom-card .category-name p {
     text-transform: uppercase;
     font-family: "Open Sans";
     font-weight: 600;
@@ -312,6 +312,7 @@ body{
 
 .last_blog_title, .mu_level_0 {
     font-family: "AllerDisplay-regular" !important;
+    font-size: 2.5em;
 }
 
 

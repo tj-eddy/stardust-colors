@@ -1002,3 +1002,10 @@ design RS & catalogue
     padding-right: 5px;
     padding-top: 13px;
 }
+
+/** custom css 27/06/2023 **/
+#desc-about a {
+    text-decoration: underline;
+    font-weight: bold;
+    color: #7235c8;
+}

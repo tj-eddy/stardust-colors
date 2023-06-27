@@ -1,3 +1,3 @@
 <?php
 
-echo_title('title');
+echo "hello";

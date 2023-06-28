@@ -988,7 +988,15 @@ design RS & catalogue
 }
 
 .mu_level_1{
-    line-height: 1.2;
+    line-height: 1;
+}
+
+.m_column_row{
+    padding-bottom: 0 !important;
+}
+
+.row.m_column_row p{
+    margin-bottom: 0 !important;
 }
 
 .border_right{

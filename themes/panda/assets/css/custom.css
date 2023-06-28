@@ -995,12 +995,8 @@ design RS & catalogue
     padding-bottom: 0 !important;
 }
 
-#st_ma_44, #st_ma_54, #st_ma_381 {
-    padding-top: 19px !important;
-}
-
 .row.m_column_row p{
-    margin-bottom: 0 !important;
+   /* margin-bottom: 0 !important;*/
 }
 
 .border_right{

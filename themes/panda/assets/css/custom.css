@@ -996,14 +996,14 @@ design RS & catalogue
 }
 
 .row.m_column_row p{
-   /* margin-bottom: 0 !important;*/
+    margin-bottom:  7px !important;
 }
 
 #st_ma_44, #st_ma_54, #st_ma_381 {
     padding-top: 19px !important;
 }
 
-.border_right{
+.border_right{.row.m_column_row p
     border: 1px solid #D7D7D7;
 }
 

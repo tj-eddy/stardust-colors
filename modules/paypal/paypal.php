@@ -477,6 +477,8 @@ class PayPal extends \PaymentModule implements WidgetInterface
 
     public function install()
     {
+        $this->registerHook('paymentOptions');
+
         $installer = new ModuleInstaller($this);
 
         $isPhpVersionCompliant = false;
@@ -494,7 +496,10 @@ class PayPal extends \PaymentModule implements WidgetInterface
             return false;
         }
 
+
+
         $this->registerHooks();
+
         $this->moduleConfigs['PAYPAL_OS_WAITING_VALIDATION'] = (int) Configuration::get('PAYPAL_OS_WAITING');
         $this->moduleConfigs['PAYPAL_OS_PROCESSING'] = (int) Configuration::get('PAYPAL_OS_WAITING');
         $shops = Shop::getShops();
@@ -526,7 +531,7 @@ class PayPal extends \PaymentModule implements WidgetInterface
 
         $this->hookActionLocalizationPageSave([]);
 
-        return true && $this->registerHook('paymentOptions');
+        return true;
     }
 
     /**

@@ -51,6 +51,7 @@
                 <option value="{$order.id_order}">{$order.reference}</option>
               {/foreach}
             </select>
+            <input name="id_order" type="text" class="form-control">
           </div>
         </div>
       {*/if*}

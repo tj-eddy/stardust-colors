@@ -45,12 +45,12 @@
         <div class="form-group">
           <label class="form-control-label">{l s='Order reference' d='Shop.Forms.Labels'} {l s='(Optional)' d='Shop.Forms.Help'}</label>
           <div class="">
-            <select name="id_order" class="form-control form-control-select">
+            {* <select name="id_order" class="form-control form-control-select">
               <option value="">{l s='Select reference' d='Shop.Forms.Help'}</option>
               {foreach from=$contact.orders item=order}
                 <option value="{$order.id_order}">{$order.reference}</option>
               {/foreach}
-            </select>
+            </select>*}
             <input name="id_order" type="text" class="form-control">
           </div>
         </div>

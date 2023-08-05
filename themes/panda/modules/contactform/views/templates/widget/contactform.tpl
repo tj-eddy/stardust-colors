@@ -41,7 +41,7 @@
         </div>
       </div>
 
-      {if $contact.orders}
+      {*if $contact.orders*}
         <div class="form-group">
           <label class="form-control-label">{l s='Order reference' d='Shop.Forms.Labels'} {l s='(Optional)' d='Shop.Forms.Help'}</label>
           <div class="">
@@ -53,7 +53,7 @@
             </select>
           </div>
         </div>
-      {/if}
+      {*/if*}
 
       {if $contact.allow_file_upload}
         <div class="form-group">

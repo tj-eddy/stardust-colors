@@ -137,6 +137,10 @@ body{
 }
 
 @media (min-width: 481px) and (max-width: 575px) {
+    .width7{
+        display: grid;
+        grid-template-columns: 100px 100px 100px;
+    }
     .products_block .featured_categories_list .chqcategorie {
         -ms-flex: 0 0 50%;
         flex: 0 0 50%;

@@ -1022,3 +1022,29 @@ design RS & catalogue
     font-weight: bold;
     color: #7235c8;
 }
+
+
+/********************************
+ */
+
+.subcategory-heading{
+    margin-top: 15px !important;
+    margin-bottom: 15px;
+    font-family: Arial,Helvetica Neue,Helvetica,sans-serif;
+    font-weight: bold;
+    font-size: 32px;
+    color: #412BAD;
+}
+
+.content_scene_cat {
+    margin: 0 8px 10px 8px;
+    overflow: hidden;
+    -webkit-box-shadow: 1px 2px 3px 1px rgba(51,51,51,0.23);
+    -moz-box-shadow: 1px 2px 3px 1px rgba(51,51,51,0.23);
+    box-shadow: 1px 2px 3px 1px rgba(51,51,51,0.23);
+}
+
+.category-cover{
+    float: left;
+    padding-left: 0;
+}

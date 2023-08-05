@@ -36,7 +36,7 @@
         <h1
         class="page_heading category_page_heading mb-3 {if $sttheme.display_category_title==2} text-2 {elseif $sttheme.display_category_title==3} text-3 {else} text-1 {/if} {if !$sttheme.display_category_title} display_none {/if}">{$category.name}</h1>{/if}
     {if ($sttheme.display_category_image || (isset($steasybuilder) && isset($category.image.bySize.category_default.url) && $steasybuilder.is_editing)) && $category.image && $category.image.bySize.category_default.url}
-        <div class="col-lg-3 category-cover mb-3 {if !$sttheme.display_category_image} display_none {/if}">
+        <div class="col-lg-3 category-cover {if !$sttheme.display_category_image} display_none {/if}">
             <img class="cate_pro_lazy"
                  data-src="{$category.image.bySize.category_default.url}" {if $sttheme.retina && isset($category.image.bySize.category_default_2x.url)} data-srcset="{$category.image.bySize.category_default_2x.url} 2x" {/if}
                  alt="{if !empty($category.image.legend)}{$category.image.legend}{else}{$category.name}{/if}">

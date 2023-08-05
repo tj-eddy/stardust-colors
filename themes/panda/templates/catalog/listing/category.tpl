@@ -47,7 +47,7 @@
             {if $sttheme.display_category_title || (isset($steasybuilder) && $steasybuilder.is_editing)}
                 <h1
                 class="page_heading category_page_heading mb-3 {if $sttheme.display_category_title==2} text-2 {elseif $sttheme.display_category_title==3} text-3 {else} text-1 {/if} {if !$sttheme.display_category_title} display_none {/if}">{$category.name}</h1>{/if}
-            <div class="st_read_more_box">{$category.description nofilter}</div>{/if}<a href="javascript:;"
+            <div class="st_read_more_box truncate_cate_desc_{$sttheme.truncate_cate_desc}">{$category.description nofilter}</div>{/if}<a href="javascript:;"
                                                                                         title="{l s='Read more' d='Shop.Theme.Panda'}"
                                                                                         class="st_read_more"
                                                                                         rel="nofollow"><span
@@ -101,7 +101,7 @@
     {if ($sttheme.display_cate_desc_full==2 || (isset($steasybuilder) && $steasybuilder.is_editing)) && $category.description}
         <div id="category-description-bottom"
              class="category-description style_content mb-3 truncate_block st_showless_block_{if !empty($sttheme.showless_cate_desc)}1{else}0{/if} truncate_cate_desc_{$sttheme.truncate_cate_desc} {if $sttheme.display_cate_desc_full!=2} display_none {/if}">{if $sttheme.display_cate_desc_full==2}
-            <div class="st_read_more_box truncate_cate_desc_{$sttheme.truncate_cate_desc}">{$category.description nofilter}</div>{/if}<a href="javascript:;"
+            <div class="st_read_more_box ">{$category.description nofilter}</div>{/if}<a href="javascript:;"
                                                                                         title="{l s='Read more' d='Shop.Theme.Panda'}"
                                                                                         class="st_read_more"
                                                                                         rel="nofollow"><span

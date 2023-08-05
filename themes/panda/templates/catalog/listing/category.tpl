@@ -36,7 +36,7 @@
         <h1
         class="page_heading category_page_heading mb-3 {if $sttheme.display_category_title==2} text-2 {elseif $sttheme.display_category_title==3} text-3 {else} text-1 {/if} {if !$sttheme.display_category_title} display_none {/if}">{$category.name}</h1>{/if}
     {if ($sttheme.display_category_image || (isset($steasybuilder) && isset($category.image.bySize.category_default.url) && $steasybuilder.is_editing)) && $category.image && $category.image.bySize.category_default.url}
-        <div class="category-cover mb-3 {if !$sttheme.display_category_image} display_none {/if}">
+        <div class="col-lg-3 category-cover mb-3 {if !$sttheme.display_category_image} display_none {/if}">
             <img class="cate_pro_lazy"
                  data-src="{$category.image.bySize.category_default.url}" {if $sttheme.retina && isset($category.image.bySize.category_default_2x.url)} data-srcset="{$category.image.bySize.category_default_2x.url} 2x" {/if}
                  alt="{if !empty($category.image.legend)}{$category.image.legend}{else}{$category.name}{/if}">
@@ -44,7 +44,7 @@
     {/if}
     {if ($sttheme.display_cate_desc_full==1 || (isset($steasybuilder) && $steasybuilder.is_editing)) && $category.description}
         <div id="category-description"
-             class="category-description style_content mb-3 truncate_block st_showless_block_{if !empty($sttheme.showless_cate_desc)}1{else}0{/if} truncate_cate_desc_{$sttheme.truncate_cate_desc} {if $sttheme.display_cate_desc_full!=1} display_none {/if}">{if $sttheme.display_cate_desc_full==1 || (!$sttheme.display_cate_desc_full && isset($steasybuilder) && $steasybuilder.is_editing)}
+             class="col-lg-9 category-description style_content mb-3 truncate_block st_showless_block_{if !empty($sttheme.showless_cate_desc)}1{else}0{/if} truncate_cate_desc_{$sttheme.truncate_cate_desc} {if $sttheme.display_cate_desc_full!=1} display_none {/if}">{if $sttheme.display_cate_desc_full==1 || (!$sttheme.display_cate_desc_full && isset($steasybuilder) && $steasybuilder.is_editing)}
             <div class="st_read_more_box">{$category.description nofilter}</div>{/if}<a href="javascript:;"
                                                                                         title="{l s='Read more' d='Shop.Theme.Panda'}"
                                                                                         class="st_read_more"

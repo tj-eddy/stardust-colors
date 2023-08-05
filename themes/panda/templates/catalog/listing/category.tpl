@@ -29,9 +29,11 @@
 {/block}
 
 {block name='product_list_header'}
-    <div class="content_scene_cat mar_b1">
 
-    {if $sttheme.display_category_title || (isset($steasybuilder) && $steasybuilder.is_editing)}<h1
+
+    {if $sttheme.display_category_title || (isset($steasybuilder) && $steasybuilder.is_editing)}
+        <div class="content_scene_cat mar_b1">
+        <h1
         class="page_heading category_page_heading mb-3 {if $sttheme.display_category_title==2} text-2 {elseif $sttheme.display_category_title==3} text-3 {else} text-1 {/if} {if !$sttheme.display_category_title} display_none {/if}">{$category.name}</h1>{/if}
     {if ($sttheme.display_category_image || (isset($steasybuilder) && isset($category.image.bySize.category_default.url) && $steasybuilder.is_editing)) && $category.image && $category.image.bySize.category_default.url}
         <div class="category-cover mb-3 {if !$sttheme.display_category_image} display_none {/if}">
@@ -50,6 +52,7 @@
                         class="st_showmore_btn">{l s='Read more' d='Shop.Theme.Panda'}</span><span
                         class="st_showless_btn">{l s='Show less' d='Shop.Theme.Panda'}</span></a></div>
     {/if}
+    </div>
     {hook h='displayCategoryHeader'}
     {if ($sttheme.display_subcate || (isset($steasybuilder) && $steasybuilder.is_editing)) && $subcategories}
         <div id="subcategories" class="{if !$sttheme.display_subcate} display_none {/if}">
@@ -88,7 +91,7 @@
             </ul>
         </div>
     {/if}
-    </div>
+
 {/block}
 
 

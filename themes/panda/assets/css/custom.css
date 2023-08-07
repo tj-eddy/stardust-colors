@@ -167,6 +167,12 @@ body{
 }
 
 @media (max-width: 480px) {
+    .title_block_inner{
+        text-align: center;
+    }
+    .head_br{
+        display: none;
+    }
     .width7{
         display: grid;
         grid-template-columns: 100px 100px 100px;

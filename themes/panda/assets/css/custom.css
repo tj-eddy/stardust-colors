@@ -168,7 +168,7 @@ body{
 
 @media (max-width: 480px) {
     .btn-rotate a{
-        padding-right: 5px; !important;
+        padding-right: 5px !important;
     }
 
     .btn-actu{

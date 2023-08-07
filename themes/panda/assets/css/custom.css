@@ -174,7 +174,7 @@ body{
         display: none;
     }
     .pentures {
-        padding-left: 0;
+        padding-left: 0 !important;
     }
     .width7{
         display: grid;

@@ -31,6 +31,11 @@
                         src="https://stardusthost.stardustcolors.com/themes/panda/assets/img/ytb-icon.png" width="50"
                         alt="">
                </a>
+               <a href="" title="{l s='Tiktok'}" target="_blank">
+                   <img class="jQueryRotate"
+                        src="https://stardusthost.stardustcolors.com/themes/panda/assets/img/tiktok.png" width="50"
+                        alt="">
+               </a>
            </div>
        </div>
 

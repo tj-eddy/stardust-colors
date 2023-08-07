@@ -21,7 +21,7 @@
 			</div>
 			<div class="imagesprod col-6">
 				<a class="product_img_link" href="{$link->getProductLink($oproduits->id)|escape:'html':'UTF-8'}" title="{$oproduits->name|escape:'html':'UTF-8'}" itemprop="url">
-					<img class="replace-2x img-responsive" src="{$link->getImageLink($oproduits->link_rewrite, $imgpro[0]['id_image'], 'specifique_img')|escape:'html':'UTF-8'}" alt="{$oproduits->name|escape:'html':'UTF-8'}" title="{$oproduits->name|escape:'html':'UTF-8'}" {if isset($homeSize)} width="{$homeSize.width}" height="{$homeSize.height}"{/if} itemprop="image" />
+					<img style="max-width: 105% !important;" class="replace-2x img-responsive" src="{$link->getImageLink($oproduits->link_rewrite, $imgpro[0]['id_image'], 'specifique_img')|escape:'html':'UTF-8'}" alt="{$oproduits->name|escape:'html':'UTF-8'}" title="{$oproduits->name|escape:'html':'UTF-8'}" {if isset($homeSize)} width="{$homeSize.width}" height="{$homeSize.height}"{/if} itemprop="image" />
 				</a>
 			</div>
 		</div>

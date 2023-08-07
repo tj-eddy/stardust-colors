@@ -16,6 +16,11 @@
                        <img src="/modules/arobasesreseauxsociaux/images/icontwitter.png" alt="icon_twitter"
                             class="jQueryRotate"/>
                    </a>{/if}
+               <a href="" title="{l s='Tiktok'}" target="_blank">
+                   <img class="jQueryRotate"
+                        src="https://stardusthost.stardustcolors.com/themes/panda/assets/img/tiktok.png" width="50"
+                        alt="">
+               </a>
                {if (isset($instagram))}<a href="https://www.instagram.com/{$instagram}"
                                           title="{l s='Suivez-nous sur Instagram'}" target="_blank">
                        <img src="/modules/arobasesreseauxsociaux/images/iconinstagram.png" alt="icon_instagram"
@@ -24,11 +29,6 @@
                <a href="https://www.youtube.com/{$ytbLink}" title="{l s='Suivez-nous sur youtube'}" target="_blank">
                    <img class="jQueryRotate"
                         src="https://stardusthost.stardustcolors.com/themes/panda/assets/img/ytb-icon.png" width="50"
-                        alt="">
-               </a>
-               <a href="" title="{l s='Tiktok'}" target="_blank">
-                   <img class="jQueryRotate"
-                        src="https://stardusthost.stardustcolors.com/themes/panda/assets/img/tiktok.png" width="50"
                         alt="">
                </a>
            </div>

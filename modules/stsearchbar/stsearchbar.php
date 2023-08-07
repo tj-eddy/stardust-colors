@@ -274,7 +274,7 @@ class StSearchbar extends Module implements WidgetInterface
         $languages = Language::getLanguages(false);
         $placeholder = array();
         foreach ($languages as $language) {
-            $placeholder[$language['id_lang']] = 'Search our catalog';
+            $placeholder[$language['id_lang']] = 'Recherche';
         }
         Configuration::updateValue('ST_QUICK_SEARCH_PLACEHOLDER', $placeholder);
 

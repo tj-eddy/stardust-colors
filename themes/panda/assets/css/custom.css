@@ -32,7 +32,9 @@ body{
     display: block;
     text-decoration: none;
 }
-
+.custom-card-lined{
+    border: 1px solid #d4d1d1;
+}
 .chqcategorie .custom-card .category-thumb {
     border: 1px solid #baace9;
     border-bottom: 0;

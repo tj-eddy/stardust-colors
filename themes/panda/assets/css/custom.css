@@ -173,6 +173,9 @@ body{
     .head_br{
         display: none;
     }
+    .pentures {
+        padding-left: 0;
+    }
     .width7{
         display: grid;
         grid-template-columns: 100px 100px 100px;

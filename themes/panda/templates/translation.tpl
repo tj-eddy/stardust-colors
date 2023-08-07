@@ -333,7 +333,7 @@
 {l s='Next product' d='Shop.Theme.Panda'}
 {l s='QR code' d='Shop.Theme.Panda'}
 {l s='Scan the QR code to open this page on your phone.' d='Shop.Theme.Panda'}
-{l s='Search our catalog' d='Shop.Theme.Panda'}
+{l s='Recherche' d='Shop.Theme.Panda'}
 {l s='More products.' d='Shop.Theme.Panda'}
 {l s='Click for more products.' d='Shop.Theme.Panda'}
 {l s='No produts were found.' d='Shop.Theme.Panda'}

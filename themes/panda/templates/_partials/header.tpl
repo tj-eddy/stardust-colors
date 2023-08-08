@@ -22,9 +22,249 @@
  * @license   http://opensource.org/licenses/osl-3.0.php Open Software License (OSL 3.0)
  * International Registered Trademark & Property of PrestaShop SA
  *}
-<div class="slick_header">
-  Lorem ipsum dolor sit amet, consectetur adipisicing elit. At autem et id iste omnis perferendis quae quidem repudiandae velit voluptatem. Ab nobis quasi qui quidem quis repudiandae sint tempora voluptatum.
-</div>
+  <div class="container-slick">
+    <div class="hero__title" id="animatedHeading">
+      <div class="slick-dupe"><span class="hero__title-misc  |  animate"> Livraison sous 24 h en France</span></div>
+      <div class="slick-dupe"><span class="hero__title-misc  |  animate">Livraison offerte en France
+        métropolitaine pour 500€ d'achats</span></div>
+    </div>
+  </div>
+<script src="https://cdnjs.cloudflare.com/ajax/libs/slick-carousel/1.8.1/slick.min.js" integrity="sha512-XtmMtDEcNz2j7ekrtHvOVR4iwwaD6o/FUJe6+Zq+HgcCsk3kj4uSQQR8weQ2QVj1o0Pk6PwYLohm206ZzNfubg==" crossorigin="anonymous" referrerpolicy="no-referrer"></script>
+<script>
+    // Get titles from the DOM
+    var titleMain  = $("#animatedHeading");
+    var titleSubs  = titleMain.find("slick-active");
+
+    if (titleMain.length) {
+
+        titleMain.slick({
+            arrows:false,
+            autoplay: true,
+            slidesToShow: 1,
+            centerPadding: "10px",
+            draggable: false,
+            infinite: true,
+            pauseOnHover: false,
+            swipe: false,
+            touchMove: false,
+            vertical: true,
+            speed: 1000,
+            autoplaySpeed: 2000,
+            Transform: true,
+            // cssEase: 'cubic-bezier(0.645, 0.045, 0.355, 1.000)',
+            adaptiveHeight: true,
+        });
+
+        // On init
+        $(".slick-dupe").each(function(index, el) {
+            $("#animatedHeading").slick('slickAdd', "<div>" + el.innerHTML + "</div>");
+        });
+    };
+</script>
+<style>
+  /**
+ * Title:
+ *    Animations
+ * Description:
+ *    List all the animations of the site in one file
+ * Sections:
+ *    $. Keyframes
+ *    $. Classes
+ */
+
+  /* $. Keyframes
+  \*----------------------------------------------------------------*/
+
+  @keyframes shrink {
+    0% {
+      color: green;
+      transform: scale(2);
+    }
+
+    100% {
+      transform: scale(1);
+      color: grey;
+    }
+  }
+
+  @keyframes grow {
+    0% {
+      transform: scale(1);
+      color: grey;
+    }
+
+    100% {
+      transform: scale(2);
+      color: green;
+    }
+  }
+
+  /* $. Classes
+  \*----------------------------------------------------------------*/
+
+  .animate--shrink {
+    animation-duration: 1s;
+    animation-name: shrink;
+    animation-timing-function: "linear";
+  }
+
+  .animate--grow {
+    animation-duration: 1s;
+    animation-timing-function: "linear";
+    animation-name: grow;
+  }
+
+  /* Slider */
+
+  .slick-slider {
+    position: relative;
+    display: block;
+    box-sizing: border-box;
+    touch-callout: none;
+    user-select: none;
+    touch-action: pan-y;
+    tap-highlight-color: transparent;
+    padding-top: 40px;
+  }
+  .slick-list {
+    position: relative;
+    overflow: hidden;
+    display: block;
+    margin: 0;
+    padding: 0;
+
+  &:focus {
+     outline: none;
+   }
+
+  &.dragging {
+     cursor: pointer;
+     cursor: hand;
+   }
+  }
+  .slick-slider .slick-track,
+  .slick-slider .slick-list {
+    transform: translate3d(0, 0, 0);
+  }
+
+  .slick-track {
+    position: relative;
+    left: 0;
+    top: 0;
+    display: block;
+
+  &:before,
+  &:after {
+     content: "";
+     display: table;
+   }
+
+  &:after {
+     clear: both;
+   }
+
+  .slick-loading & {
+    visibility: hidden;
+  }
+  }
+  .slick-slide {
+    float: left;
+    height: 100%;
+    min-height: 1px;
+  [dir="rtl"] & {
+    float: right;
+  }
+  img {
+    display: block;
+  }
+  &.slick-loading img {
+     display: none;
+   }
+
+  display: none;
+
+  &.dragging img {
+     pointer-events: none;
+   }
+
+  .slick-initialized & {
+    display: block;
+  }
+
+  .slick-loading & {
+    visibility: hidden;
+  }
+
+  .slick-vertical & {
+    display: block;
+    height: auto;
+    border: 0;
+    outline: none;
+
+  &:focus,
+  &:active,
+  &::selection {
+     outline: none !important;
+     border: 0 !important;
+     box-shadow: none;
+   }
+  }
+  }
+  .slick-arrow.slick-hidden {
+    display: none;
+  }
+
+  .slick-current {
+    position: relative;
+  }
+
+  .hero__title .slick-slide {
+    overflow: hidden;
+    padding: 20px 0;
+  }
+
+  .hero__title [aria-hidden] {
+    transition: 1s;
+  }
+  /*
+  .hero__title [aria-hidden="false"]{
+      opacity: 1;
+  }
+
+  .hero__title [aria-hidden="true"] {
+      opacity: 0;
+  }
+   */
+  .hero__title .slick-current > span {
+    box-sizing: border-box;
+    display: block;
+  @extend .animate--shrink;
+  }
+
+  .hero__title .slick-current + .slick-slide > span {
+  @extend .animate--grow;
+  }
+
+  .no-js .hero__title .slick-dupe:nth-child(2) > span {
+    padding: 1em;
+  @extend .animate--grow;
+  }
+
+  .hero__title-misc {
+    display: block;
+    font-size: 24px;
+    font-weight: bold;
+    color: grey;
+  }
+
+  .container-slick {
+    margin: 0 auto;
+    width: 100%;
+    background: pink;
+    padding: 0 40px;
+  }
+
+</style>
 {block name='header_banner'}
   {capture name="displayBanner"}{hook h="displayBanner"}{/capture}
   {if $smarty.capture.displayBanner}

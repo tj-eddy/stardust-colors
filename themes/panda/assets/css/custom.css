@@ -169,6 +169,9 @@ body{
 }
 
 @media (max-width: 480px) {
+    .hide_vignette_mobile{
+        display: none;
+    }
     .btn-rotate a{
         padding-right: 8px !important;
     }

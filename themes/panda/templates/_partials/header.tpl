@@ -22,6 +22,9 @@
  * @license   http://opensource.org/licenses/osl-3.0.php Open Software License (OSL 3.0)
  * International Registered Trademark & Property of PrestaShop SA
  *}
+<div class="slick_header">
+  Lorem ipsum dolor sit amet, consectetur adipisicing elit. At autem et id iste omnis perferendis quae quidem repudiandae velit voluptatem. Ab nobis quasi qui quidem quis repudiandae sint tempora voluptatum.
+</div>
 {block name='header_banner'}
   {capture name="displayBanner"}{hook h="displayBanner"}{/capture}
   {if $smarty.capture.displayBanner}
@@ -89,9 +92,7 @@
   </section>
 {/block}
 {block name='header_top'}
-  <div class="slick_header">
-    Lorem ipsum dolor sit amet, consectetur adipisicing elit. At autem et id iste omnis perferendis quae quidem repudiandae velit voluptatem. Ab nobis quasi qui quidem quis repudiandae sint tempora voluptatum.
-  </div>
+
 {*similar code in the checkout/_partials/header.tpl*}
   {if !isset($sttheme.hide_header) || !$sttheme.hide_header}
   <div id="header_primary" class="{if !$sttheme.sticky_primary_header} hide_when_sticky {/if}">

@@ -253,7 +253,7 @@
 
   .hero__title-misc {
     display: block;
-    font-size: 24px;
+    font-size: 14px;
     font-weight: bold;
     color: grey;
   }

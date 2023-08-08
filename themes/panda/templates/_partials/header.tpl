@@ -221,7 +221,7 @@
 
   .hero__title .slick-slide {
     overflow: hidden;
-    padding: 20px 0;
+    padding: 1px 0;
   }
 
   .hero__title [aria-hidden] {
@@ -260,9 +260,9 @@
 
   .container-slick {
     margin: 0 auto;
-    width: 100%;.slick-slider
-    background: white;;
-    padding: 0 40px;
+    width: 100%;
+    background: white !important;
+    text-align: center;
   }
 
 </style>

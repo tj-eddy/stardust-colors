@@ -126,7 +126,6 @@
     user-select: none;
     touch-action: pan-y;
     tap-highlight-color: transparent;
-    padding-top: 40px;
   }
   .slick-list {
     position: relative;
@@ -261,7 +260,7 @@
 
   .container-slick {
     margin: 0 auto;
-    width: 100%;
+    width: 100%;.slick-slider
     background: #D7D7D7;;
     padding: 0 40px;
   }

@@ -3,8 +3,8 @@
 <div id="reinsurance_block" class="clearfix">
 	<div class="container">
 		<ul class="width{$nbblocks}">
-			{foreach from=$infos item=info}
-				<li  {if $smarty.foreach.infos.last}class="hide_vignette_mobile"{/if} >
+			{foreach from=$infos item=info name=vignette}
+				<li  {if $smarty.foreach.vignette.last}class="hide_vignette_mobile"{/if} >
 					<a href="{if $info.lien!='#'}{$info.lien}{else}javascript:;{/if}" {if $info.new_window==1}target="_blank"{/if} title="{$info.text|regex_replace:"/[\r\n]/" : " "}">
 						<img src="{$link->getMediaLink("`$module_dir`img/`$info.file_name|nl2br|escape:'html':'UTF-8'`")}" alt="{$info.text|escape:html:'UTF-8'}" />
 						<span>{$info.text|escape:html:'UTF-8'}</span>

@@ -89,6 +89,7 @@
   </section>
 {/block}
 {block name='header_top'}
+  Lorem ipsum dolor sit amet, consectetur adipisicing elit. At autem et id iste omnis perferendis quae quidem repudiandae velit voluptatem. Ab nobis quasi qui quidem quis repudiandae sint tempora voluptatum.
 {*similar code in the checkout/_partials/header.tpl*}
   {if !isset($sttheme.hide_header) || !$sttheme.hide_header}
   <div id="header_primary" class="{if !$sttheme.sticky_primary_header} hide_when_sticky {/if}">

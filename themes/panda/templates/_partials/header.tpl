@@ -262,7 +262,7 @@
   .container-slick {
     margin: 0 auto;
     width: 100%;
-    background: pink;
+    background: #D7D7D7;;
     padding: 0 40px;
   }
 

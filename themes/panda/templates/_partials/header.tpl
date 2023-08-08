@@ -50,7 +50,7 @@
             swipe: false,
             touchMove: false,
             vertical: true,
-            speed: 1000,
+            speed: 2000,
             autoplaySpeed: 2000,
             Transform: true,
             // cssEase: 'cubic-bezier(0.645, 0.045, 0.355, 1.000)',

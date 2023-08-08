@@ -261,7 +261,7 @@
   .container-slick {
     margin: 0 auto;
     width: 100%;.slick-slider
-    background: #D7D7D7;;
+    background-color: #D7D7D7;;
     padding: 0 40px;
   }
 

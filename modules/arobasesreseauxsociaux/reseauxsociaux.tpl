@@ -13,7 +13,7 @@
                    </a>{/if}
                {if (isset($twitter))}<a href="https://twitter.com/{$twitter}" title="{l s='Suivez-nous sur Twitter'}"
                                         target="_blank">
-                       <img src="https://stardusthost.stardustcolors.com/themes/panda/assets/img/twitter-x-logo.png" alt="icon_twitter"
+                       <img src="https://stardusthost.stardustcolors.com/themes/panda/assets/img/twitter-x-logo.png" style=" width: 6%;" alt="icon_twitter"
                             class="jQueryRotate"/>
                    </a>{/if}
                <a href="https://www.tiktok.com/@stardustpaints" title="{l s='Tiktok'}" target="_blank">

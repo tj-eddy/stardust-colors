@@ -1080,3 +1080,9 @@ design RS & catalogue
 .style_wide .ma_level_1{
     font-size: 16px !important;
 }
+
+.current-price span{
+    font-size: 33px !important;
+    color: #412BAD;
+    font-weight: 900;
+}

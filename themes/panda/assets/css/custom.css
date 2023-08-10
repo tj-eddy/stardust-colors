@@ -1107,3 +1107,23 @@ design RS & catalogue
 .selected_category a{
     color: #412BAD;
 }
+
+.cle:before {
+    position: absolute;
+    width: 13px;
+    height: 17px;
+    content: '';
+    left: 0;
+    top: 0;
+    background: url(https://www.stardustcolors.com/themes/panda/css/autoload/../../img/cle.png) no-repeat;
+    background-image: url(https://www.stardustcolors.com/themes/panda/css/autoload/../../img/cle.png);
+    background-position-x: initial;
+    background-position-y: initial;
+    background-size: initial;
+    background-repeat-x: no-repeat;
+    background-repeat-y: no-repeat;
+    background-attachment: initial;
+    background-origin: initial;
+    background-clip: initial;
+    background-color: initial;
+}

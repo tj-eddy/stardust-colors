@@ -1100,7 +1100,7 @@ design RS & catalogue
     font-family: 'GothamMedium';
 }
 
-.selected_category{
+.category-sub-menu li a{
     font: 13px 'GothamMedium';
 }
 

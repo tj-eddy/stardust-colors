@@ -26,48 +26,44 @@
     {if $sttheme.product_name_at_top==1 || ($sttheme.product_name_at_top==2 && $sttheme.is_mobile_device)}{include file='catalog/_partials/product-name.tpl'}{/if}
     <div class="row product_page_container product_page_layout_{(int)$sttheme.product_page_layout} product-container js-product-container">
         <div class="product_left_column col-lg-3 mb-2">
-
-            {function name="categories" nodes=[] depth=0}
-                {strip}
-                    {if $nodes|count}
-                        <ul class="category-sub-menu category-sub-menu">
-                            {foreach from=$nodes item=node}
-                                <li data-depth="{$depth}" class="{if (isset($category) && is_array($category) && isset($category.id) && $category.id==$node.id) || (isset($id_category_current) && $id_category_current==$node.id)} current_cate {/if}">
-                                    <div class="acc_header flex_container">
-                                        <a class="flex_child" href="{$node.link}" title="{$node.name}">{$node.name}</a>
-                                        {if $node.children}
-                                            <span class="acc_icon collapsed" data-toggle="collapse" data-target="#exCollapsingNavbar{$node.id}">
-                  <i class="fto-plus-2 acc_open fs_xl"></i>
-                  <i class="fto-minus acc_close fs_xl"></i>
-                </span>
-                                        {/if}
-                                    </div>
-                                    {if $node.children}
-                                        <div class="collapse" id="exCollapsingNavbar{$node.id}">
-                                            {categories nodes=$node.children depth=$depth+1}
-                                        </div>
-                                    {/if}
-                                </li>
-                            {/foreach}
-                        </ul>
-                    {/if}
-                {/strip}
-            {/function}
-
-            {if count($categories.children)}
-                <div class="block-categories block column_block">
-                    <div class="title_block flex_container title_align_0 title_style_{(int)$sttheme.heading_style}">
-                        <div class="flex_child title_flex_left"></div>
-                        <a class="title_block_inner" title="{$categories.name}" href="{$categories.link nofilter}">{$categories.name}</a>
-                        <div class="flex_child title_flex_right"></div>
-                    </div>
-                    <div class="block_content">
-                        <div class="acc_box category-top-menu">
-                            {categories nodes=$categories.children}
-                        </div>
-                    </div>
+            {if ($sttheme.display_subcate || (isset($steasybuilder) && $steasybuilder.is_editing)) && $subcategories}
+                <div id="subcategories" class="{if !$sttheme.display_subcate} display_none {/if}">
+                    <h3 class="page_heading mb-3 hidden">{l s='Subcategories' d='Shop.Theme.Panda'}</h3>
+                    <ul class="inline_list {if $sttheme.display_subcate==2} subcate_list_view {else} subcate_grid_view row {/if}">
+                        {foreach $subcategories as $subcategory}
+                            <li class="clearfix {if $sttheme.display_subcate!=2} {if $sttheme.categories_per_fw} col-fw-{(12/$sttheme.categories_per_fw)|replace:'.':'-'}{/if} {if $sttheme.categories_per_xxl} col-xxl-{(12/$sttheme.categories_per_xxl)|replace:'.':'-'}{/if} {if $sttheme.categories_per_xl} col-xl-{(12/$sttheme.categories_per_xl)|replace:'.':'-'}{/if} col-lg-{(12/$sttheme.categories_per_lg)|replace:'.':'-'} col-md-{(12/$sttheme.categories_per_md)|replace:'.':'-'} col-sm-{(12/$sttheme.categories_per_sm)|replace:'.':'-'} col-{(12/$sttheme.categories_per_xs)|replace:'.':'-'} {if $sttheme.categories_per_fw && $subcategory@iteration%$sttheme.categories_per_fw == 1} first-item-of-screen-line{/if}{if $sttheme.categories_per_xxl &&  $subcategory@iteration%$sttheme.categories_per_xxl == 1} first-item-of-large-line{/if}{if $sttheme.categories_per_xl && $subcategory@iteration%$sttheme.categories_per_xl == 1} first-item-of-desktop-line{/if}{if $subcategory@iteration%$sttheme.categories_per_lg == 1} first-item-of-line{/if}{if $subcategory@iteration%$sttheme.categories_per_md == 1} first-item-of-tablet-line{/if}{if $subcategory@iteration%$sttheme.categories_per_sm == 1} first-item-of-mobile-line{/if}{if $subcategory@iteration%$sttheme.categories_per_xs == 1} first-item-of-portrait-line{/if} {/if}">
+                                {if $subcategory.image && $subcategory.image.bySize.category_default.url}
+                                    <a href="{$subcategory.url}" title="{$subcategory.name}" class="img">
+                                        <picture>
+                                            {if isset($stwebp) && isset($stwebp.category_default) && $stwebp.category_default}
+                                                <!--[if IE 9]>
+                                                <video style="display: none;"><![endif]-->
+                                                <source srcset="{$subcategory.image.bySize.category_default.url|regex_replace:'/\.jpg$/':'.webp'}
+                        {if isset($subcategory.image.bySize.category_default_2x.url)},{$subcategory.image.bySize.category_default_2x.url|regex_replace:'/\.jpg$/':'.webp'} 2x{/if}"
+                                                        title="{$subcategory.name}"
+                                                        type="image/webp"
+                                                >
+                                                <!--[if IE 9]></video><![endif]-->
+                                            {/if}
+                                            <img src="{$subcategory.image.bySize.category_default.url}" {if isset($subcategory.image.bySize.category_default_2x.url)} srcset="{$subcategory.image.bySize.category_default_2x.url} 2x" {/if}
+                                                 alt="{$subcategory.name}"
+                                                 width="{$subcategory.image.bySize.category_default.width}"
+                                                 height="{$subcategory.image.bySize.category_default.height}"/>
+                                        </picture>
+                                    </a>
+                                {/if}
+                                <h3 class="s_title_block {if $sttheme.display_subcate==3} nohidden {/if}"><a
+                                            class="subcategory-name" href="{$subcategory.url}"
+                                            title="{$subcategory.name}">{$subcategory.name}</a></h3>
+                                {if $sttheme.display_subcate==2 && $subcategory.description}
+                                    <div class="subcat_desc">{$subcategory.description nofilter}</div>
+                                {/if}
+                            </li>
+                        {/foreach}
+                    </ul>
                 </div>
-            {/if}        </div>
+            {/if}
+                   </div>
 
         <div class="product_middle_column col-lg-4 mb-2">
         {block name='page_content_container'}

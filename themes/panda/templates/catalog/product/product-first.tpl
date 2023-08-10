@@ -37,7 +37,9 @@
                     <div class="acc_box category-top-menu">
                         <ul class="category-sub-menu category-sub-menu">
                             {foreach from=Product::getProductCategoriesFull(Tools::getValue('id_product')) item=cat}
-                                <li {if $cat.id_category == $category->id_category} class="selected_category" {/if} ><a href="{$link->getCategoryLink({$cat.id_category})}" title="{$cat.name}"> > {$cat.name}</a></li>
+                                {if $cat.id_category != 2}
+                                    <li {if $cat.id_category == $category->id_category} class="selected_category" {/if} ><a href="{$link->getCategoryLink({$cat.id_category})}" title="{$cat.name}"> > {$cat.name}</a></li>
+                                {/if}
                             {/foreach}
                         </ul>
                     </div>

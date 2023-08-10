@@ -23,6 +23,7 @@
 *  International Registered Trademark & Property of PrestaShop SA
 *}
 
+
 {function name="categories" nodes=[] depth=0}
   {strip}
     {if $nodes|count}

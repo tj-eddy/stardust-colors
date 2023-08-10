@@ -1111,9 +1111,9 @@ design RS & catalogue
 .cle:before {
     position: absolute;
     width: 13px;
-    height: 17px;
+    height: 20px;
     content: '';
     left: 0;
-    top: 750px;
+    top: auto;
     background: url('https://stardusthost.stardustcolors.com/themes/panda/assets/img/cle.png') no-repeat;
 }

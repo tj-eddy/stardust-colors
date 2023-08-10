@@ -25,7 +25,11 @@
     {if $sttheme.google_rich_snippets}<meta itemprop="url" content="{$product.url}">{/if}
     {if $sttheme.product_name_at_top==1 || ($sttheme.product_name_at_top==2 && $sttheme.is_mobile_device)}{include file='catalog/_partials/product-name.tpl'}{/if}
     <div class="row product_page_container product_page_layout_{(int)$sttheme.product_page_layout} product-container js-product-container">
-      <div class="product_left_column col-lg-{$sttheme.pro_image_column_md} mb-2">
+        <div class="product_left_column col-lg-{$sttheme.pro_image_column_md} mb-2">
+            Lorem ipsum dolor sit amet, consectetur adipisicing elit. Aliquam consequatur, consequuntur corporis cumque dolor, dolores doloribus error esse et excepturi fugit molestiae mollitia natus quaerat quos rerum soluta tenetur veniam!
+        </div>
+
+        <div class="product_left_column product_middle_column col-lg-{$sttheme.pro_image_column_md} mb-2">
         {block name='page_content_container'}
           <section class="product_left_content mb-2">
             {block name='page_content'}
@@ -62,7 +66,7 @@
           {/foreach}
         {/block}
         </div>
-        <div class="product_middle_column col-lg-{$sttheme.pro_primary_column_md} mb-3">
+        <div class="product_right_column  col-lg-{$sttheme.pro_primary_column_md} mb-3">
           <div class="product_middle_column_inner">
           {block name='page_header_container'}
             {block name='page_header'}
@@ -174,7 +178,7 @@
         </div>
       </div>
 
-      {if $sttheme.pro_secondary_column_md}
+      {*if $sttheme.pro_secondary_column_md}
       <div class="product_right_column col-lg-{if (12-$sttheme.pro_image_column_md-$sttheme.pro_primary_column_md) >= $sttheme.pro_secondary_column_md}{$sttheme.pro_secondary_column_md}{else}{12-$sttheme.pro_image_column_md-$sttheme.pro_primary_column_md}{/if}  mb-3">
         {block name='pro_secondary_column'}
         {if $sttheme.product_buy}{include file='catalog/_partials/product-buy.tpl'}{/if}
@@ -190,6 +194,5 @@
         {/foreach}
         {/block}
       </div>
-      {/if}
-
+      {/if*}
     </div>

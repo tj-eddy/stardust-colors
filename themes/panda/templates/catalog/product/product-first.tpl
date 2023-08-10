@@ -29,7 +29,7 @@
             Lorem ipsum dolor sit amet, consectetur adipisicing elit. Aliquam consequatur, consequuntur corporis cumque dolor, dolores doloribus error esse et excepturi fugit molestiae mollitia natus quaerat quos rerum soluta tenetur veniam!
         </div>
 
-        <div class="product_left_column product_middle_column col-lg-{$sttheme.pro_image_column_md} mb-2">
+        <div class="product_left_column product_middle_column col-lg-4 mb-2">
         {block name='page_content_container'}
           <section class="product_left_content mb-2">
             {block name='page_content'}
@@ -66,7 +66,7 @@
           {/foreach}
         {/block}
         </div>
-        <div class="product_right_column  col-lg-{$sttheme.pro_primary_column_md} mb-3">
+        <div class="product_right_column  col-lg-{$sttheme.pro_primary_column_md} mb-2">
           <div class="product_middle_column_inner">
           {block name='page_header_container'}
             {block name='page_header'}

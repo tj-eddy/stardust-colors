@@ -1099,3 +1099,8 @@ design RS & catalogue
 .add span{
     font-family: 'GothamMedium';
 }
+
+.selected_category{
+    color: #412BAD
+    font: 13px 'Gotham-Medium';
+}

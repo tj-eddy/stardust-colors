@@ -59,4 +59,12 @@
     src: url({$urls.css_url}GothamMediumRegular.ttf);
   }
 
+
+  @font-face {
+    font-family: GothamBook;
+    font-weight: 600;
+    font-display: swap;
+    src: url({$urls.css_url}GothamBookRegular.otf);
+  }
+
 </style>

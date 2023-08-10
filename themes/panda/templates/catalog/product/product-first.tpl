@@ -27,13 +27,22 @@
     {if $sttheme.product_name_at_top==1 || ($sttheme.product_name_at_top==2 && $sttheme.is_mobile_device)}{include file='catalog/_partials/product-name.tpl'}{/if}
     <div class="row product_page_container product_page_layout_{(int)$sttheme.product_page_layout} product-container js-product-container">
         <div class="product_left_column col-lg-3 mb-2">
-            <ul class="productcats">
-                {foreach from=Product::getProductCategoriesFull(Tools::getValue('id_product')) item=cat}
-                    {if $cat.id_category!=2}
-                        <li><a href="{$link->getCategoryLink({$cat.id_category})}" title="{$cat.name}">{$cat.name}</a></li>
-                    {/if}
-                {/foreach}
-            </ul>
+            <div class="block-categories block column_block">
+                <div class="title_block flex_container title_align_0 title_style_{(int)$sttheme.heading_style}">
+                    <div class="flex_child title_flex_left"></div>
+                    <a class="title_block_inner" title="{$categorie.name}" href="{$categorie.link nofilter}">{$categorie.name}</a>
+                    <div class="flex_child title_flex_right"></div>
+                </div>
+                <div class="block_content">
+                    <div class="acc_box category-top-menu">
+                        <ul class="category-sub-menu category-sub-menu">
+                            {foreach from=Product::getProductCategoriesFull(Tools::getValue('id_product')) item=cat}
+                                <li><a href="{$link->getCategoryLink({$cat.id_category})}" title="{$cat.name}">{$cat.name}</a></li>
+                            {/foreach}
+                        </ul>
+                    </div>
+                </div>
+            </div>
 
                         </div>
 

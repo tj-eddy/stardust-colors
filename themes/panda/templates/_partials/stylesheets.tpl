@@ -45,4 +45,18 @@
     font-display: swap;
     src: url({$urls.css_url}AllerDisplay.ttf);
   }
+  @font-face {
+    font-family: ProximaNovaCondensedBold;
+    font-weight: 600;
+    font-display: swap;
+    src: url({$urls.css_url}ProximaNovaCondensedBold.ttf);
+  }
+
+  @font-face {
+    font-family: GothamMedium;
+    font-weight: 600;
+    font-display: swap;
+    src: url({$urls.css_url}GothamMediumRegular.ttf);
+  }
+
 </style>

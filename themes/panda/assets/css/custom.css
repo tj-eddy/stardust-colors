@@ -1085,4 +1085,9 @@ design RS & catalogue
     font-size: 33px !important;
     color: #412BAD;
     font-weight: 900;
+    font-family: 'GothamMedium';
+}
+
+.product_name {
+    font-family: 'ProximaNovaCondensedBold';
 }

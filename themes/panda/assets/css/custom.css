@@ -1096,7 +1096,7 @@ design RS & catalogue
     font-family: 'GothamBook';
 }
 
-.add span{
+.add span,.nav-link{
     font-family: 'GothamMedium';
 }
 
@@ -1115,8 +1115,8 @@ design RS & catalogue
     content: '';
     left: 0;
     top: 0;
-    background: url(https://www.stardustcolors.com/themes/panda/css/autoload/../../img/cle.png) no-repeat;
-    background-image: url(https://www.stardustcolors.com/themes/panda/css/autoload/../../img/cle.png);
+    background: url(/themes/panda/assets/img/cle.png) no-repeat;
+    background-image: url('/themes/panda/assets/img/cle.png');
     background-position-x: initial;
     background-position-y: initial;
     background-size: initial;

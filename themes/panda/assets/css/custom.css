@@ -1116,14 +1116,4 @@ design RS & catalogue
     left: 0;
     top: 0;
     background: url(/themes/panda/assets/img/cle.png) no-repeat;
-    background-image: url('/themes/panda/assets/img/cle.png');
-    background-position-x: initial;
-    background-position-y: initial;
-    background-size: initial;
-    background-repeat-x: no-repeat;
-    background-repeat-y: no-repeat;
-    background-attachment: initial;
-    background-origin: initial;
-    background-clip: initial;
-    background-color: initial;
 }

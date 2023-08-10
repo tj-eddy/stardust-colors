@@ -1088,10 +1088,14 @@ design RS & catalogue
     font-family: 'GothamMedium';
 }
 
-.product_name,.product-reference,.product-variants-item span,.product_info_tabs a{
+.product_name,.product-reference,.product-variants-item span,.product_info_tabs a,{
     font-family: ProximaNovaCondensedBold;
 }
 
 .product-description{
     font-family: 'GothamBook';
+}
+
+.add span{
+    font-family: 'GothamMedium';
 }

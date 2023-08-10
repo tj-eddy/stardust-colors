@@ -1101,6 +1101,9 @@ design RS & catalogue
 }
 
 .selected_category{
-    color: #412BAD;
     font: 13px 'GothamMedium';
+}
+
+.selected_category a{
+    color: #412BAD;
 }

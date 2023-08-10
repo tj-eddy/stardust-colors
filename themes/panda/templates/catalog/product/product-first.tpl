@@ -160,6 +160,7 @@
               <div class="product-reference pro_extra_info flex_container {if !$sttheme.display_pro_reference} display_none {/if}">
                 <span class="pro_extra_info_label">{l s='Reference' d='Shop.Theme.Transformer'}: </span>
                 <div class="pro_extra_info_content flex_child" {if $sttheme.google_rich_snippets} itemprop="sku" {/if}>{$product.reference_to_display}</div>
+                  <div class="paiementbloc"> <span class="cle">Paiement securisé avec :</span><img src="https://www.stardustcolors.com/themes/panda/img//paiementaccepte.png" alt="logopaiement" loading="lazy"></div>
               </div>
             {/if}
             {if $product.ean13 && $sttheme.google_rich_snippets}<meta itemprop="GTIN13" content="{$product.ean13}">{/if}

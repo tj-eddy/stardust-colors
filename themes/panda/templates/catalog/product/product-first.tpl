@@ -27,7 +27,13 @@
     {if $sttheme.product_name_at_top==1 || ($sttheme.product_name_at_top==2 && $sttheme.is_mobile_device)}{include file='catalog/_partials/product-name.tpl'}{/if}
     <div class="row product_page_container product_page_layout_{(int)$sttheme.product_page_layout} product-container js-product-container">
         <div class="product_left_column col-lg-3 mb-2">
-
+            <ul class="productcats">
+                {foreach from=Product::getProductCategoriesFull(Tools::getValue('id_product')) item=cat}
+                    {if $cat.id_category!=2}
+                        <li><a href="{$link->getCategoryLink({$cat.id_category})}" title="{$cat.name}">{$cat.name}</a></li>
+                    {/if}
+                {/foreach}
+            </ul>
 
                         </div>
 

@@ -28,6 +28,7 @@
     <div class="row product_page_container product_page_layout_{(int)$sttheme.product_page_layout} product-container js-product-container">
         <div class="product_left_column col-lg-3 mb-2">
             {*widget name="ps_category_tree"*}
+            {dump($categories)}
                         </div>
 
 

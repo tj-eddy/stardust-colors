@@ -1097,7 +1097,7 @@ design RS & catalogue
 }
 
 .add span,.nav-link{
-    font-family: 'GothamMedium';
+    font-family: 'GothamMedium' !important;
 }
 
 .category-sub-menu li a{

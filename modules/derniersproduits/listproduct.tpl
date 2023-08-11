@@ -7,7 +7,7 @@
 		<div class="clearfix"></div>
 		{if isset($oproduits)}
 		<div class="row detail_with_img">
-			<div class="col-6 detail">
+			<div class="col-5 detail">
 				<h6><a class="product_img_link" href="{$link->getProductLink($oproduits->id)|escape:'html':'UTF-8'}" title="{$oproduits->name|escape:'html':'UTF-8'}" itemprop="url">{$oproduits->name}</a></h6>
 				<div class="description">
 					{$oproduits->description|strip_tags:false|truncate:200:'...'}
@@ -19,7 +19,7 @@
 					<span class="prixreduc">{Tools::displayPrice($oproduits->getPriceWithoutReduct())}{/if}
 				</div>
 			</div>
-			<div class="imagesprod col-6">
+			<div class="imagesprod col-7">
 				<a class="product_img_link" href="{$link->getProductLink($oproduits->id)|escape:'html':'UTF-8'}" title="{$oproduits->name|escape:'html':'UTF-8'}" itemprop="url">
 					<img style="max-width: 105% !important;" class="replace-2x img-responsive" src="{$link->getImageLink($oproduits->link_rewrite, $imgpro[0]['id_image'], 'specifique_img')|escape:'html':'UTF-8'}" alt="{$oproduits->name|escape:'html':'UTF-8'}" title="{$oproduits->name|escape:'html':'UTF-8'}" {if isset($homeSize)} width="{$homeSize.width}" height="{$homeSize.height}"{/if} itemprop="image" />
 				</a>

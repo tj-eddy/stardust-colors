@@ -1162,7 +1162,7 @@ design RS & catalogue
     background: url('https://stardusthost.stardustcolors.com/themes/panda/assets/img/cle.png') no-repeat;
 }
 
-.bootstrap-touchspin-down,bootstrap-touchspin-up{
+.bootstrap-touchspin-down,.bootstrap-touchspin-up{
     display: inline-block;
     width: 51px;
     height: 35px;

@@ -1132,7 +1132,7 @@ design RS & catalogue
 }
 
 .st_owl_carousel_image{
-    width: 100%;
+    width: 100% !important;
 }
 .block-categories{
     margin: 0 auto;

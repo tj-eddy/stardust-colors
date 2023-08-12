@@ -1134,6 +1134,11 @@ design RS & catalogue
 .st_owl_carousel_image{
     width: 100% !important;
 }
+
+.category-description{
+    font-family: 'Arial';
+    font-size: 16px !important;
+}
 .block-categories{
     margin: 0 auto;
     background: #fff;

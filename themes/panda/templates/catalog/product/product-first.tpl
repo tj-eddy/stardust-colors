@@ -39,7 +39,7 @@
                                         <a class="flex_child" href="{$node.link}" title="{$node.name}">{$node.name}</a>
                                         {if $node.children}
                                             <span class="acc_icon collapsed" data-toggle="collapse" data-target="#exCollapsingNavbar{$node.id}">
-                  <i class="fto-plus-2 acc_open fs_xl"></i>
+                  <i class="fto-plus-2 acc_open fs_xl" {if $node.id == $category->id_category || $node.id == $category->id_parent} style="display: none"  {/if}></i>
                   <i class="fto-minus acc_close fs_xl"></i>
                 </span>
                                         {/if}

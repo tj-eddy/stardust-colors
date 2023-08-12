@@ -48,6 +48,7 @@
             </div>*}
 
             {assign var="categories" value=Category::getCategoriesWithoutParent()}
+            {dump(categories)}
 
             {function name="categories" nodes=[] depth=0}
                 {strip}

@@ -48,6 +48,7 @@
             </div>*}
 
             {assign var="categories" value=Category::getCategories(1,1)}
+            {dump($categories)}
 
             {function name="categories" nodes=[] depth=0}
                 {strip}

@@ -32,8 +32,11 @@
                 {strip}
                     {if $nodes|count}
                         <ul class="category-sub-menu category-sub-menu">
+                            {dump($nodes)}
+
+                            {dump($category)}
                             {foreach from=$nodes item=node}
-                                <li {if $cat.id_category == $category->id_category} class="selected_category" {/if} data-depth="{$depth}" class="{if (isset($category) && is_array($category) && isset($category.id) && $category.id==$node.id) || (isset($id_category_current) && $id_category_current==$node.id)} current_cate {/if}">
+                                <li {if $node == $category->id_category} class="selected_category" {/if} data-depth="{$depth}" class="{if (isset($category) && is_array($category) && isset($category.id) && $category.id==$node.id) || (isset($id_category_current) && $id_category_current==$node.id)} current_cate {/if}">
                                     <div class="acc_header flex_container">
                                         <a class="flex_child" href="{$node.link}" title="{$node.name}">{$node.name}</a>
                                         {if $node.children}

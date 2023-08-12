@@ -1109,6 +1109,14 @@ design RS & catalogue
     padding: 6px;
 }
 
+.category-sub-menu{
+    text-transform: uppercase;
+}
+
+.block-categories .acc_box .acc_header a{
+    font-size: 11px !important;
+}
+
 .cle:before {
     position: absolute;
     width: 13px;

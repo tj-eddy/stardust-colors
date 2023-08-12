@@ -1134,6 +1134,10 @@ design RS & catalogue
 
 }
 
+.truncate_cate_desc_2{
+    max-height: 200px !important;
+}
+
 .cle:before {
     position: absolute;
     width: 13px;

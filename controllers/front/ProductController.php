@@ -349,9 +349,11 @@ class ProductControllerCore extends ProductPresentingFrontControllerCore
                 );
             }
 
+            $categorytree = new Ps_CategoryTree();
             $this->context->smarty->assign('packItems', $presentedPackItems);
             $this->context->smarty->assign('noPackPrice', $this->product->getNoPackPrice());
             $this->context->smarty->assign('displayPackPrice', ($pack_items && $productPrice < Pack::noPackPrice((int) $this->product->id)));
+            $this->context->smarty->assign('categories', $categorytree->getCategories($this->category));
             $this->context->smarty->assign('priceDisplay', $priceDisplay);
             $this->context->smarty->assign('packs', Pack::getPacksTable($this->product->id, $this->context->language->id, true, 1));
 

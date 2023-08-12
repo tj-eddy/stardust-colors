@@ -47,7 +47,6 @@
                 </div>
             </div>*}
 
-            {dump($categories)}
 
             {function name="categories" nodes=[] depth=0}
                 {strip}

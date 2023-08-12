@@ -1164,13 +1164,13 @@ design RS & catalogue
 
 .bootstrap-touchspin-down,.bootstrap-touchspin-up{
     display: inline-block;
-    width: 51px;
-    height: 35px;
-    line-height: 30px;
+    width: 51px !important;
+    height: 35px !important;
+    line-height: 30px !important;
     background: #EFEFEF;
     border: 1px solid #E0E0E2;
-    text-align: center;
-    font-size: 30px;
+    text-align: center !important;
+    font-size: 30px !important;
     -webkit-border-radius: 2px;
     -moz-border-radius: 2px;
     -ms-border-radius: 2px;

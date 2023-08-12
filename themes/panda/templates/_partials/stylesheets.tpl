@@ -67,4 +67,11 @@
     src: url({$urls.css_url}GothamBookRegular.otf);
   }
 
+  @font-face {
+    font-family: GothamBold;
+    font-weight: 600;
+    font-display: swap;
+    src: url({$urls.css_url}GothamBold.otf);
+  }
+
 </style>

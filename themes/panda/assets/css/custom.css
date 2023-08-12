@@ -1105,10 +1105,10 @@ design RS & catalogue
 }
 .selected_category{
     background: #412BAD;
-    color: #fff;
-    padding: 6px;
 }
-
+.selected_category a {
+    color: #fff;
+}
 .category-sub-menu{
     text-transform: uppercase;
 }

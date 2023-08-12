@@ -1119,8 +1119,8 @@ design RS & catalogue
 }
 
 .noscat{
-    font: 17px AllerDisplay-regular;
-    color: #412BAD;
+    font: 17px AllerDisplay-regular !important;
+    color: #412BAD !important;
 }
 
 .cle:before {

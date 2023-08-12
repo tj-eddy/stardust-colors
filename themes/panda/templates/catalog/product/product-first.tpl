@@ -47,7 +47,8 @@
                 </div>
             </div>*}
 
-            {assign var="categories" value=Product::getProductCategoriesFull(Tools::getValue('id_product'))}
+            {assign var="categories" value=Category::getCategoriesWithoutParent()}
+
             {function name="categories" nodes=[] depth=0}
                 {strip}
                     {if $nodes|count}

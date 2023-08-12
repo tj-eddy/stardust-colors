@@ -1131,6 +1131,9 @@ design RS & catalogue
     color: #412BAD !important;
 }
 
+.st_owl_carousel_image{
+    width: 100%;
+}
 .block-categories{
     margin: 0 auto;
     background: #fff;

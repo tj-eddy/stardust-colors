@@ -45,7 +45,7 @@
                                         {/if}
                                     </div>
                                     {if $node.children}
-                                        <div class="collapse {if $node.id == $category->id_category || $node.id == $category->id_parent} show selected_category {/if} " id="exCollapsingNavbar{$node.id}">
+                                        <div class="collapse {if $node.id == $category->id_category || $node.id == $category->id_parent} show  {/if} " id="exCollapsingNavbar{$node.id}">
                                             {categories nodes=$node.children depth=$depth+1}
                                         </div>
                                     {/if}

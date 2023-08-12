@@ -47,6 +47,7 @@
                 </div>
             </div>*}
 
+            {assign var="categories" value=Product::getProductCategoriesFull(Tools::getValue('id_product'))}
             {function name="categories" nodes=[] depth=0}
                 {strip}
                     {if $nodes|count}

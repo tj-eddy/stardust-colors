@@ -1103,9 +1103,10 @@ design RS & catalogue
 .category-sub-menu li a{
     font: 13px 'GothamMedium';
 }
-
-.selected_category a{
-    color: #412BAD;
+.selected_category{
+    background: #412BAD;
+    color: #fff;
+    padding: 6px;
 }
 
 .cle:before {

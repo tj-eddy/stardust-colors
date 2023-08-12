@@ -579,7 +579,15 @@ article {
 }
 
 .detail{
-    font-size: 13px;
+    font-size: 12px;
+}
+
+.imagesprod{
+    padding-left: 0;
+}
+
+.detail{
+    padding-right: 0;
 }
 
 .ajax_cart_product_txt{

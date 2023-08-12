@@ -1118,6 +1118,10 @@ design RS & catalogue
     font-size: 11px !important;
 }
 
+.noscat{
+    font: 17px AllerDisplay-regular;
+}
+
 .cle:before {
     position: absolute;
     width: 13px;

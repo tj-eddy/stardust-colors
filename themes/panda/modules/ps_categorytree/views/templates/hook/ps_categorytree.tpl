@@ -55,7 +55,7 @@
 <div class="block-categories block column_block">
   <div class="title_block flex_container title_align_0 title_style_{(int)$sttheme.heading_style}">
     <div class="flex_child title_flex_left"></div>
-    <a class="title_block_inner" title="{$categories.name}" href="">{l s="Nos catégories"}</a>
+    <a class="title_block_inner noscat" title="{$categories.name}" href="">{l s="Nos catégories"}</a>
     <div class="flex_child title_flex_right"></div>
   </div>
   <div class="block_content">

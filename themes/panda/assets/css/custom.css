@@ -1161,3 +1161,37 @@ design RS & catalogue
     top: auto;
     background: url('https://stardusthost.stardustcolors.com/themes/panda/assets/img/cle.png') no-repeat;
 }
+
+.bootstrap-touchspin-down,bootstrap-touchspin-up{
+    display: inline-block;
+    width: 51px;
+    height: 35px;
+    line-height: 30px;
+    background: #EFEFEF;
+    border: 1px solid #E0E0E2;
+    text-align: center;
+    font-size: 30px;
+    -webkit-border-radius: 2px;
+    -moz-border-radius: 2px;
+    -ms-border-radius: 2px;
+    -o-border-radius: 2px;
+    border-radius: 2px;
+}
+
+#quantity_wanted{
+    border: 1px solid #E0E0E2!important;
+    font-size: 15px;
+    display: inline-block;
+    float: left;
+    width: 42px;
+    height: 35px;
+    line-height: 30px;
+    padding: 0 4px;
+    text-align: center;
+    background: #EFEFEF;
+    -webkit-border-radius: 2px;
+    -moz-border-radius: 2px;
+    -ms-border-radius: 2px;
+    -o-border-radius: 2px;
+    border-radius: 2px;
+}

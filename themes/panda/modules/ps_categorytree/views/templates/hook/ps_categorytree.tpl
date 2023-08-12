@@ -51,7 +51,6 @@
   {/strip}
 {/function}
 
-{dump($categories)}
 {if count($categories.children)}
 <div class="block-categories block column_block">
   <div class="title_block flex_container title_align_0 title_style_{(int)$sttheme.heading_style}">

@@ -35,7 +35,7 @@
         <!-- cart products detailed -->
         <div class="card card_trans mb-3">
           <div class="card-header">
-            {l s='Shopping Cart' d='Shop.Theme.Checkout'}
+            {l s='RÉCAPITULATIF DE LA COMMANDE' d='Shop.Theme.Checkout'}
           </div>
           {block name='cart_overview'}
             {include file='checkout/_partials/cart-detailed.tpl' cart=$cart}

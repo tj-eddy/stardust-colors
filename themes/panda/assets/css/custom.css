@@ -1202,3 +1202,11 @@ design RS & catalogue
     -o-border-radius: 2px;
     border-radius: 2px;
 }
+
+.card-header{
+    font-weight: 600;
+    text-transform: uppercase;
+    font-family: "Open Sans";
+    font-size: 14px;
+    margin-left: 13px;
+}

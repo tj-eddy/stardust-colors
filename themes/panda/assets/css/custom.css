@@ -1114,6 +1114,7 @@ design RS & catalogue
 .selected_category{
     background: #412BAD;
     padding-left: 11px;
+    font-size: 12px;
 }
 .selected_category a {
     color: #fff;

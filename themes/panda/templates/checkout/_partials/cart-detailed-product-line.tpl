@@ -62,12 +62,12 @@
           {/if}
         </div>
       {/if}
-      <div class="current-price">
+     {* <div class="current-price">
         <span class="price">{$product.price}</span>
         {if $product.unit_price_full}
           <div class="unit-price-cart">{$product.unit_price_full}</div>
         {/if}
-      </div>
+      </div>*}
     </div>
 
     {foreach from=$product.attributes key="attribute" item="value"}

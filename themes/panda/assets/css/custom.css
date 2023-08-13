@@ -1119,6 +1119,10 @@ design RS & catalogue
 .selected_category a {
     color: #fff;
 }
+
+.block.column_block .block_content{
+    padding-top: 0 !important;
+}
 .category-sub-menu{
     text-transform: uppercase;
 }

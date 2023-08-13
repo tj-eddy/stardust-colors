@@ -1190,7 +1190,7 @@ design RS & catalogue
     font-size: 15px;
     display: inline-block;
     float: left;
-    width: 42px;
+    width: 42px !important;
     height: 35px;
     line-height: 30px;
     padding: 0 4px;

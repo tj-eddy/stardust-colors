@@ -123,7 +123,7 @@
       <div class="col-3 hidden-md-up"></div>
       <div class="col-md-10 col-7">
         <div class="row">
-          <div class="col-md-6 col-6 qty">
+          <div class="col-md-7 col-6 qty">
             {if isset($product.is_gift) && $product.is_gift}
               <span class="gift-quantity">{$product.quantity}</span>
             {else}
@@ -146,7 +146,7 @@
               </div>
             {/if}
           </div>
-          <div class="col-md-6 col-2">
+          <div class="col-md-5 col-2">
             <span class="product-price price">
               <strong>{*can not remove this strong tag*}
                 {if isset($product.is_gift) && $product.is_gift}

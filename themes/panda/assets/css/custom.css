@@ -1185,7 +1185,7 @@ design RS & catalogue
     border-radius: 2px;
 }
 
-#quantity_wanted{
+#quantity_wanted , .js-cart-line-product-quantity{
     border: 1px solid #E0E0E2!important;
     font-size: 15px;
     display: inline-block;

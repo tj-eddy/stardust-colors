@@ -36,7 +36,7 @@
                         <ul class="category-sub-menu category-sub-menu">
                             {foreach from=$nodes item=node}
                                 <li  data-depth="{$depth}" class="{if (isset($category) && is_array($category) && isset($category->id) && $category->id==$node.id) || (isset($id_category_current) && $id_category_current==$node.id)} current_cate {/if}">
-                                    <div class="acc_header flex_container {if $node.id == $category->id_parent ||  ($category->id_parent == 2 && $node.id == $category->id)} selected_category  {/if} ">
+                                    <div class="acc_header flex_container {if $node.id == $category->id} cat_selected {/if} {if $node.id == $category->id_parent ||  ($category->id_parent == 2 && $node.id == $category->id)} selected_category  {/if} ">
                                         <a class="flex_child" href="{$node.link}" title="{$node.name}">{$node.name}</a>
                                         {if $node.children}
                                             <span class="acc_icon collapsed" data-toggle="collapse" data-target="#exCollapsingNavbar{$node.id}">

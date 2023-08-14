@@ -200,6 +200,7 @@ class Ps_CategoryTree extends Module implements WidgetInterface
             'name' => $name,
             'desc' => $desc,
             'children' => $children,
+            'parentParent' => (new Category($id_category))->id_parent
         ];
     }
 

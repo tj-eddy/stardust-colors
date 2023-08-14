@@ -200,8 +200,16 @@ class Ps_CategoryTree extends Module implements WidgetInterface
             'name' => $name,
             'desc' => $desc,
             'children' => $children,
-            'parentParent' => (new Category($id_category))->id_parent
         ];
+    }
+
+    /**
+     * @param $id_category
+     * @return bool|int
+     */
+    public static function getCategoryParentParent($id_category)
+    {
+        return (new Category($id_category))->id_parent ?? false;
     }
 
     public function renderForm()

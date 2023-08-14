@@ -26,10 +26,10 @@
 
 {function name="categories" nodes=[] depth=0}
   {strip}
-    {if $nodes|count}
+    {if $nodes|count}*
+      {assign var="id_parent_parent" value=Ps_CategoryTree::getCategoryParentParent($category.id_parent)
       <ul class="category-sub-menu category-sub-menu">
         {foreach from=$nodes item=node}
-          {dump($node)}
           <li  data-depth="{$depth}" class="{if (isset($category) && is_array($category) && isset($category.id) && $category.id==$node.id) || (isset($id_category_current) && $id_category_current==$node.id)} current_cate {/if}">
             <div class="acc_header flex_container {if $node.id == $category.id_parent} selected_category  {/if} ">
               <a class="flex_child" href="{$node.link}" title="{$node.name}">{$node.name}</a>
@@ -41,7 +41,7 @@
               {/if}
             </div>
             {if $node.children}
-              <div class="collapse {if $node.id == $category.id || $node.id == $category.id_parent || $node.parentParent == $node.id} show  {/if} " id="exCollapsingNavbar{$node.id}">
+              <div class="collapse {if $node.id == $category.id || $node.id == $category.id_parent || $id_parent_parent == $node.id } show  {/if} " id="exCollapsingNavbar{$node.id}">
                 {categories nodes=$node.children depth=$depth+1}
               </div>
             {/if}

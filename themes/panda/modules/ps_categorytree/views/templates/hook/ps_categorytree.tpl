@@ -28,6 +28,7 @@
   {strip}
     {if $nodes|count}
       {assign var="id_parent_parent" value=Ps_CategoryTree::getCategoryParentParent($category.id_parent)}
+      {assign var="id_parent_parent_parent" value=Ps_CategoryTree::getCategoryParentParent($id_parent_parent)}
       <ul class="category-sub-menu category-sub-menu">
         {foreach from=$nodes item=node}
           <li  data-depth="{$depth}" class="{if (isset($category) && is_array($category) && isset($category.id) && $category.id==$node.id) || (isset($id_category_current) && $id_category_current==$node.id)} current_cate {/if}">
@@ -41,7 +42,7 @@
               {/if}
             </div>
             {if $node.children}
-              <div class="collapse {if $node.id == $category.id || $node.id == $category.id_parent || $id_parent_parent == $node.id } show  {/if} " id="exCollapsingNavbar{$node.id}">
+              <div class="collapse {if $node.id == $category.id || $node.id == $category.id_parent || $id_parent_parent == $node.id|| $id_parent_parent_parent == $node.id } show  {/if} " id="exCollapsingNavbar{$node.id}">
                 {categories nodes=$node.children depth=$depth+1}
               </div>
             {/if}

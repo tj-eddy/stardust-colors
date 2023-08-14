@@ -1111,19 +1111,15 @@ design RS & catalogue
 .category-sub-menu li a{
     font: 13px 'GothamMedium';
 }
-.parent_cat_selected{
+.selected_category{
     background: #412BAD;
     padding-left: 11px;
     font-size: 12px;
 }
-.parent_cat_selected a {
+.selected_category a {
     color: #fff;
 }
 
-.cat_selected a {
-    color: #412BAD;
-    font-weight: bold;
-}
 .block.column_block .block_content{
     padding-top: 0 !important;
 }

@@ -26,7 +26,7 @@
 
 {function name="categories" nodes=[] depth=0}
   {strip}
-    {if $nodes|count}*
+    {if $nodes|count}
       {assign var="id_parent_parent" value=Ps_CategoryTree::getCategoryParentParent($category.id_parent)}
       <ul class="category-sub-menu category-sub-menu">
         {foreach from=$nodes item=node}

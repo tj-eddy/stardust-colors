@@ -27,7 +27,7 @@
 {function name="categories" nodes=[] depth=0}
   {strip}
     {if $nodes|count}*
-      {assign var="id_parent_parent" value=Ps_CategoryTree::getCategoryParentParent($category.id_parent)
+      {assign var="id_parent_parent" value=Ps_CategoryTree::getCategoryParentParent($category.id_parent)}
       <ul class="category-sub-menu category-sub-menu">
         {foreach from=$nodes item=node}
           <li  data-depth="{$depth}" class="{if (isset($category) && is_array($category) && isset($category.id) && $category.id==$node.id) || (isset($id_category_current) && $id_category_current==$node.id)} current_cate {/if}">

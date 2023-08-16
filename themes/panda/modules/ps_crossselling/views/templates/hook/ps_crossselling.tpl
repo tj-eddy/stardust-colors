@@ -29,7 +29,7 @@
     <div class="products_slider">
     <div class="title_block flex_container title_align_{(int)$sttheme.cs_title} title_style_{(int)$sttheme.heading_style}">
         <div class="flex_child title_flex_left"></div>
-        <div class="title_block_inner">{l s='Customers who bought this product also bought:' d='Modules.Crossselling.Shop'}</div>
+        <div class="title_block_inner title_cat_prod">{l s='Customers who bought this product also bought:' d='Modules.Crossselling.Shop'}</div>
         <div class="flex_child title_flex_right"></div>
         {if $sttheme.cs_direction_nav==1 && isset($products) && $products}
             <div class="swiper-button-tr{if $sttheme.cs_hide_direction_nav_on_mob} hidden-md-down {/if}"><div class="swiper-button swiper-button-outer swiper-button-prev"><i class="fto-left-open-3 slider_arrow_left"></i><i class="fto-right-open-3 slider_arrow_right"></i></div><div class="swiper-button swiper-button-outer swiper-button-next"><i class="fto-left-open-3 slider_arrow_left"></i><i class="fto-right-open-3 slider_arrow_right"></i></div></div>        

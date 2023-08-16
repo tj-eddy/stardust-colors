@@ -1218,3 +1218,7 @@ design RS & catalogue
     font-size: 14px;
     margin-left: 13px;
 }
+
+.title_cat_prod{
+    font: 23px 'GothamBook' !important;
+}

@@ -28,7 +28,7 @@
     <div class="products_slider">
     <div class="title_block flex_container title_align_{(int)$sttheme.pc_title} title_style_{(int)$sttheme.heading_style}">
         <div class="flex_child title_flex_left"></div>
-        <div class="title_block_inner">
+        <div class="title_block_inner title_cat_prod">
             {if $products|@count == 1}
               {l s='%s other product in the same category:' sprintf=[$products|@count] d='Modules.Categoryproducts.Shop'}
             {else}

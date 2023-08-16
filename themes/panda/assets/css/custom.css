@@ -1124,6 +1124,10 @@ design RS & catalogue
     color: #412BAD !important;
 }
 
+.deph_one{
+    font-family: 'GothamBold' !important;
+}
+
 .block.column_block .block_content{
     padding-top: 0 !important;
 }

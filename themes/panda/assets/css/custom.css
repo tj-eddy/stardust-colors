@@ -1230,3 +1230,15 @@ design RS & catalogue
     display: grid;
     grid-template-columns: 237px 239px 239px 235px 300px;
 }
+
+.featured-products h2{
+    font: 23px 'GothamBook' !important;
+    font-weight: 900;
+    color: #412BAD !important;
+    text-transform: uppercase;
+}
+
+.featured-products.products{
+    display: grid;
+    grid-template-columns: 237px 239px 239px 235px 300px;
+}

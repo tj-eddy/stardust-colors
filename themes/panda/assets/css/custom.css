@@ -1225,3 +1225,8 @@ design RS & catalogue
     color: #412BAD !important;
     text-transform: uppercase;
 }
+
+.viewproductcls{
+    display: grid;
+    grid-template-columns: 237px 239px 239px 235px 300px;
+}

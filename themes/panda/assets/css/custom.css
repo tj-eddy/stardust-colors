@@ -1238,7 +1238,7 @@ design RS & catalogue
     text-transform: uppercase;
 }
 
-.featured-products.products{
+.featured-products div{
     display: grid;
     grid-template-columns: 237px 239px 239px 235px 300px;
 }

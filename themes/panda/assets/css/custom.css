@@ -1226,7 +1226,10 @@ design RS & catalogue
     text-transform: uppercase;
 }
 
-
+.viewproductcls{
+    display: grid;
+    grid-template-columns: 237px 239px 239px 235px 300px;
+}
 
 .featured-products h2{
     font: 23px 'GothamBook' !important;
@@ -1235,3 +1238,13 @@ design RS & catalogue
     text-transform: uppercase;
 }
 
+.featured-products > .products{
+    display: grid;
+    grid-template-columns: 237px 239px 239px 235px 300px;
+}
+
+
+.featured-products > .products article{
+    width: 221px;
+    margin-right: 16px;
+}

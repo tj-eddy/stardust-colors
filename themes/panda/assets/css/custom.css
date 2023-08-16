@@ -1222,6 +1222,6 @@ design RS & catalogue
 .title_cat_prod{
     font: 23px 'GothamBook' !important;
     font-weight: 900;
-    color: #412BAD;
+    color: #412BAD !important;
     text-transform: uppercase;
 }

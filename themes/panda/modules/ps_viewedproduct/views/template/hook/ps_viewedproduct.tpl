@@ -23,7 +23,7 @@
 *  International Registered Trademark & Property of PrestaShop SA
 *}
 <section class="featured-products clearfix mt-4">
-  <h2>{l s='Viewed products title_cat_prod' d='Shop.Theme.Catalog'}</h2>
+  <h2 class="title_cat_prod">{l s='Viewed products' d='Shop.Theme.Catalog'}</h2>
   <div class="products viewproductcls">
     {foreach from=$products item="product"}
       {include file="catalog/_partials/miniatures/product.tpl" product=$product}

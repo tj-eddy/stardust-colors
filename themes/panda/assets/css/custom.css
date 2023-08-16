@@ -1120,7 +1120,7 @@ design RS & catalogue
     color: #fff;
 }
 
-.current_cate{
+.current_cate a{
     color: #412BAD !important;
 }
 

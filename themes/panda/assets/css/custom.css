@@ -1220,10 +1220,8 @@ design RS & catalogue
 }
 
 .title_cat_prod{
-    font-size: 23px;
+    font: 23px 'GothamBook' !important;
     font-weight: 900;
     color: #412BAD;
     text-transform: uppercase;
-    margin: 0;
-    font-family: 'GothamBook' !important;
 }

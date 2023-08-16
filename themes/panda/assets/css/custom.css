@@ -1121,7 +1121,7 @@ design RS & catalogue
 }
 
 .current_cate{
-    color: #412BAD;
+    color: #412BAD !important;
 }
 
 .block.column_block .block_content{
